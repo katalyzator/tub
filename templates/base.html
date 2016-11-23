@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load staticfiles %}
+
+    <meta charset="UTF-8">
+    <title>TÜRK KENEŞİ TÜRK ÜNİVERSİTELER BİRLİĞİ</title>
+    <link rel="icon" type="image/png" href="" sizes="32x32">
+    <link rel="stylesheet" href="{% static 'slick/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'slick/slick-theme.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header id="home">
+    <div class="grid content1">
+        <ul class="language">
+            <li><a href="#">Tür</a></li>
+            <li><a href="#">eng</a></li>
+            <li><a href="#">кыр</a></li>
+        </ul>
+
+        <div class="logo">
+            <a href="{% url 'index' %}"> <img src="{% static 'images/logo.png' %}" alt="logo"></a>
+
+            <div class="slogan">
+                <h1>TÜRK KENEŞİ</h1>
+
+                <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+            </div>
+        </div>
+    </div>
+    {% include 'navbar.html' %}
+
+
+</header>
+
+{% block content %}
+
+
+{% endblock %}
+
+
+<footer>
+    <div class="grid">
+        <h4><img src="{% static 'images/copyright.png' %}" alt="copyright">2016 TÜRK KENEŞİ TÜRK ÜNİVERSİTELER BİRLİĞİ
+        </h4>
+    </div>
+</footer>
+
+
+<script src="{% static 'js/jquery-3.1.0.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'slick/slick.min.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

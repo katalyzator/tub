@@ -1,0 +1,348 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+    <div class="background1">
+        <div class="slider">
+            <div class="sl__slide">
+                <div class="b_color"></div>
+                <img src="{% static 'images/slide1.jpg' %}" alt="image">
+
+                <div class="grid sl__content">
+                    <div class="sl_desc">
+                        <p>Turkic Culture Development</p>
+
+                        <h2>Library Opening Ceremony</h2>
+                        <a href="#" class="l_button">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bg2" id="news">
+        <div class="grid content2 group">
+            <div class="news">
+                <h3>Latest News</h3>
+
+                <div class="line"></div>
+                <div class="list_news wow slideInLeft" data-wow-offset="250">
+                    {% for new in news %}
+                        <div class="l_news">
+                            <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
+                            <span>Yesterday</span>
+
+                            <p>{{ new.description|truncatewords:15 }}</p>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+            <div class="news">
+                <h3>Recent Events</h3>
+
+                <div class="line"></div>
+                <div class="list_news wow slideInRight" data-wow-offset="250">
+                    {% for event in events %}
+                        <div class="r_news">
+                            <div class="date_block">
+                                <div class="date">30 <br> <span>Nov</span></div>
+                            </div>
+                            <div class="description">
+                                <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
+
+                                <p>{{ event.description|truncatewords:15 }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg3" id="about">
+        <div class="grid content3">
+            <h3>About us</h3>
+
+            <div class="line"></div>
+            <ul class="tabs-nav">
+                <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Our History</a></li>
+                <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Goals</a></li>
+                <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Presentation</a></li>
+                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Administration</a></li>
+            </ul>
+
+            <div class="tabs-stage">
+                <div class="information group" id="tab-1">
+                    <div class="line"></div>
+                    <div class="about">
+                        <h5>Our History</h5>
+
+                        <p class="fz">Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini
+                            gerçekleştirmek
+                            amacıyla
+                            kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan
+                            Türk
+                            Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen
+                            Türk
+                            Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiş nihayetinde 28-29 Mart 2013
+                            tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık
+                            toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir.</p>
+                    </div>
+                    <img src="{% static 'images/pattern2.png' %}" alt="pattern">
+                </div>
+                <div class="information group" id="tab-2">
+                    <div class="line"></div>
+                    <div class="about">
+                        <h5>Goals</h5>
+
+                        <p class="fz">- Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları
+                            arasında
+                            işbirliği
+                            sağlanması,çağdaş, bilimsel düzeye uygun eğitim standartlarının uygulanması süretiyle ortak
+                            kimlik
+                            bilinci yüksek nesiller yetiştirilmesi,<br>
+
+                            - Üye üniversitelerdeki programların uyumlaştırılması,<br>
+
+                            - Ortak kredi transfer sisteminin uygulanması,<br>
+
+                            - Öğretim elemanı yetiştirme programlarının teşvik edilmesi,<br>
+
+                            - Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması,<br>
+
+                            - Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik uygun zeminin
+                            oluşturulması<br>
+
+                            - Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden
+                            yararlanılması,<br>
+
+                            - Uygulamaya yönelik ortak öğretim ve araştırma programlarının ve projelerin
+                            yürütülmesi,<br>
+
+                            - Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür,bilim ve spor
+                            alanlarında
+                            yarışmalar düzenlenmesi,<br>
+
+                            - Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması, - Ortak tarih,<br>
+                            medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke üniversitelerinde verilmesi.</p>
+                    </div>
+                    <img src="{% static 'images/pattern2.png' %}" alt="pattern">
+                </div>
+                <div class="information group" id="tab-3">
+                    <div class="line"></div>
+                    <div class="about">
+                        <h5>Presentation</h5>
+
+                        <p class="fz"></p>
+                    </div>
+                    <img src="{% static 'images/pattern2.png' %}" alt="pattern">
+                </div>
+                <div class="information group" id="tab-4">
+                    <div class="line"></div>
+                    <div class="about">
+                        <h5>Administration</h5>
+
+                        <p class="fz"></p>
+                    </div>
+                    <img src="{% static 'images/pattern2.png' %}" alt="pattern">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg4" id="member">
+        <div class="grid content4">
+            <h3>Member Universities</h3>
+            <div class="line"></div>
+            <div class="container">
+                <div class="universities wow slideInUp" data-wow-offset="200">
+                    <div class="univer_img">
+                        <div class="b_univer">
+                            <p>Azerbaijan<br>State Universitites</p>
+                        </div>
+                        <img src="{% static 'images/azer.png' %}" alt="img">
+                    </div>
+                    <ul class="fz">
+                        <li><span>1.</span>
+                            <div class="n_univer">Bakü Delet Üniversitesi</div>
+                        </li>
+                        <li><span>2.</span>
+                            <div class="n_univer">Azerbaycan Tıp Üniversitesi</div>
+                        </li>
+                        <li><span>3.</span>
+                            <div class="n_univer">Azerbaycan Mimarlık ve İnşaat Üniversitesi</div>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="universities wow slideInUp" data-wow-offset="200" data-wow-delay=".25s">
+                    <div class="univer_img">
+                        <div class="b_univer">
+                            <p>Kazakhstan<br>State Universitites</p>
+                        </div>
+                        <img src="{% static 'images/kz.png' %}" alt="img">
+                    </div>
+                    <ul class="fz">
+                        <li><span>1.</span>
+                            <div class="n_univer">Al-Farabi Kazak Milli Üniversitesi</div>
+                        </li>
+                        <li><span>2.</span>
+                            <div class="n_univer">L.N Gumilyov Avrasya<br> Devlet Üniversitesi</div>
+                        </li>
+                        <li><span>3.</span>
+                            <div class="n_univer">Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi</div>
+                        </li>
+                        <li><span>4.</span>
+                            <div class="n_univer">Nazarbayev Üniversitesi</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="universities wow slideInUp" data-wow-offset="200" data-wow-delay=".50s">
+                    <div class="univer_img">
+                        <div class="b_univer">
+                            <p>Kyrgyzstan<br>State Universitites</p>
+                        </div>
+                        <img src="{% static 'images/kg.png' %}" alt="img">
+                    </div>
+                    <ul class="fz">
+                        <li><span>1.</span>
+                            <div class="n_univer">Yusuf Balasaguni Kırgız Milli Ünivrsitesi</div>
+                        </li>
+                        <li><span>2.</span>
+                            <div class="n_univer">Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi</div>
+                        </li>
+                        <li><span>3.</span>
+                            <div class="n_univer">Uluslararası Kırgızistan Üniversitesi</div>
+                        </li>
+                        <li><span>4.</span>
+                            <div class="n_univer">Kırgızistan-Türkiye Manas Üniversitesi</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="universities wow slideInUp" data-wow-offset="200" data-wow-delay=".75s">
+                    <div class="univer_img">
+                        <div class="b_univer">
+                            <p>Turkey<br>State Universitites</p>
+                        </div>
+                        <img src="{% static 'images/tr.png' %}" alt="img">
+                    </div>
+                    <ul class="fz">
+                        <li><span>1.</span>
+                            <div class="n_univer">İstanbul Ünivrsitesi</div>
+                        </li>
+                        <li><span>2.</span>
+                            <div class="n_univer">Ege Üniversitesi</div>
+                        </li>
+                        <li><span>3.</span>
+                            <div class="n_univer">Atatürk Üniversitesi</div>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg5" id="entertaintments">
+        <div class="event">
+            <div class="b_event"></div>
+            <img src="{% static 'images/index2.png' %}" alt="conference">
+            <div class="ccp">
+                <h2>Conferences</h2>
+                <p class="fz">Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit</p>
+                <a href="#" class="l_button">READ MORE</a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="b_event"></div>
+            <img src="{% static 'images/congress.png' %}" alt="conference">
+            <div class="ccp">
+                <h2>Congress</h2>
+                <p class="fz">Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit</p>
+                <a href="#" class="l_button">READ MORE</a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="b_event"></div>
+            <img src="{% static 'images/projects.png' %}" alt="conference">
+            <div class="ccp">
+                <h2>Projects</h2>
+                <p class="fz">Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit</p>
+                <a href="#" class="l_button">READ MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg6" id="photos">
+        <div class="grid content5">
+            <h3>Photos</h3>
+            <div class="line"></div>
+            <div class="gallery">
+                 {% for photo in photos %}
+                <img class="wow zoomIn" data-wow-offset="200" src="/media/{{ photo.file }}" alt="img" width="400px" height="190px">
+                {% endfor %}
+
+            </div>
+            <a href="#" class="l_button">LOAD MORE</a>
+        </div>
+    </div>
+
+    <div class="bg7" id="contacts">
+        <div class="grid content6">
+            <h3>Contact us</h3>
+            <div class="line"></div>
+
+            <div class="f_block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8275.258121169378!2d74.56836067110994!
+            3d42.83598807541677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9ebd50abdf1%3A0x14ce488dddb2fbdb!
+            2z0JrRi9GA0LPRi9C30YHQutC-LdCi0YPRgNC10YbQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiAi0JzQsNC90LDRgSI!5e0!3m2!1sru!
+            2skg!4v1479375066889" width="88.88888888888889%" height="305" frameborder="0" style="border:0"
+                        allowfullscreen></iframe>
+                <h4>Bishkek, KYRGYZ REPUBLIC, micro-region Djal, 43</h4>
+
+                <ul class="contacts fz">
+                    <li><img src="{% static 'images/message.png' %}" alt="image">
+                        <p>maub@manas.edu.kg</p></li>
+                    <li><img src="{% static 'images/phone.png' %}" alt="image">
+                        <p>+996 312 49 27 88<br>+996 312 49 27 86</p></li>
+                    <li><img src="{% static 'images/fax.png' %}" alt="image">
+                        <p>+996 312 49 27 81-89<br>+996 312 49 27 61</p></li>
+                </ul>
+            </div>
+            <div class="s_block">
+                <form method="post" action="#">
+                    <input type="text" name="name" maxlength="25" placeholder="First Name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="text" name="name" placeholder="Subject">
+                    <!--<input type="text" name="name" placeholder="Text your message here...">-->
+                    <label>
+                        <textarea name="text">Text your message here...</textarea>
+                    </label>
+                    <!--<textarea></textarea>-->
+                    <input type="submit" value="SEND MESSAGE">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}
