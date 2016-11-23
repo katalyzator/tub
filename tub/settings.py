@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Django settings for tub project.
 
@@ -37,11 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
-
+    'modeltranslation'
 ]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -49,6 +51,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'solid_i18n.middleware.SolidLocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'tub.urls'
@@ -107,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
 
 TIME_ZONE = 'UTC'
 
@@ -128,4 +131,15 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "tub", "static", "static_r
 
 STATICFILES_DIRS = (
     os.path.join(os.path.dirname(BASE_DIR), "tub", "templates", "assets", "static_files"),
+)
+
+LANGUAGES = (
+    ('ru', 'Кыргызский'),
+    ('en', 'Английский'),
+    ('tr', 'Турецкий'),
+)
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'ru'
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
 )
