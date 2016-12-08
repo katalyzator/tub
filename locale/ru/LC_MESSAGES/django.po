@@ -12,4 +12,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Main page"
-msgstr "Главная"
+msgstr "Башкы баракча"
+
+msgid "turkic council"
+msgstr "Маалымат"
+
+msgid "about"
+msgstr "Биз жөнүндө"
+
+msgid "members"
+msgstr "Мүчөлөр"
+
+msgid "konsey"
+msgstr "Кеңеш"
+
+msgid "entertaiments"
+msgstr "Түрк кеңеши"
+
+msgid "photos"
+msgstr "Сүрөттөр"
+
+msgid "contacts"
+msgstr "Байланыш"

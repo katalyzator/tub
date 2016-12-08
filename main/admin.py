@@ -13,6 +13,11 @@ class NewsTranslationOptions(TranslationOptions):
     fields = ('title', 'description', 'text')
 
 
+class EventTranslationOptions(TranslationOptions):
+    fields = ('title', 'description', 'text')
+
+translator.register(Event, EventTranslationOptions)
+
 translator.register(News, NewsTranslationOptions)
 
 
@@ -23,7 +28,7 @@ class NewsAdmin(TabbedExternalJqueryTranslationAdmin):
     readonly_fields = ['updated', 'timestamp']
 
 
-class EventAdmin(admin.ModelAdmin):
+class EventAdmin(TabbedExternalJqueryTranslationAdmin):
     search_fields = ['title', 'description']
     list_display = ['title']
     list_filter = ['title', 'timestamp']

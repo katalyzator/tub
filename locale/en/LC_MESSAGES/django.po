@@ -13,3 +13,24 @@ msgstr ""
 
 msgid "Main page"
 msgstr ""
+
+msgid "turkic council"
+msgstr "Turkic Council"
+
+msgid "about"
+msgstr "About Us"
+
+msgid "members"
+msgstr "Members"
+
+msgid "konsey"
+msgstr "Student Council"
+
+msgid "entertaiments"
+msgstr "Activities"
+
+msgid "photos"
+msgstr "Photos"
+
+msgid "contacts"
+msgstr "Contacts"

@@ -15,25 +15,29 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
 
 
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <header id="home">
-    <div class="grid content1">
-        <ul class="language">
-            <li><a href="#">Tür</a></li>
-            <li><a href="#">eng</a></li>
-            <li><a href="#">кыр</a></li>
-        </ul>
+    <div class="pattern"
+         style="background: url('{% static "images/header_image.jpg" %}') center no-repeat; background-size: cover;">
 
-        <div class="logo">
-            <a href="{% url 'index' %}"> <img src="{% static 'images/logo.png' %}" alt="logo"></a>
+        <div class="h_bg"></div>
+        <div class="grid content1">
+            <ul class="language">
+                <li><a href="/tr">Tür</a></li>
+                <li><a href="/en">eng</a></li>
+                <li><a href="/">кыр</a></li>
+            </ul>
 
-            <div class="slogan">
-                <h1>TÜRK KENEŞİ</h1>
+            <div class="logo">
+                <a href="{% url 'index' %}"> <img src="{% static 'images/logo.png' %}" alt="logo"></a>
 
-                <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                <div class="slogan">
+                    <h1>TÜRK KENEŞİ</h1>
+
+                    <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                </div>
             </div>
         </div>
     </div>

@@ -20,6 +20,12 @@ class SliderImage(models.Model):
     name = models.CharField(max_length=255)
     slideImage = models.ImageField(upload_to=transform(pathSlide))
 
+    timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
+    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+
+    def __unicode__(self):
+        return self.name
+
 
 class News(models.Model):
     class Meta:
