@@ -24,10 +24,10 @@ msgid "members"
 msgstr "Мүчөлөр"
 
 msgid "konsey"
-msgstr "Кеңеш"
+msgstr "Түрк кеңеши"
 
 msgid "entertaiments"
-msgstr "Түрк кеңеши"
+msgstr "Кеңеш"
 
 msgid "photos"
 msgstr "Сүрөттөр"

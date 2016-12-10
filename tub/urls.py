@@ -12,6 +12,7 @@ urlpatterns += solid_i18n_patterns('',
                                    url(r'^admin/', admin.site.urls),
                                    url(r'^$', 'main.views.index_view', name='index'),
                                    url(r'^news/(?P<id>\d+)/$', 'main.views.singleNews', name='single_news'),
+                                   url(r'^photos/', 'main.views.more_photos', name='photos')
                                    )
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

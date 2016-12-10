@@ -14,8 +14,8 @@ msgstr ""
 msgid "Main page"
 msgstr ""
 
-msgid "turkic council"
-msgstr "Turkic Council"
+msgid "news"
+msgstr "News"
 
 msgid "about"
 msgstr "About Us"
@@ -24,7 +24,7 @@ msgid "members"
 msgstr "Members"
 
 msgid "konsey"
-msgstr "Student Council"
+msgstr "Turkic Council"
 
 msgid "entertaiments"
 msgstr "Activities"
