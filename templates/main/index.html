@@ -4,53 +4,68 @@
 
 {% block content %}
 
-    <div class="social">
-        <img src="{% static 'images/facebook.png' %}"> <br>
-        <img src="{% static 'images/LogoTwitter.jpg' %}"> <br>
-        <img src="{% static 'images/instagramm.png' %}">
+    <div class="social_network">
+        <ul class="share">
+            <li class="fb"><a class="social " href="#"><img src="{% static 'images/fb.png' %}" alt="social icon"></a>
+            </li>
+            <li class="twitter"><a class="social " href="#"><img src="{% static 'images/twitter.png' %}"
+                                                                 alt="social icon"></a>
+            </li>
+            <li class="instagram"><a class="social " href="#"><img src="{% static 'images/Instagram.png' %}"
+                                                                   alt="social icon"></a>
+            </li>
+        </ul>
     </div>
     <div class="background1">
         <div class="slider">
+            <div class="sl__slide">
+                <div class="b_color"></div>
+                <img src="{% static 'images/downloadnew.jpg' %}" alt="image">
 
-            {% for slider in sliderImage %}
-                <div class="sl__slide">
-                    <div class="b_color"></div>
+                <div class="grid sl__content">
+                    <div class="sl_desc">
+                        <p>Turkic Culture Development</p>
 
-                    <img src="/media/{{ slider.slideImage }}" alt="image">
-
-                    <div class="grid sl__content">
-                        <div class="sl_desc">
-                            <p>Turkic Culture Development</p>
-
-                            <h2>Library Opening Ceremony</h2>
-                            <a href="#" class="l_button">Read more</a>
-                        </div>
+                        <h2>Library Opening Ceremony</h2>
+                        <a href="#" class="l_button">Read more</a>
                     </div>
                 </div>
-            {% endfor %}
+            </div>
 
         </div>
     </div>
 
-
-
-    <div class="bg2" id="news"
-         style='background: rgba(255, 255, 255, 0.3) url("{% static 'images/brown.jpg' %}") center no-repeat;'>
+    <div class="bg2" id="news">
         <div class="grid content2 group">
             <div class="news">
                 <h3>Latest News</h3>
 
                 <div class="line"></div>
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
-                    {% for new in news %}
-                        <div class="l_news">
-                            <a href="{% url "single_news" id=new.id %}"><h4>{{ new.title|truncatewords:15 }}</h4></a>
-                            <span>Yesterday</span>
+                    <div class="l_news">
+                        <h4>Türk Üniversiteler Birliği Kapsamında Staj</h4>
+                        <span>Yesterday</span>
 
-                            <p>{{ new.description|truncatewords:15 }}</p>
-                        </div>
-                    {% endfor %}
+                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
+                            İkinci
+                            Genel Kurulu’nun</p>
+                    </div>
 
+                    <div class="l_news">
+                        <h4>KTMÜ’de Orhun Süreci Çalıştayı Ön Toplantısı Yapıldı</h4>
+                        <span>26/09/2016</span>
+
+                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
+                            İkinci Genel Kurulu’nun</p>
+                    </div>
+
+                    <div class="l_news">
+                        <h4>Türk Üniversiteler Birliği Kapsamında Staj </h4>
+                        <span>26/09/2016</span>
+
+                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
+                            İkinci Genel Kurulu’nun</p>
+                    </div>
                 </div>
             </div>
 
@@ -59,26 +74,47 @@
 
                 <div class="line"></div>
                 <div class="list_news wow slideInRight" data-wow-offset="250">
-                    {% for event in events %}
-                        <div class="r_news">
-                            <div class="date_block">
-                                <div class="date">30 <br> <span>Nov</span></div>
-                            </div>
-                            <div class="description">
-                                <a href="{{ event.get_absolute_url }}"><h4>{{ event.title|truncatewords:15 }}</h4></a>
-
-                                <p>{{ event.description|truncatewords:15 }}</p>
-                            </div>
+                    <div class="r_news">
+                        <div class="date_block">
+                            <div class="date">30 <br> <span>Nov</span></div>
                         </div>
-                    {% endfor %}
+                        <div class="description">
+                            <h4>2016 Gençlik Festivali</h4>
 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut </p>
+                        </div>
+                    </div>
 
+                    <div class="r_news">
+                        <div class="date_block">
+                            <div class="date">26 <br> <span>Sep</span></div>
+                        </div>
+                        <div class="description">
+                            <h4>2016 Gençlik Festivali</h4>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut </p>
+                        </div>
+                    </div>
+
+                    <div class="r_news">
+                        <div class="date_block">
+                            <div class="date">29 <br> <span>Dec</span></div>
+                        </div>
+                        <div class="description">
+                            <h4>2016 Gençlik Festivali</h4>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bg3" id="about" style='background: url("{% static 'images/bg3.svg' %}") center no-repeat;'>
+    <div class="bg3" id="about">
         <div class="grid content3">
             <h3>About us</h3>
 
@@ -161,7 +197,9 @@
                     <div class="about">
                         <h5>Administration</h5>
 
-                        <p class="fz"></p>
+                        <p class="fz">Türk Konseyi Türk Ünuversiteler Birligi<br>
+                            Dönem Başkanı: Kırgızstan-Türkiye Manas Üniversitesi<br>
+                        </p>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
@@ -169,12 +207,12 @@
         </div>
     </div>
 
-    <div class="bg4" id="member"
-         style='background: rgba(255, 255, 255, 0.3) url("{% static 'images/brown.jpg' %}") center no-repeat;'>
+    <div class="bg4" id="member">
         <div class="grid content4">
             <h3>Member Universities</h3>
+
             <div class="line"></div>
-            <div class="container1">
+            <div class="container">
                 <div class="universities wow slideInUp" data-wow-offset="200">
                     <div class="univer_img">
                         <div class="b_univer">
@@ -184,18 +222,18 @@
                     </div>
                     <ul class="fz">
                         <li><span>1.</span>
+
                             <div class="n_univer">Bakü Delet Üniversitesi</div>
                         </li>
                         <li><span>2.</span>
+
                             <div class="n_univer">Azerbaycan Tıp Üniversitesi</div>
                         </li>
                         <li><span>3.</span>
+
                             <div class="n_univer">Azerbaycan Mimarlık ve İnşaat Üniversitesi</div>
                         </li>
-                        <li>
-                            <div class="blue"></div>
-                            <div class="yellow"></div>
-                        </li>
+                        <li></li>
                     </ul>
                 </div>
 
@@ -208,18 +246,20 @@
                     </div>
                     <ul class="fz">
                         <li><span>1.</span>
+
                             <div class="n_univer">Al-Farabi Kazak Milli Üniversitesi</div>
                         </li>
                         <li><span>2.</span>
+
                             <div class="n_univer">L.N Gumilyov Avrasya<br> Devlet Üniversitesi</div>
                         </li>
                         <li><span>3.</span>
+
                             <div class="n_univer">Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi</div>
                         </li>
                         <li><span>4.</span>
+
                             <div class="n_univer">Nazarbayev Üniversitesi</div>
-                            <div class="blue"></div>
-                            <div class="yellow"></div>
                         </li>
                     </ul>
                 </div>
@@ -233,18 +273,20 @@
                     </div>
                     <ul class="fz">
                         <li><span>1.</span>
+
                             <div class="n_univer">Yusuf Balasaguni Kırgız Milli Ünivrsitesi</div>
                         </li>
                         <li><span>2.</span>
+
                             <div class="n_univer">Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi</div>
                         </li>
                         <li><span>3.</span>
+
                             <div class="n_univer">Uluslararası Kırgızistan Üniversitesi</div>
                         </li>
                         <li><span>4.</span>
+
                             <div class="n_univer">Kırgızistan-Türkiye Manas Üniversitesi</div>
-                            <div class="blue"></div>
-                            <div class="yellow"></div>
                         </li>
                     </ul>
                 </div>
@@ -258,24 +300,25 @@
                     </div>
                     <ul class="fz">
                         <li><span>1.</span>
+
                             <div class="n_univer">İstanbul Ünivrsitesi</div>
                         </li>
                         <li><span>2.</span>
+
                             <div class="n_univer">Ege Üniversitesi</div>
                         </li>
                         <li><span>3.</span>
+
                             <div class="n_univer">Atatürk Üniversitesi</div>
                         </li>
-                        <li>
-
-                        </li>
+                        <li></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bg8" style=' background: url("{% static 'images/bg3.svg' %}") center no-repeat;'>
+    <div class="bg8" id="council">
         <div class="grid content7">
             <h3>Student Council</h3>
 
@@ -284,9 +327,9 @@
             <ul class="student_council">
                 <li><a href="#student1">About</a></li>
                 <li><a href="#student2">Goals</a></li>
-                <li><a href="#student3">Yonerge</a></li>
                 <li><a href="#student4">Students</a></li>
-                <li><a href="#student5">Photos</a></li>
+                <li><a href="#student3">Instructions</a></li>
+                <!--<li><a href="#student5">Photos</a></li>-->
             </ul>
 
             <div class="council">
@@ -313,7 +356,10 @@
                     <div class="line"></div>
                     <div class="c_information">
                         <h5>Goals</h5>
-                        <p class="fz"></p>
+                        <p class="fz">Bu Yönergenin amacı; Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite
+                            öğrencileri arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve
+                            geliştirilmesini sağlamak üzere Öğrenci Keneşi oluşturmak ve oluşturulacak Keneş’in kuruluş,
+                            görev, yetki ve çalışma esaslarını düzenlemektir.</p>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
@@ -321,8 +367,11 @@
                 <div class="about_council group" id="student3">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>Yonerge</h5>
-                        <p class="fz"></p>
+                        <h5>Instructions</h5>
+                        <a href="#"><p class="fz">Instructions TR</p></a>
+                        <a href="#"><p class="fz">Instructions KG</p></a>
+                        <a href="#"><p class="fz">Instructions KZ</p></a>
+                        <a href="#"><p class="fz">Instructions AZ</p></a>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
@@ -334,67 +383,60 @@
                         <div class="member">
                             <h6>Republic of Azerbaijan</h6>
                             <p>Mr. ŞahmarRefili</p>
-                            <span class="fz">Azerbaijan University of Architecture and Construction- master, 1st year <br>
-                            e-mail: mezun_187@mail.ru</span>
+                            <span class="fz">e-mail: mezun_187@mail.ru</span>
 
                             <p>Mr. Tural Azizov</p>
-                            <span class="fz">Azerbaijan Medical University – student, 4th year<br>E-mail: dr.azizov.tural@hotmail.com</span>
-                        </div>
-
-                        <div class="member">
-                            <h6>Republic of Kazakhstan</h6>
-                            <p>Mr. Alp Avci</p>
-                            <span class="fz">Yassawi International Kazakh-Turkish University–student, Comptuer engineering department, 3rd year<br>
-                            E-mail: alp_aslan_10@hotmail.com</span>
-
-                            <!--<p></p>-->
-                            <!--<span class="fz"></span>-->
+                            <span class="fz">E-mail: dr.azizov.tural@hotmail.com</span>
                         </div>
 
                         <div class="member">
                             <h6>Kyrgyz Republic</h6>
                             <p>Mr. Atilla Güven</p>
-                            <span class="fz">Kyrgyzstan-Turkey Manas University – student, Journaslizm department, 3rd year<br>
-                            E-mail: atikhan1987@gmail.com </span>
+                            <span class="fz">E-mail: atikhan1987@gmail.com </span>
 
                             <p>Mr. Kumarbek Babataev</p>
-                            <span class="fz">International University of Kyrgyzstan –student, Interpreter Department, 4th year<br>
-                            E-mail: babataev.kumarbek@mail.ru</span>
+                            <span class="fz">E-mail: babataev.kumarbek@mail.ru</span>
                         </div>
 
                         <div class="member">
                             <h6>Republic of Turkey</h6>
                             <p> Mr. Sercan Abdulbaki</p>
-                            <span class="fz"> Atatürk University – Department of Modern Turkic Dialects and Literature<br>
-                            E-mail: a.baki_sercan1905@hotmail.com</span>
+                            <span class="fz">E-mail: a.baki_sercan1905@hotmail.com</span>
 
                             <p> Ms. Canan Şimşek</p>
-                            <span class="fz"> Atatürk University<br>
-                            E-mail: ataunictlecanan1@gmail.com</span>
+                            <span class="fz">E-mail: ataunictlecanan1@gmail.com</span>
 
                             <p> Ms. CansuDiramali</p>
-                            <span class="fz"> İstanbul University – student, Department of Literature<br>
-                            E-mail: cansudiramali@gmail.com</span>
+                            <span class="fz">E-mail: cansudiramali@gmail.com</span>
 
                             <p> Mr. OkanAtici</p>
-                            <span class="fz">EskişehirOsmangazi University – student<br>
-                            E-mail: okan.atc199548@gmail.com</span>
+                            <span class="fz">E-mail: okan.atc199548@gmail.com</span>
 
                             <p> Mr. Furkan Kazancı</p>
-                            <span class="fz">Bitlis Evran University- student<br>E-mail: fkznc@hotmail.com</span>
+                            <span class="fz">E-mail: fkznc@hotmail.com</span>
                         </div>
+
+                        <div class="member">
+                            <h6>Republic of Kazakhstan</h6>
+                            <p>Mr. Alp Avci</p>
+                            <span class="fz">E-mail: alp_aslan_10@hotmail.com</span>
+
+                            <!--<p></p>-->
+                            <!--<span class="fz"></span>-->
+                        </div>
+
                     </div>
                     <!--<img src="assets/images/pattern2.png" alt="pattern">-->
                 </div>
 
-                <div class="about_council" id="student5">
-                    <div class="line"></div>
-                    <div class="c_information">
-                        <h5>Photos</h5>
-                        <p class="fz"></p>
-                    </div>
-                    <!--<img src="assets/images/pattern2.png" alt="pattern">-->
-                </div>
+                <!--<div class="about_council" id="student5">-->
+                <!--<div class="line"></div>-->
+                <!--<div class="c_information">-->
+                <!--<h5>Photos</h5>-->
+                <!--<p class="fz"></p>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;<img src="assets/images/pattern2.png" alt="pattern">&ndash;&gt;-->
+                <!--</div>-->
             </div>
         </div>
     </div>
@@ -402,9 +444,11 @@
     <div class="bg5" id="entertaintments">
         <div class="event">
             <div class="b_event"></div>
-            <img src="{% static 'images/index2.png' %}" alt="conference">
+            <img src="{% static 'images/IMG_0727-2.jpg' %}" alt="conference">
+
             <div class="ccp">
                 <h2>Conferences</h2>
+
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
                 <a href="#" class="l_button">READ MORE</a>
@@ -413,9 +457,11 @@
 
         <div class="event">
             <div class="b_event"></div>
-            <img src="{% static 'images/congress.png' %}" alt="conference">
+            <img src="{% static 'images/IMG_0518-2.jpg' %}" alt="conference">
+
             <div class="ccp">
                 <h2>Congress</h2>
+
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
                 <a href="#" class="l_button">READ MORE</a>
@@ -424,9 +470,11 @@
 
         <div class="event">
             <div class="b_event"></div>
-            <img src="{% static 'images/projects.png' %}" alt="conference">
+            <img src="{% static 'images/IMG_0807-2.jpg' %}" alt="conference">
+
             <div class="ccp">
                 <h2>Projects</h2>
+
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
                 <a href="#" class="l_button">READ MORE</a>
@@ -434,25 +482,30 @@
         </div>
     </div>
 
-    <div class="bg6" id="photos"
-         style='background: rgba(255, 255, 255, 0.3) url("{% static 'images/brown.jpg' %}") center no-repeat;'>
+    <div class="bg6" id="photos">
         <div class="grid content5">
             <h3>Photos</h3>
+
             <div class="line"></div>
             <div class="gallery">
-                {% for photo in photos %}
-                    <img class="wow zoomIn" data-wow-offset="200" src="/media/{{ photo.file }}" alt="img" width="400px"
-                         height="190px">
-                {% endfor %}
+                <a href="#">
+                    <div class="photo_desc">
+                        <div class="photo_hover">
+                            <p>Conference2016</p>
+                        </div>
+                        <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0518-2.jpg' %}" alt="img">
+                    </div>
+                </a>
 
             </div>
-            <a href="{% url 'photos' %}" class="l_button">LOAD MORE</a>
+            <a href="#" class="l_button">LOAD MORE</a>
         </div>
     </div>
 
     <div class="bg7" id="contacts">
         <div class="grid content6">
             <h3>Contact us</h3>
+
             <div class="line"></div>
 
             <div class="f_block">
@@ -465,10 +518,13 @@
 
                 <ul class="contacts fz">
                     <li><img src="{% static 'images/message.png' %}" alt="image">
+
                         <p>maub@manas.edu.kg</p></li>
                     <li><img src="{% static 'images/phone.png' %}" alt="image">
+
                         <p>+996 312 49 27 88<br>+996 312 49 27 86</p></li>
                     <li><img src="{% static 'images/fax.png' %}" alt="image">
+
                         <p>+996 312 49 27 81-89<br>+996 312 49 27 61</p></li>
                 </ul>
             </div>
@@ -479,7 +535,7 @@
                     <input type="text" name="name" placeholder="Subject">
                     <!--<input type="text" name="name" placeholder="Text your message here...">-->
                     <label>
-                        <textarea name="text" placeholder="Text your message here..."></textarea>
+                        <textarea name="text">Text your message here...</textarea>
                     </label>
                     <!--<textarea></textarea>-->
                     <input type="submit" value="SEND MESSAGE">
