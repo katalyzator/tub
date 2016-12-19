@@ -1,8 +1,8 @@
 $('ul.language > li:first-child > a').addClass('l_active');
 
-// Изменить класс вкладки и отобразить содержимое
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 $('ul.language > li > a').on('click', function (event) {
-    event.preventDefault();
+
     $('ul.language > li a').removeClass('l_active');
     $(this).addClass('l_active');
 });
@@ -20,7 +20,7 @@ $('.tabs-stage > div').hide();
 $('.tabs-stage > div:nth-child(1)').show();
 $('.tabs-nav  li:first-child a').addClass('tab-active');
 
-// Изменить класс вкладки и отобразить содержимое
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 $('.tabs-nav > li > a').on('click', function (event) {
     event.preventDefault();
     $('.tabs-nav > li a').removeClass('tab-active');
@@ -29,9 +29,9 @@ $('.tabs-nav > li > a').on('click', function (event) {
     $($(this).attr('href')).show('slower');
 });
 
-$('ul.menu > li > a[href^="#"]').on('click', function(event) {
+$('ul.menu > li > a[href^="#"]').on('click', function (event) {
     var target = $(this.getAttribute('href'));
-    if( target.length ) {
+    if (target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top
@@ -55,16 +55,17 @@ new WOW().init();
 
 $('.council > div').hide();
 $('.council > div:nth-child(1)').show();
-$('.student_council  li:first-child a').addClass('tab-active');
+$('.student_council  li:first-child a').addClass('c_active');
 
-// Изменить класс вкладки и отобразить содержимое
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 $('.student_council > li > a').on('click', function (event) {
     event.preventDefault();
-    $('.student_council > li a').removeClass('tab-active');
-    $(this).addClass('tab-active');
+    $('.student_council > li a').removeClass('c_active');
+    $(this).addClass('c_active');
     $('.council > div').hide("slower");
     $($(this).attr('href')).show('slower');
 });
+
 
 
 

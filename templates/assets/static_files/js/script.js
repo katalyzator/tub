@@ -29,9 +29,9 @@ $('.tabs-nav > li > a').on('click', function (event) {
     $($(this).attr('href')).show('slower');
 });
 
-$('ul.menu > li > a[href^="#"]').on('click', function(event) {
+$('ul.menu > li > a[href^="#"]').on('click', function (event) {
     var target = $(this.getAttribute('href'));
-    if( target.length ) {
+    if (target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top
@@ -66,6 +66,12 @@ $('.student_council > li > a').on('click', function (event) {
     $($(this).attr('href')).show('slower');
 });
 
+$(".item").magnificPopup({
+    type: 'image',
+    gallery: {
+        enabled: true
+    }
+});
 
 
 

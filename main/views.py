@@ -54,6 +54,7 @@ def singleEvents(request, id):
 def more_photos(request):
     photos = Photo.objects.all().order_by('-timestamp')[:8]
     context = {"photos": photos}
-    template = 'morePhotos.html'
+    template = 'main/photos.html'
 
     return render(request, template, context)
+

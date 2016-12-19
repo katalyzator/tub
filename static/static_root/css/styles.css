@@ -1,35 +1,35 @@
 @font-face {
     font-family: "RalewayRegular";
-    src: url("../../../assets/static_files/fonts/RalewayRegular.eot");
-    src: url("../../../assets/static_files/fonts/RalewayRegular.eot?#iefix") format("embedded-opentype"),
-    url("../../../assets/static_files/fonts/RalewayRegular.woff") format("woff"),
-    url("../../../assets/static_files/fonts/RalewayRegular.ttf") format("truetype");
+    src: url("../fonts/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayRegular.woff") format("woff"),
+    url("../fonts/RalewayRegular.ttf") format("truetype");
 }
 
 /* font-family: "RalewayMedium"; */
 @font-face {
     font-family: "RalewayMedium";
-    src: url("../../../assets/static_files/fonts/RalewayMedium.eot");
-    src: url("../../../assets/static_files/fonts/RalewayMedium.eot?#iefix") format("embedded-opentype"),
-    url("../../../assets/static_files/fonts/RalewayMedium.woff") format("woff"),
-    url("../../../assets/static_files/fonts/RalewayMedium.ttf") format("truetype");
+    src: url("../fonts/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayMedium.woff") format("woff"),
+    url("../fonts/RalewayMedium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "RalewaySemiBold";
-    src: url("../../../assets/static_files/fonts/RalewaySemiBold.eot");
-    src: url("../../../assets/static_files/fonts/RalewaySemiBold.eot?#iefix") format("embedded-opentype"),
-    url("../../../assets/static_files/fonts/RalewaySemiBold.woff") format("woff"),
-    url("../../../assets/static_files/fonts/RalewaySemiBold.ttf") format("truetype");
+    src: url("../fonts/RalewaySemiBold.eot");
+    src: url("../fonts/RalewaySemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewaySemiBold.woff") format("woff"),
+    url("../fonts/RalewaySemiBold.ttf") format("truetype");
 }
 
 /* font-family: "RalewayBold"; */
 @font-face {
     font-family: "RalewayBold";
-    src: url("../../../assets/static_files/fonts/RalewayBold.eot");
-    src: url("../../../assets/static_files/fonts/RalewayBold.eot?#iefix") format("embedded-opentype"),
-    url("../../../assets/static_files/fonts/RalewayBold.woff") format("woff"),
-    url("../../../assets/static_files/fonts/RalewayBold.ttf") format("truetype");
+    src: url("../fonts/RalewayBold.eot");
+    src: url("../fonts/RalewayBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayBold.woff") format("woff"),
+    url("../fonts/RalewayBold.ttf") format("truetype");
     font-weight: bold;
 }
 
@@ -507,7 +507,7 @@ h4 {
 .bg3 {
     /*background: url("../../assets/images/bg3.svg") center no-repeat;*/
     width: 100%;
-    background-color: #58acdb;
+    background-color: #4ca3a0;
     height: auto;
     background-size: cover;
     overflow: hidden;
@@ -614,7 +614,7 @@ h5 {
 
 .bg4 {
     /*background-color: #f9da58;*/
-    background: rgba(255, 255, 255, 0.3) url("../../assets/images/OHT3JJ0.jpg") center no-repeat;
+    background: rgba(255, 255, 255, 0.3) url("../images/OHT3JJ0.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -783,7 +783,7 @@ h5 {
     /*background-color: #f9da58;*/
     /*background: url("../../assets/images/background.jpg") center no-repeat;*/
     /*background-size: cover;*/
-    background: rgba(255, 255, 255, 0.3) url("../../assets/images/OHT3JJ0.jpg") center no-repeat;
+    background: rgba(255, 255, 255, 0.3) url("../images/OHT3JJ0.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -876,7 +876,7 @@ h5 {
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .bg7 {
-    background-color: #58acdb;
+    background-color: #4ca3a0;
 }
 
 .content6 {
@@ -1010,7 +1010,7 @@ footer h4 img {
 .bg8{
     /*background: url("../../assets/images/bg3.svg") center no-repeat;*/
     background-size: cover;
-    background-color: #58acdb;
+    background-color: #4ca3a0;
     padding: 60px 0 80px 0;
 }
 
@@ -1125,7 +1125,7 @@ h6{
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .g_photos{
-    background: url("../../assets/images/OHT3JJ0.jpg") center no-repeat;
+    background: url("../images/OHT3JJ0.jpg") center no-repeat;
     background-size: cover;
     padding-bottom: 70px;
     /*background-color: #58acdb;*/
