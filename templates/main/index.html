@@ -38,77 +38,40 @@
     <div class="bg2" id="news">
         <div class="grid content2 group">
             <div class="news">
-                <h3>Sonku haberler</h3>
+                <h3>Son haberler</h3>
 
                 <div class="line"></div>
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
-                    <div class="l_news">
-                        <h4>Türk Üniversiteler Birliği Kapsamında Staj</h4>
-                        <span>Yesterday</span>
+                    {% for new in news %}
+                        <div class="l_news">
+                            <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
+                            <span>Yesterday</span>
 
-                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
-                            İkinci
-                            Genel Kurulu’nun</p>
-                    </div>
+                            <p>{{ new.description|truncatewords:11 }}</p>
+                        </div>
+                    {% endfor %}
 
-                    <div class="l_news">
-                        <h4>KTMÜ’de Orhun Süreci Çalıştayı Ön Toplantısı Yapıldı</h4>
-                        <span>26/09/2016</span>
-
-                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
-                            İkinci Genel Kurulu’nun</p>
-                    </div>
-
-                    <div class="l_news">
-                        <h4>Türk Üniversiteler Birliği Kapsamında Staj </h4>
-                        <span>26/09/2016</span>
-
-                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
-                            İkinci Genel Kurulu’nun</p>
-                    </div>
                 </div>
             </div>
 
             <div class="news">
-                <h3>Sonku duyurular</h3>
+                <h3>Son duyurular</h3>
 
                 <div class="line"></div>
                 <div class="list_news wow slideInRight" data-wow-offset="250">
-                    <div class="r_news">
-                        <div class="date_block">
-                            <div class="date">30 <br> <span>Nov</span></div>
-                        </div>
-                        <div class="description">
-                            <h4>2016 Gençlik Festivali</h4>
+                    {% for event in events %}
+                        <div class="r_news">
+                            <div class="date_block">
+                                <div class="date">30 <br> <span>Nov</span></div>
+                            </div>
+                            <div class="description">
+                             <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut </p>
+                                <p>{{ event.description|truncatewords:11 }}</p>
+                            </div>
                         </div>
-                    </div>
+                    {% endfor %}
 
-                    <div class="r_news">
-                        <div class="date_block">
-                            <div class="date">26 <br> <span>Sep</span></div>
-                        </div>
-                        <div class="description">
-                            <h4>2016 Gençlik Festivali</h4>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut </p>
-                        </div>
-                    </div>
-
-                    <div class="r_news">
-                        <div class="date_block">
-                            <div class="date">29 <br> <span>Dec</span></div>
-                        </div>
-                        <div class="description">
-                            <h4>2016 Gençlik Festivali</h4>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

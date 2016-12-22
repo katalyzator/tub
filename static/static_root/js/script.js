@@ -66,7 +66,12 @@ $('.student_council > li > a').on('click', function (event) {
     $($(this).attr('href')).show('slower');
 });
 
-
+$(".item").magnificPopup({
+    type: 'image',
+    gallery: {
+        enabled: true
+    }
+});
 
 
 
