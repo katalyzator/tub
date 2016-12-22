@@ -38,7 +38,7 @@
     <div class="bg2" id="news">
         <div class="grid content2 group">
             <div class="news">
-                <h3>Son haberler</h3>
+                <h3>Güncel haberler</h3>
 
                 <div class="line"></div>
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
@@ -55,7 +55,7 @@
             </div>
 
             <div class="news">
-                <h3>Son duyurular</h3>
+                <h3>Güncel duyurular</h3>
 
                 <div class="line"></div>
                 <div class="list_news wow slideInRight" data-wow-offset="250">
@@ -65,7 +65,7 @@
                                 <div class="date">30 <br> <span>Nov</span></div>
                             </div>
                             <div class="description">
-                             <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
+                                <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
 
                                 <p>{{ event.description|truncatewords:11 }}</p>
                             </div>
@@ -85,8 +85,8 @@
             <ul class="tabs-nav">
                 <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Hakkımızda</a></li>
                 <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Amaçlar</a></li>
-                <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Presentasyon</a></li>
-                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Müdürlük</a></li>
+                <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
+                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Dönem Başkanı</a></li>
             </ul>
 
             <div class="tabs-stage">
@@ -102,7 +102,8 @@
                             Türk
                             Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen
                             Türk
-                            Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiş nihayetinde 28-29 Mart 2013
+                            Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiştir. Nihayetinde 28-29 Mart
+                            2013
                             tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık
                             toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir.</p>
                     </div>
@@ -113,14 +114,16 @@
                     <div class="about">
                         <h5>Amaçlar</h5>
 
-                        <p class="fz">- Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları
+                        <p class="fz">
+
+                            -Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları
                             arasında
                             işbirliği
                             sağlanması,çağdaş, bilimsel düzeye uygun eğitim standartlarının uygulanması süretiyle ortak
                             kimlik
-                            bilinci yüksek nesiller yetiştirilmesi,<br>
+                            bilinci yüksek nesiller yetiştirilmesi, <br>
 
-                            - Üye üniversitelerdeki programların uyumlaştırılması,<br>
+                            Üye üniversitelerdeki programların uyumlu hale getirilmesi,
 
                             - Ortak kredi transfer sisteminin uygulanması,<br>
 
@@ -129,20 +132,24 @@
                             - Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması,<br>
 
                             - Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik uygun zeminin
-                            oluşturulması<br>
+                            oluşturulması,<br>
 
                             - Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden
                             yararlanılması,<br>
 
-                            - Uygulamaya yönelik ortak öğretim ve araştırma programlarının ve projelerin
+                            - Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin
                             yürütülmesi,<br>
-
-                            - Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür,bilim ve spor
+                            <br>
+                            - Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim ve spor
                             alanlarında
                             yarışmalar düzenlenmesi,<br>
 
-                            - Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması, - Ortak tarih,<br>
-                            medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke üniversitelerinde verilmesi.</p>
+                            - Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması,<br>
+                            - Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke üniversitelerinde
+                            verilmesi yönünde çalışmalar yapmaktır.<br>
+
+                        </p>
+
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
@@ -288,41 +295,26 @@
             <div class="line"></div>
 
             <ul class="student_council">
-                <li><a href="#student1">Hakkımızda</a></li>
+
                 <li><a href="#student2">Amaçlar</a></li>
                 <li><a href="#student4">Öğrenciler</a></li>
                 <li><a href="#student3">Yönergeler</a></li>
+                <li><a href="#student1">Etkinlikler</a></li>
                 <!--<li><a href="#student5">Photos</a></li>-->
             </ul>
 
             <div class="council">
-                <div class="about_council group" id="student1">
-                    <div class="line"></div>
-                    <div class="c_information">
-                        <h5>Hakkımızda</h5>
-                        <img src="{% static 'images/council.png' %}" alt="logo">
-                        <p class="fz">Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini
-                            gerçekleştirmek
-                            amacıyla
-                            kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan
-                            Türk
-                            Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen
-                            Türk
-                            Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiş nihayetinde 28-29 Mart 2013
-                            tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık
-                            toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir.</p>
-                    </div>
-                    <img src="{% static 'images/pattern2.png' %}" alt="pattern">
-                </div>
+
 
                 <div class="about_council group" id="student2">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>Goals</h5>
-                        <p class="fz">Bu Yönergenin amacı; Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite
+
+                        <h5>Amaçlar</h5>
+                        <img src="{% static 'images/council.png' %}" alt="logo">
+                        <p class="fz">Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite
                             öğrencileri arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve
-                            geliştirilmesini sağlamak üzere Öğrenci Keneşi oluşturmak ve oluşturulacak Keneş’in kuruluş,
-                            görev, yetki ve çalışma esaslarını düzenlemektir.</p>
+                            geliştirilmesini sağlamaktır.</p>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
@@ -344,7 +336,7 @@
                     <div class="c_information">
                         <h5>Öğrenciler</h5>
                         <div class="member">
-                            <h6>Republic of Azerbaijan</h6>
+                            <h6>Azerbaycan</h6>
                             <p>Mr. ŞahmarRefili</p>
                             <span class="fz">e-mail: mezun_187@mail.ru</span>
 
@@ -353,7 +345,7 @@
                         </div>
 
                         <div class="member">
-                            <h6>Kyrgyz Republic</h6>
+                            <h6>Kırgızistan</h6>
                             <p>Mr. Atilla Güven</p>
                             <span class="fz">E-mail: atikhan1987@gmail.com </span>
 
@@ -362,7 +354,7 @@
                         </div>
 
                         <div class="member">
-                            <h6>Republic of Turkey</h6>
+                            <h6>Türkiye</h6>
                             <p> Mr. Sercan Abdulbaki</p>
                             <span class="fz">E-mail: a.baki_sercan1905@hotmail.com</span>
 
@@ -380,7 +372,7 @@
                         </div>
 
                         <div class="member">
-                            <h6>Republic of Kazakhstan</h6>
+                            <h6>Kazakistan</h6>
                             <p>Mr. Alp Avci</p>
                             <span class="fz">E-mail: alp_aslan_10@hotmail.com</span>
 
@@ -389,7 +381,13 @@
                         </div>
 
                     </div>
+
                     <!--<img src="assets/images/pattern2.png" alt="pattern">-->
+                </div>
+
+                <div class="about_council group" id="student1">
+                    <div class="line"></div>
+
                 </div>
 
                 <!--<div class="about_council" id="student5">-->
@@ -410,11 +408,11 @@
             <img src="{% static 'images/IMG_0727-2.jpg' %}" alt="conference">
 
             <div class="ccp">
-                <h2>Conferences</h2>
+                <h2>Spor ve Sanat  <br> Etkinlikleri</h2>
 
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
-                <a href="#" class="l_button">READ MORE</a>
+                <a href="{% url 'spor' %}" class="l_button">READ MORE</a>
             </div>
         </div>
 
@@ -423,7 +421,7 @@
             <img src="{% static 'images/IMG_0518-2.jpg' %}" alt="conference">
 
             <div class="ccp">
-                <h2>Congress</h2>
+                <h2>Kongre ve Sempozyumlar</h2>
 
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
@@ -436,7 +434,7 @@
             <img src="{% static 'images/IMG_0807-2.jpg' %}" alt="conference">
 
             <div class="ccp">
-                <h2>Projects</h2>
+                <h2>Projeler</h2>
 
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>

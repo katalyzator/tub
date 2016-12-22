@@ -58,3 +58,9 @@ def more_photos(request):
 
     return render(request, template, context)
 
+
+def spor_views(request):
+    context = {}
+    template = 'spor.html'
+
+    return render(request, template, context)

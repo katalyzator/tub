@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+    <div class="line"></div>
+    <ul class="tabs-nav">
+        <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Spor ve Sanat Etkinlikleri</a></li>
+    </ul>
+
+    <div class="tabs-stage">
+        <div class="information group" id="tab-1">
+            <div class="line"></div>
+            <div class="about">
+                <h5>Spor ve Sanat Etkinlikleri</h5>
+
+                <p class="fz">
+                <div class="grid content2 group">
+                    <div class="news">
+                        <h3>Güncel haberler</h3>
+
+                        <div class="line"></div>
+
+                            <div class="l_news" style="margin-left: 0 !important; padding: 0;">
+                                <a href="#"><h4>I. Türk Üniversiteler Birliği <br>
+                                    Spor Oyunları
+                                </h4></a>
+                                <span>Dün</span>
+
+                            </div>
+
+
+                    </div>
+                </div>
+                <img src="{% static 'images/pattern2.png' %}" alt="pattern">
+            </div>
+        </div>
+    </div>
+{% endblock %}
