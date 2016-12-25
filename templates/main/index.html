@@ -85,6 +85,7 @@
             <ul class="tabs-nav">
                 <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Hakkımızda</a></li>
                 <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Amaçlar</a></li>
+                <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Yönergeler</a></li>
                 <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
                 <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Dönem Başkanı</a></li>
             </ul>
@@ -116,36 +117,38 @@
 
                         <p class="fz">
 
-                            -Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları
+                            &#149 Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları
                             arasında
                             işbirliği
                             sağlanması,çağdaş, bilimsel düzeye uygun eğitim standartlarının uygulanması süretiyle ortak
                             kimlik
                             bilinci yüksek nesiller yetiştirilmesi, <br>
 
-                            Üye üniversitelerdeki programların uyumlu hale getirilmesi,
+                            &#149 Üye üniversitelerdeki programların uyumlu hale getirilmesi, <br>
 
-                            - Ortak kredi transfer sisteminin uygulanması,<br>
+                            &#149 Ortak kredi transfer sisteminin uygulanması,<br>
 
-                            - Öğretim elemanı yetiştirme programlarının teşvik edilmesi,<br>
+                            &#149 Öğretim elemanı yetiştirme programlarının teşvik edilmesi,<br>
 
-                            - Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması,<br>
+                            &#149 Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması,<br>
 
-                            - Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik uygun zeminin
+                            &#149 Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik uygun
+                            zeminin
                             oluşturulması,<br>
 
-                            - Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden
+                            &#149 Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden
                             yararlanılması,<br>
 
-                            - Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin
+                            &#149 Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin
                             yürütülmesi,<br>
                             <br>
-                            - Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim ve spor
+                            &#149 Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim ve spor
                             alanlarında
                             yarışmalar düzenlenmesi,<br>
 
-                            - Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması,<br>
-                            - Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke üniversitelerinde
+                            &#149 Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması,<br>
+                            &#149 Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke
+                            üniversitelerinde
                             verilmesi yönünde çalışmalar yapmaktır.<br>
 
                         </p>
@@ -164,11 +167,12 @@
                 </div>
                 <div class="information group" id="tab-4">
                     <div class="line"></div>
-                    <div class="about">
-                        <h5>Administration</h5>
-
-                        <p class="fz">Türk Konseyi Türk Ünuversiteler Birligi<br>
-                            Dönem Başkanı: Kırgızstan-Türkiye Manas Üniversitesi<br>
+                    <div class="about administration">
+                        <h5>Dönem Başkanı</h5>
+                        <img src="{% static 'images/rsz_rektör.jpg' %}">
+                        <p class="fz"><strong>Prof. Dr. Sebahattin Balcı</strong><br>
+                            Kırgızstan-Türkiye Manas Üniversite Rektörü <a href="">CV</a> <br>
+                            Türk Keneşi Türk Üniversiteler Birliği Başkanı
                         </p>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
@@ -193,15 +197,21 @@
                     <ul class="fz">
                         <li><span>1.</span>
 
-                            <div class="n_univer">Bakü Delet Üniversitesi</div>
+                            <a href="http://bsu.edu.az/" target="_blank">
+                                <div class="n_univer">Bakü Delet Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>2.</span>
 
-                            <div class="n_univer">Azerbaycan Tıp Üniversitesi</div>
+                            <a href="http://www.amu.edu.az/" target="_blank">
+                                <div class="n_univer">Azerbaycan Tıp Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>3.</span>
 
-                            <div class="n_univer">Azerbaycan Mimarlık ve İnşaat Üniversitesi</div>
+                            <a href="http://azmiu.edu.az/" target="_blank">
+                                <div class="n_univer">Azerbaycan Mimarlık ve İnşaat Üniversitesi</div>
+                            </a>
                         </li>
                         <li></li>
                     </ul>
@@ -217,19 +227,27 @@
                     <ul class="fz">
                         <li><span>1.</span>
 
-                            <div class="n_univer">Al-Farabi Kazak Milli Üniversitesi</div>
+                            <a href="http://www.kaznu.kz/en/" target="_blank">
+                                <div class="n_univer">Al-Farabi Kazak Milli Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>2.</span>
 
-                            <div class="n_univer">L.N Gumilyov Avrasya<br> Devlet Üniversitesi</div>
+                            <a href="http://www.enu.kz/tr/" target="_blank">
+                                <div class="n_univer">L.N Gumilyov Avrasya<br> Devlet Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>3.</span>
 
-                            <div class="n_univer">Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi</div>
+                            <a href="http://www.ayu.edu.tr/">
+                                <div class="n_univer">Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>4.</span>
 
-                            <div class="n_univer">Nazarbayev Üniversitesi</div>
+                            <a href="http://nu.edu.kz/portal/faces/main">
+                                <div class="n_univer">Nazarbayev Üniversitesi</div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -244,19 +262,27 @@
                     <ul class="fz">
                         <li><span>1.</span>
 
-                            <div class="n_univer">Yusuf Balasaguni Kırgız Milli Ünivrsitesi</div>
+                            <a href="https://en.wikipedia.org/wiki/Kyrgyz_National_University">
+                                <div class="n_univer">Yusuf Balasaguni Kırgız Milli Ünivrsitesi</div>
+                            </a>
                         </li>
                         <li><span>2.</span>
 
-                            <div class="n_univer">Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi</div>
+                            <a href="http://www.bhu.kg/">
+                                <div class="n_univer">Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>3.</span>
 
-                            <div class="n_univer">Uluslararası Kırgızistan Üniversitesi</div>
+                            <a href="http://www.iuk.kg/">
+                                <div class="n_univer">Uluslararası Kırgızistan Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>4.</span>
 
-                            <div class="n_univer">Kırgızistan-Türkiye Manas Üniversitesi</div>
+                            <a href="http://www.manas.edu.kg/">
+                                <div class="n_univer">Kırgızistan-Türkiye Manas Üniversitesi</div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -271,15 +297,21 @@
                     <ul class="fz">
                         <li><span>1.</span>
 
-                            <div class="n_univer">İstanbul Ünivrsitesi</div>
+                            <a href="http://www.istanbul.edu.tr/">
+                                <div class="n_univer">İstanbul Ünivrsitesi</div>
+                            </a>
                         </li>
                         <li><span>2.</span>
 
-                            <div class="n_univer">Ege Üniversitesi</div>
+                            <a href="http://www.ege.edu.tr/eng-0/homepage.html#tab-1">
+                                <div class="n_univer">Ege Üniversitesi</div>
+                            </a>
                         </li>
                         <li><span>3.</span>
 
-                            <div class="n_univer">Atatürk Üniversitesi</div>
+                            <a href="http://www.atauni.edu.tr/">
+                                <div class="n_univer">Atatürk Üniversitesi</div>
+                            </a>
                         </li>
                         <li></li>
                     </ul>
@@ -408,11 +440,11 @@
             <img src="{% static 'images/IMG_0727-2.jpg' %}" alt="conference">
 
             <div class="ccp">
-                <h2>Spor ve Sanat  <br> Etkinlikleri</h2>
+                <h2>Spor ve Sanat <br> Etkinlikleri</h2>
 
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
-                <a href="{% url 'spor' %}" class="l_button">READ MORE</a>
+                <a href="{% url 'activity_1' %}" class="l_button">READ MORE</a>
             </div>
         </div>
 
@@ -425,7 +457,7 @@
 
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
-                <a href="#" class="l_button">READ MORE</a>
+                <a href="{% url 'activity_2' %}" class="l_button">READ MORE</a>
             </div>
         </div>
 
@@ -438,7 +470,7 @@
 
                 <p class="fz">Lorem ipsum dolor sit amet,<br>
                     consectetur adipiscing elit</p>
-                <a href="#" class="l_button">READ MORE</a>
+                <a href="{% url 'activity_3' %}" class="l_button">READ MORE</a>
             </div>
         </div>
     </div>
@@ -449,10 +481,10 @@
 
             <div class="line"></div>
             <div class="gallery">
-                <a href="#">
+                <a href="{% url 'photos1' %}">
                     <div class="photo_desc">
                         <div class="photo_hover">
-                            <p>Conference2016</p>
+                            <p>Türk Üniversiteler Birliği Erzurum Toplatısı</p>
                         </div>
                         <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0518-2.jpg' %}"
                              alt="img">
@@ -485,7 +517,6 @@
                 </a>
 
             </div>
-            <a href="{% url 'photos' %}" class="l_button">LOAD MORE</a>
         </div>
     </div>
 

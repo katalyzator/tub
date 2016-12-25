@@ -12,8 +12,13 @@ urlpatterns += solid_i18n_patterns('',
                                    url(r'^admin/', admin.site.urls),
                                    url(r'^$', 'main.views.index_view', name='index'),
                                    url(r'^news/(?P<id>\d+)/$', 'main.views.singleNews', name='single_news'),
-                                   url(r'^photos/', 'main.views.more_photos', name='photos'),
-                                   url(r'^spor/', 'main.views.spor_views', name='spor')
+                                   url(r'^photos1/', 'main.views.more_photos', name='photos1'),
+                                   url(r'^photos2/', 'main.views.more_photos', name='photos2'),
+                                   url(r'^photos3/', 'main.views.more_photos', name='photos3'),
+                                   url(r'^spor/', 'main.views.spor_views', name='spor'),
+                                   url(r'^activities/', 'main.views.activity_news1', name='activity_1'),
+                                   url(r'^activities2/', 'main.views.activity_news2', name='activity_2'),
+                                   url(r'^activities3/', 'main.views.activity_news3', name='activity_3')
                                    )
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

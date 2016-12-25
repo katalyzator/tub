@@ -2,7 +2,7 @@ from django.http import Http404
 from django.shortcuts import render
 
 # Create your views here.
-from main.models import News, NewsImage, Event, EventImage, Photo, SliderImage
+from main.models import News, NewsImage, Event, EventImage, Photo, SliderImage, Activity, Activity2, Activity3
 
 
 def index_view(request):
@@ -62,5 +62,29 @@ def more_photos(request):
 def spor_views(request):
     context = {}
     template = 'spor.html'
+
+    return render(request, template, context)
+
+
+def activity_news1(request):
+    activity1 = Activity.objects.all().order_by('-timestamp')
+    context = {"activity": activity1}
+    template = 'activities.html'
+
+    return render(request, template, context)
+
+
+def activity_news2(request):
+    activity2 = Activity2.objects.all().order_by('-timestamp')
+    context = {"activity": activity2}
+    template = 'activities2.html'
+
+    return render(request, template, context)
+
+
+def activity_news3(request):
+    activity3 = Activity3.objects.all().order_by('-timestamp')
+    context = {"activity": activity3}
+    template = 'activities3.html'
 
     return render(request, template, context)
