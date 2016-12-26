@@ -33,9 +33,23 @@
                 </div>
             </div>
 
-             <div class="sl__slide">
+            <div class="sl__slide">
                 <div class="b_color"></div>
                 <img src="{% static 'images/IMG_0727-2.jpg' %}" alt="image">
+
+                <div class="grid sl__content">
+                    <div class="sl_desc">
+                        <p>Turkic Culture Development</p>
+
+                        <h2>Library Opening Ceremony</h2>
+                        <a href="#" class="l_button">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="sl__slide">
+                <div class="b_color"></div>
+                <img src="{% static 'images/IMG_0557-2.jpg' %}" alt="image">
 
                 <div class="grid sl__content">
                     <div class="sl_desc">
@@ -114,9 +128,10 @@
             <ul class="tabs-nav">
                 <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Hakkımızda</a></li>
                 <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Amaçlar</a></li>
-                <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Yönergeler</a></li>
-                <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
+                <li><a href="#tab-5"><img src="{% static 'images/icon2.png' %}" alt="icon">Yönergeler</a></li>
                 <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Dönem Başkanı</a></li>
+                <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
+
             </ul>
 
             <div class="tabs-stage">
@@ -185,6 +200,22 @@
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
+
+                <div class="information group" id="tab-5">
+                    <div class="line"></div>
+                    <div class="about">
+                        <h5>Yönergeler</h5>
+
+                        <p class="fz">
+                            <a href="{% static 'images/directive.pdf' %}"> Üniversiteler Birliği ve Yükseköğretim Alanı
+                                Oluşturma Yönergesi</a>
+
+                        </p>
+
+                    </div>
+                    <img src="{% static 'images/pattern2.png' %}" alt="pattern">
+                </div>
+
                 <div class="information group" id="tab-3">
                     <div class="line"></div>
                     <div class="about">
@@ -470,9 +501,9 @@
 
             <div class="ccp">
                 <h2>Spor ve Sanatlar</h2>
-{##}
-{#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
-{#                    consectetur adipiscing elit</p>#}
+                {##}
+                {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
+                {#                    consectetur adipiscing elit</p>#}
                 <a href="{% url 'activity_1' %}" class="l_button">READ MORE</a>
             </div>
         </div>
@@ -484,8 +515,8 @@
             <div class="ccp">
                 <h2>Kongre ve Sempozyumlar</h2>
 
-{#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
-{#                    consectetur adipiscing elit</p>#}
+                {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
+                {#                    consectetur adipiscing elit</p>#}
                 <a href="{% url 'activity_2' %}" class="l_button">READ MORE</a>
             </div>
         </div>
@@ -497,8 +528,8 @@
             <div class="ccp">
                 <h2>Projeler</h2>
 
-{#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
-{#                    consectetur adipiscing elit</p>#}
+                {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
+                {#                    consectetur adipiscing elit</p>#}
                 <a href="{% url 'activity_3' %}" class="l_button">READ MORE</a>
             </div>
         </div>
