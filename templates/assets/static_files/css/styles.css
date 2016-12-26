@@ -256,7 +256,7 @@ nav {
 
 .sl__slide img {
     width: 100%;
-    height: auto;
+    height: 425px;
 }
 
 .sl__content {
@@ -753,6 +753,15 @@ h5 {
     vertical-align: top;
     width: 33.33333333333333%;
     height: auto;
+    border: 5px solid #FFFFFF;
+}
+
+.event:first-child {
+    border-right: 0;
+}
+
+.event:last-child {
+    border-left: 0;
 }
 
 .b_event {
@@ -771,16 +780,19 @@ h5 {
 
 .ccp {
     position: absolute;
-    top: 100px;
+    top: 60px;
     left: 0;
     right: 0;
     /*width: 100%;*/
     /*height: auto;*/
     text-align: center;
+
 }
 
 .ccp h2 {
-    padding-bottom: 30px;
+    margin-top: 80px;
+    padding-bottom: 0;
+    font-size: 27px;
 }
 
 .ccp .fz {
@@ -789,7 +801,7 @@ h5 {
 
 .ccp .l_button {
     font-family: "RalewayBold", sans-serif;
-    margin: 90px auto 0 auto;
+    margin: 70px auto 0 auto;
 }
 
 /*///////////////////////////////////////*/

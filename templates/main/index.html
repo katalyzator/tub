@@ -17,10 +17,39 @@
         </ul>
     </div>
     <div class="background1">
+
         <div class="slider">
             <div class="sl__slide">
                 <div class="b_color"></div>
                 <img src="{% static 'images/downloadnew.jpg' %}" alt="image">
+
+                <div class="grid sl__content">
+                    <div class="sl_desc">
+                        <p>Turkic Culture Development</p>
+
+                        <h2>Library Opening Ceremony</h2>
+                        <a href="#" class="l_button">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="sl__slide">
+                <div class="b_color"></div>
+                <img src="{% static 'images/IMG_0727-2.jpg' %}" alt="image">
+
+                <div class="grid sl__content">
+                    <div class="sl_desc">
+                        <p>Turkic Culture Development</p>
+
+                        <h2>Library Opening Ceremony</h2>
+                        <a href="#" class="l_button">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sl__slide">
+                <div class="b_color"></div>
+                <img src="{% static 'images/slider_image_1.jpg' %}" alt="image">
 
                 <div class="grid sl__content">
                     <div class="sl_desc">
@@ -45,7 +74,7 @@
                     {% for new in news %}
                         <div class="l_news">
                             <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
-                            <span>Yesterday</span>
+                            <span>{{ new.timestamp }}</span>
 
                             <p>{{ new.description|truncatewords:11 }}</p>
                         </div>
@@ -62,7 +91,7 @@
                     {% for event in events %}
                         <div class="r_news">
                             <div class="date_block">
-                                <div class="date">30 <br> <span>Nov</span></div>
+                                <div class="date">30 <br> <span>{{ event.timestamp }}</span></div>
                             </div>
                             <div class="description">
                                 <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
@@ -440,10 +469,10 @@
             <img src="{% static 'images/IMG_0727-2.jpg' %}" alt="conference">
 
             <div class="ccp">
-                <h2>Spor ve Sanat <br> Etkinlikleri</h2>
-
-                <p class="fz">Lorem ipsum dolor sit amet,<br>
-                    consectetur adipiscing elit</p>
+                <h2>Spor ve Sanatlar</h2>
+{##}
+{#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
+{#                    consectetur adipiscing elit</p>#}
                 <a href="{% url 'activity_1' %}" class="l_button">READ MORE</a>
             </div>
         </div>
@@ -455,8 +484,8 @@
             <div class="ccp">
                 <h2>Kongre ve Sempozyumlar</h2>
 
-                <p class="fz">Lorem ipsum dolor sit amet,<br>
-                    consectetur adipiscing elit</p>
+{#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
+{#                    consectetur adipiscing elit</p>#}
                 <a href="{% url 'activity_2' %}" class="l_button">READ MORE</a>
             </div>
         </div>
@@ -468,8 +497,8 @@
             <div class="ccp">
                 <h2>Projeler</h2>
 
-                <p class="fz">Lorem ipsum dolor sit amet,<br>
-                    consectetur adipiscing elit</p>
+{#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
+{#                    consectetur adipiscing elit</p>#}
                 <a href="{% url 'activity_3' %}" class="l_button">READ MORE</a>
             </div>
         </div>
@@ -489,23 +518,24 @@
                         <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0518-2.jpg' %}"
                              alt="img">
                     </div>
-
-                    <div class="photo_desc">
-                        <div class="photo_hover">
-                            <p>Conference2016</p>
+                    <a href="{% url 'photos2' %}">
+                        <div class="photo_desc">
+                            <div class="photo_hover">
+                                <p>Türk Keneşi ve TÜRKÜNİB Bişkek Toplantısı</p>
+                            </div>
+                            <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0557-2.jpg' %}"
+                                 alt="img">
                         </div>
-                        <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0557-2.jpg' %}"
-                             alt="img">
-                    </div>
-
-                    <div class="photo_desc">
-                        <div class="photo_hover">
-                            <p>Conference2016</p>
+                    </a>
+                    <a href="{% url 'photos3' %}">
+                        <div class="photo_desc">
+                            <div class="photo_hover">
+                                <p>TÜRKÜNİB Öğrenci Keneşi Bişkek toplantısı</p>
+                            </div>
+                            <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0549-2.jpg' %}"
+                                 alt="img">
                         </div>
-                        <img class="wow zoomIn" data-wow-offset="200" src="{% static 'images/IMG_0549-2.jpg' %}"
-                             alt="img">
-                    </div>
-
+                    </a>
                     <div class="photo_desc">
                         <div class="photo_hover">
                             <p>Conference2016</p>

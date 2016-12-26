@@ -6,8 +6,8 @@ from main.models import News, NewsImage, Event, EventImage, Photo, SliderImage, 
 
 
 def index_view(request):
-    news = News.objects.all().order_by('-timestamp')[:4]
-    events = Event.objects.all().order_by('-timestamp')[:4]
+    news = News.objects.all().order_by('-updated')[:4]
+    events = Event.objects.all().order_by('-updated')[:4]
     photos = Photo.objects.all().order_by('-timestamp')[:8]
     sliderImage = SliderImage.objects.all().order_by('-timestamp')[:3]
     context = {"news": news, "events": events, "photos": photos, "sliderImage": sliderImage}
@@ -59,9 +59,18 @@ def more_photos(request):
     return render(request, template, context)
 
 
-def spor_views(request):
-    context = {}
-    template = 'spor.html'
+def more_photos2(request):
+    photos = Photo.objects.all().order_by('-timestamp')[:8]
+    context = {"photos": photos}
+    template = 'main/photos2.html'
+
+    return render(request, template, context)
+
+
+def more_photos3(request):
+    photos = Photo.objects.all().order_by('-timestamp')[:8]
+    context = {"photos": photos}
+    template = 'main/photos3.html'
 
     return render(request, template, context)
 

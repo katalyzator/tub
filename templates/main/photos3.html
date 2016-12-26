@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+    <div class="g_photos">
+        <div class="grid group">
+
+            <h1>TÜRKÜNİB Öğrenci Keneşi Bişkek toplantısı</h1>
+            <div class="images">
+                <a href="{% static 'images/IMG_0807-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0807-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0825-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0825-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0727-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0727-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0518-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0518-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0530-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0530-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0538-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0538-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0549-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0549-2.jpg' %}" alt="image"></a>
+                <a href="{% static 'images/IMG_0557-2.jpg' %}" class="item"><img
+                        src="{% static 'images/IMG_0557-2.jpg' %}" alt="image"></a>
+                {#                <a href="assets/images/IMG_0722-2.jpg" class="item"><img src="assets/images/IMG_0722-2.jpg" alt="image"></a>#}
+                <!--<a href="assets/images/IMG_0807-2.jpg" class="item"><img src="assets/images/IMG_0807-2.jpg" alt="image"></a>-->
+                <!--<a href="assets/images/IMG_0807-2.jpg" class="item"><img src="assets/images/IMG_0807-2.jpg" alt="image"></a>-->
+                <!--<a href="assets/images/IMG_0807-2.jpg" class="item"><img src="assets/images/IMG_0807-2.jpg" alt="image"></a>-->
+                <!--<a href="assets/images/IMG_0807-2.jpg" class="item"><img src="assets/images/IMG_0807-2.jpg" alt="image"></a>-->
+            </div>
+        </div>
+    </div>
+
+    <a href="{% url 'index' %}"><h4 style="text-align: center">Back</h4></a>
+
+
+
+{% endblock %}
+
+
