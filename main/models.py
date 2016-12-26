@@ -98,7 +98,7 @@ class Activity2(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return "/activity/%i/" % self.id
+        return "/activity2/%i/" % self.id
 
 
 class ActivityImage2(models.Model):
@@ -131,7 +131,7 @@ class Activity3(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return "/activity/%i/" % self.id
+        return "/activity3/%i/" % self.id
 
 
 class ActivityImage3(models.Model):

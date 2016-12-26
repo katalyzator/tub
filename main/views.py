@@ -2,7 +2,8 @@ from django.http import Http404
 from django.shortcuts import render
 
 # Create your views here.
-from main.models import News, NewsImage, Event, EventImage, Photo, SliderImage, Activity, Activity2, Activity3
+from main.models import News, NewsImage, Event, EventImage, Photo, SliderImage, Activity, Activity2, Activity3, \
+    ActivityImage, ActivityImage2, ActivityImage3
 
 
 def index_view(request):
@@ -25,6 +26,57 @@ def singleNews(request, id):
 
         context = {"news": news, "images": images}
         template = 'single_post.html'
+
+        return render(request, template, context)
+
+    except News.DoesNotExist:
+        raise Http404
+    except NewsImage.DoesNotExist:
+        raise Http404
+
+
+def singleActivity1(request, id):
+    try:
+        activity1 = Activity.objects.get(id=id)
+
+        images = ActivityImage.objects.filter(activity=activity1)
+
+        context = {"active": activity1, "images": images}
+        template = 'single_activity.html'
+
+        return render(request, template, context)
+
+    except Activity.DoesNotExist:
+        raise Http404
+    except ActivityImage.DoesNotExist:
+        raise Http404
+
+
+def singleActivity3(request, id):
+    try:
+        activity3 = Activity3.objects.get(id=id)
+
+        images = ActivityImage3.objects.filter(activity=activity3)
+
+        context = {"active": activity3, "images": images}
+        template = 'single_activity3.html'
+
+        return render(request, template, context)
+
+    except News.DoesNotExist:
+        raise Http404
+    except NewsImage.DoesNotExist:
+        raise Http404
+
+
+def singleActivity2(request, id):
+    try:
+        activity2 = Activity2.objects.get(id=id)
+
+        images = ActivityImage2.objects.filter(activity=activity2)
+
+        context = {"active": activity2, "images": images}
+        template = 'single_activity2.html'
 
         return render(request, template, context)
 
