@@ -1,36 +1,17 @@
 {% extends 'base.html' %}
 
-
 {% load staticfiles %}
 
-
 {% block content %}
-
-    <div class="single" style="display: inline-block; width: 500px; height: 300px;">
-
-
-        <h1 style="color: black">{{ news.title }}</h1>
-
-
-        {% for img in images %}
-
-
-
-            <img class="img-responsive" src="/media/{{ MEDIA_URL }}{{ img.image }}" style="width: 400px; height: 230px;"/>
-
-
-        {% endfor %}
-
-
+    <div class="single_post">
+        <div class="grid">
+            <div class="single_news group">
+                {% for img in images %}
+                    <img class="img-responsive" src="/media/{{ MEDIA_URL }}{{ img.image }}"/>
+                {% endfor %}
+                <h5>{{ news.title }}</h5>
+                <p class="fz">{{ news.text }} </p>
+            </div>
+        </div>
     </div>
-
-    <div style="display: inline-block; width: 300px; height: 300px;">
-
-
-        <p style="color: black;">{{ news.description }}</p>
-
-
-        <p style="color: black;">{{ news.text }}</p>
-    </div>
-
 {% endblock %}
