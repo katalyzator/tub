@@ -2,7 +2,58 @@
 
 {% load staticfiles %}
 
+
+
 {% block content %}
+
+    <header id="home">
+        <div class="pattern">
+
+            <div class="h_bg"></div>
+            <div class="grid content1">
+                <ul class="language">
+                    <li><a href="/tr">Tür</a></li>
+                    <li><a href="/en">eng</a></li>
+                    <li><a href="/">кыр</a></li>
+                    <li><a href="#">az</a></li>
+                    <li><a href="#">kz</a></li>
+                </ul>
+
+                <div class="logo">
+                    <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
+
+                    <div class="slogan">
+                        <h1>TÜRK KENEŞİ</h1>
+
+                        <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {% load i18n %}
+
+        <nav class="fixed-header">
+            <div class="grid">
+                <ul class="menu">
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#news">Haberler</a></li>
+                    <li><a href="#about">Hakkımızda</a></li>
+
+                    <li><a href="#member">Üyeler</a></li>
+
+                    <li><a href="#entertaintments">Etkinlikler</a></li>
+                    <li><a href="#photos">Fotoğraflar</a></li>
+                    <li><a href="#council">Öğrenci Keneşi</a></li>
+                    <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">Türk Keneşi</a></li>
+                    <li><a href="#contacts">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
 
     <div class="social_network">
         <ul class="share">
@@ -357,7 +408,9 @@
                                 <div class="n_univer">Atatürk Üniversitesi</div>
                             </a>
                         </li>
-                        <li></li>
+                        <li><span>4.</span><a href="http://www.beu.edu.tr/Default.aspx">
+                            <div class="n_univer">BİTLİS EREN ÜNİVERSİTESİ</div>
+                        </a></li>
                     </ul>
                 </div>
             </div>
@@ -481,10 +534,10 @@
     <div class="bg5" id="entertaintments">
         <div class="event">
             <div class="b_event"></div>
-            <img src="{% static 'images/sport.jpg' %}" alt="conference">
+            <img src="{% static 'images/etkinlik_spor.jpg' %}" alt="conference">
 
             <div class="ccp">
-                <h2>Spor ve Sanatlar</h2>
+                <h2>Spor ve Sanat Etkinlikleri</h2>
                 {##}
                 {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
                 {#                    consectetur adipiscing elit</p>#}
@@ -507,7 +560,7 @@
 
         <div class="event">
             <div class="b_event"></div>
-            <img src="{% static 'images/project_img.jpg' %}" alt="conference">
+            <img src="{% static 'images/activity_3.jpg' %}" alt="conference">
 
             <div class="ccp">
                 <h2>Projeler</h2>

@@ -4,6 +4,56 @@
 
 
 {% block content %}
+
+  <header id="home">
+        <div class="pattern">
+
+            <div class="h_bg"></div>
+            <div class="grid content1">
+                <ul class="language">
+                    <li><a href="/tr">Tür</a></li>
+                    <li><a href="/en">eng</a></li>
+                    <li><a href="/">кыр</a></li>
+                    <li><a href="#">az</a></li>
+                    <li><a href="#">kz</a></li>
+                </ul>
+
+                <div class="logo">
+                    <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
+
+                    <div class="slogan">
+                        <h1>TÜRK KENEŞİ</h1>
+
+                        <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {% load i18n %}
+
+        <nav class="fixed-header">
+            <div class="grid">
+                <ul class="menu">
+                    <li><a href="{% url 'index' %}#home">Ana Sayfa</a></li>
+                    <li><a href="{% url 'index' %}#news">Haberler</a></li>
+                    <li><a href="{% url 'index' %}#about">Hakkımızda</a></li>
+
+                    <li><a href="{% url 'index' %}#member">Üyeler</a></li>
+
+                    <li><a href="{% url 'index' %}#entertaintments">Etkinlikler</a></li>
+                    <li><a href="{% url 'index' %}#photos">Fotoğraflar</a></li>
+                    <li><a href="{% url 'index' %}http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">Türk Keneşi</a>
+                    </li>
+                    <li><a href="{% url 'index' %}#council">Öğrenci Keneşi</a></li>
+                    <li><a href="{% url 'index' %}#contacts">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
     <div class="activities">
 
         <div class="grid">
