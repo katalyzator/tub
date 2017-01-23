@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'tr'
 
 TIME_ZONE = 'UTC'
 
@@ -139,7 +139,7 @@ LANGUAGES = (
     ('tr', 'Турецкий'),
 )
 
-MODELTRANSLATION_DEFAULT_LANGUAGE = 'ru'
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'tr'
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),

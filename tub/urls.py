@@ -11,7 +11,7 @@ urlpatterns = []
 urlpatterns += solid_i18n_patterns('',
                                    url(r'^jet/', include('jet.urls', 'jet')),
                                    url(r'^admin/', admin.site.urls),
-                                   url(r'^tr/', 'main.views.index_view', name='index'),
+                                   url(r'^$', 'main.views.index_view', name='index'),
                                    url(r'^news/(?P<id>\d+)/$', 'main.views.singleNews', name='single_news'),
                                    url(r'^events/(?P<id>\d+)/$', 'main.views.singleEvents', name='single_news'),
                                    url(r'^activity/(?P<id>\d+)/$', 'main.views.singleActivity1', name='activity1'),
