@@ -11,10 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Header"
+msgstr "TURKIC COUNCIL"
+
 msgid "Main page"
 msgstr "Башкы баракча"
 
-msgid "turkic council"
+
+msgid "News"
 msgstr "Маалымат"
 
 msgid "about"

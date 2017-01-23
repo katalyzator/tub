@@ -11,19 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Main page"
-msgstr ""
 
-msgid "news"
+msgid "Main page"
+msgstr "Home"
+
+msgid "News"
 msgstr "News"
 
-msgid "about"
+msgid "About"
 msgstr "About Us"
 
 msgid "members"
 msgstr "Members"
 
-msgid "konsey"
+msgid "turkic council"
 msgstr "Turkic Council"
 
 msgid "entertaiments"
@@ -34,3 +35,6 @@ msgstr "Photos"
 
 msgid "contacts"
 msgstr "Contacts"
+
+msgid "Header"
+msgstr "TURKIC COUNCIL"

@@ -140,6 +140,7 @@ LANGUAGES = (
 )
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'ru'
+
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )

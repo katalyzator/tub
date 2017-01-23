@@ -1226,3 +1226,19 @@ h6 {
 .activity .l_button {
     margin-left: 20px;
 }
+
+.single_post {
+    background-color: #e4f9f8;
+    padding: 50px 0;
+}
+
+.single_news img {
+    float: left;
+    width: 35%;
+    height: 295px;
+    margin: 0 15px 10px 0;
+}
+
+.single_news h5 {
+    margin-bottom: 20px;
+}

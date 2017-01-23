@@ -5,6 +5,7 @@ from solid_i18n.urls import solid_i18n_patterns
 
 from tub import settings
 
+
 urlpatterns = []
 
 urlpatterns += solid_i18n_patterns('',
@@ -21,7 +22,7 @@ urlpatterns += solid_i18n_patterns('',
                                    url(r'^photos3/', 'main.views.more_photos3', name='photos3'),
                                    url(r'^activities/', 'main.views.activity_news1', name='activity_1'),
                                    url(r'^activities2/', 'main.views.activity_news2', name='activity_2'),
-                                   url(r'^activities3/', 'main.views.activity_news3', name='activity_3')
+                                   url(r'^activities3/', 'main.views.activity_news3', name='activity_3'),
                                    )
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

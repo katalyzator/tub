@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 
+
 {% load staticfiles %}
 
 
@@ -12,18 +13,18 @@
             <div class="h_bg"></div>
             <div class="grid content1">
                 <ul class="language">
-                    <li><a href="/tr">Tür</a></li>
+                    <li><a href="/tr">TR</a></li>
                     <li><a href="/en">eng</a></li>
                     <li><a href="/">кыр</a></li>
                     <li><a href="#">az</a></li>
                     <li><a href="#">kz</a></li>
                 </ul>
-
+                {% load i18n %}
                 <div class="logo">
                     <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
 
                     <div class="slogan">
-                        <h1>TÜRK KENEŞİ</h1>
+                        <h1>{% trans "Header" %}</h1>
 
                         <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
                     </div>
@@ -32,22 +33,21 @@
         </div>
 
 
-        {% load i18n %}
-
         <nav class="fixed-header">
             <div class="grid">
                 <ul class="menu">
-                    <li><a href="#home">Ana Sayfa</a></li>
-                    <li><a href="#news">Haberler</a></li>
-                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#home">{% trans "Main page" %}</a></li>
+                    <li><a href="#news">{% trans "News" %}</a></li>
+                    <li><a href="#about">{% trans "About" %}</a></li>
 
-                    <li><a href="#member">Üyeler</a></li>
+                    <li><a href="#member">{% trans "members" %}</a></li>
 
-                    <li><a href="#entertaintments">Etkinlikler</a></li>
-                    <li><a href="#photos">Fotoğraflar</a></li>
-                    <li><a href="#council">Öğrenci Keneşi</a></li>
-                    <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">Türk Keneşi</a></li>
-                    <li><a href="#contacts">İletişim</a></li>
+                    <li><a href="#entertaintments">{% trans "entertaiments" %}</a></li>
+                    <li><a href="#photos">{% trans "photos" %}</a></li>
+                    <li><a href="#council">{% trans "student council" %}</a></li>
+                    <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">{% trans "turkic council" %}</a>
+                    </li>
+                    <li><a href="#contacts">{% trans "contacts" %}</a></li>
                 </ul>
             </div>
         </nav>

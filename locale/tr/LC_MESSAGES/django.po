@@ -11,10 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 #: .\templates\navbar.html
+
+msgid "Header"
+msgstr "TÜRK KENEŞİ"
+
 msgid "Main page"
 msgstr "Ana sayfa"
 
-msgid "turkic council"
+msgid "News"
 msgstr "Haberler"
 
 msgid "about"
@@ -23,14 +27,17 @@ msgstr "Hakkımızda"
 msgid "members"
 msgstr "Üyeler"
 
-msgid "konsey"
+msgid "turkic council"
 msgstr "Türk Keneşi"
 
 msgid "entertaiments"
 msgstr "Etkinlikler"
 
+msgid "student council"
+msgstr "Öğrenci Keneşi"
+
 msgid "photos"
-msgstr "Resimler"
+msgstr "Fotoğraflar"
 
 msgid "contacts"
 msgstr "İletişim"
