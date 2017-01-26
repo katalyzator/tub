@@ -27,6 +27,9 @@ msgstr "Members"
 msgid "turkic council"
 msgstr "Turkic Council"
 
+msgid "student council"
+msgstr "Student Council"
+
 msgid "entertaiments"
 msgstr "Activities"
 
@@ -38,3 +41,14 @@ msgstr "Contacts"
 
 msgid "Header"
 msgstr "TURKIC COUNCIL"
+
+msgid "goals"
+msgstr "Goals"
+
+msgid "students"
+msgstr "Students"
+
+msgid "directivies"
+msgstr "Direcitivies"
+
+

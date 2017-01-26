@@ -4,7 +4,6 @@
 {% load staticfiles %}
 
 
-
 {% block content %}
 
     <header id="home">
@@ -162,8 +161,8 @@
             <div class="line"></div>
             <ul class="tabs-nav">
                 <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Hakkımızda</a></li>
-                <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">Amaçlar</a></li>
-                <li><a href="#tab-5"><img src="{% static 'images/icon2.png' %}" alt="icon">Yönergeler</a></li>
+                <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">{% trans 'goals' %}</a></li>
+                <li><a href="#tab-5"><img src="{% static 'images/icon2.png' %}" alt="icon">{% trans 'directivies' %}</a></li>
                 <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Dönem Başkanı</a></li>
                 <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
 
@@ -419,16 +418,16 @@
 
     <div class="bg8" id="council">
         <div class="grid content7">
-            <h3>Öğrenci keneşi</h3>
+            <h3>{% trans 'student council' %}</h3>
 
             <div class="line"></div>
 
             <ul class="student_council">
 
-                <li><a href="#student2">Amaçlar</a></li>
-                <li><a href="#student4">Öğrenciler</a></li>
-                <li><a href="#student3">Yönergeler</a></li>
-                <li><a href="#student1">Etkinlikler</a></li>
+                <li><a href="#student2">{% trans 'goals' %}</a></li>
+                <li><a href="#student4">{% trans 'students' %}</a></li>
+                <li><a href="#student3">{% trans 'directivies' %}</a></li>
+                <li><a href="#student1">{% trans 'entertaiments' %}</a></li>
                 <!--<li><a href="#student5">Photos</a></li>-->
             </ul>
 
@@ -439,7 +438,7 @@
                     <div class="line"></div>
                     <div class="c_information">
 
-                        <h5>Amaçlar</h5>
+                        <h5>{% trans 'goals' %}</h5>
                         <img src="{% static 'images/council.png' %}" alt="logo">
                         <p class="fz">Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite
                             öğrencileri arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve
@@ -451,7 +450,7 @@
                 <div class="about_council group" id="student3">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>Yönergeler</h5>
+                        <h5>{% trans 'directivies' %}</h5>
                         <a href="#"><p class="fz">Yönerge TR</p></a>
                         <a href="#"><p class="fz">Yönerge KG</p></a>
                         <a href="#"><p class="fz">Yönerge KZ</p></a>

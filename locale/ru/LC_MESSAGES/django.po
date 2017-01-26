@@ -30,8 +30,6 @@ msgstr "Мүчөлөр"
 msgid "konsey"
 msgstr "Түрк кеңеши"
 
-msgid "entertaiments"
-msgstr "Кеңеш"
 
 msgid "photos"
 msgstr "Сүрөттөр"

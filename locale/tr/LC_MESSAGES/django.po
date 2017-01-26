@@ -41,3 +41,12 @@ msgstr "Fotoğraflar"
 
 msgid "contacts"
 msgstr "İletişim"
+
+msgid "goals"
+msgstr "Amaçlar"
+
+msgid "students"
+msgstr "Öğrenciler"
+
+msgid "directivies"
+msgstr "Yönergeler"
