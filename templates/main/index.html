@@ -33,21 +33,23 @@
 
 
         <nav class="fixed-header">
-            <div class="grid">
-                <ul class="menu">
-                    <li><a href="#home">{% trans "Main page" %}</a></li>
-                    <li><a href="#news">{% trans "News" %}</a></li>
-                    <li><a href="#about">{% trans "About" %}</a></li>
+            <div class="grid menu-collapsed">
+                <div class="bar"></div>
+                    <ul class="menu">
+                        <li><a href="#home">{% trans "Main page" %}</a></li>
+                        <li><a href="#news">{% trans "News" %}</a></li>
+                        <li><a href="#about">{% trans "About" %}</a></li>
 
-                    <li><a href="#member">{% trans "members" %}</a></li>
+                        <li><a href="#member">{% trans "members" %}</a></li>
 
-                    <li><a href="#entertaintments">{% trans "entertaiments" %}</a></li>
-                    <li><a href="#photos">{% trans "photos" %}</a></li>
-                    <li><a href="#council">{% trans "student council" %}</a></li>
-                    <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">{% trans "turkic council" %}</a>
-                    </li>
-                    <li><a href="#contacts">{% trans "contacts" %}</a></li>
-                </ul>
+                        <li><a href="#entertaintments">{% trans "entertaiments" %}</a></li>
+                        <li><a href="#photos">{% trans "photos" %}</a></li>
+                        <li><a href="#council">{% trans "student council" %}</a></li>
+                        <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa"
+                               target="_blank">{% trans "turkic council" %}</a>
+                        </li>
+                        <li><a href="#contacts">{% trans "contacts" %}</a></li>
+                    </ul>
             </div>
         </nav>
 
@@ -309,6 +311,7 @@
                             </a>
                         </li>
                         <li></li>
+                        <li></li>
                     </ul>
                 </div>
 
@@ -344,6 +347,7 @@
                                 <div class="n_univer">Nazarbayev Üniversitesi</div>
                             </a>
                         </li>
+                        <li></li>
                     </ul>
                 </div>
 
@@ -379,6 +383,7 @@
                                 <div class="n_univer">Kırgızistan-Türkiye Manas Üniversitesi</div>
                             </a>
                         </li>
+                        <li></li>
                     </ul>
                 </div>
 
@@ -408,12 +413,18 @@
                                 <div class="n_univer">Atatürk Üniversitesi</div>
                             </a>
                         </li>
-                        <li><span>4.</span><a href="http://www.beu.edu.tr/Default.aspx">
-                            <div class="n_univer">Bitlis Eren Üniversitesi</div>
-                        </a></li>
-                        <li><span>5.</span><a href="https://www.ogu.edu.tr/" target="_blank">
-                            <div class="n_univer">Eskişehir Osmangazi Üniversitesi</div>
-                        </a></li>
+                        <li>
+                            <span>4.</span>
+                            <a href="http://www.beu.edu.tr/Default.aspx">
+                                <div class="n_univer">Bitlis Eren Üniversitesi</div>
+                            </a>
+                        </li>
+                        <li>
+                            <span>5.</span>
+                            <a href="https://www.ogu.edu.tr/" target="_blank">
+                                <div class="n_univer">Eskişehir Osmangazi Üniversitesi</div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -544,7 +555,7 @@
                 {##}
                 {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
                 {#                    consectetur adipiscing elit</p>#}
-                <a href="{% url 'activity_1' %}" class="l_button">READ MORE</a>
+{#                <a href="{% url 'activity_1' %}" class="l_button">READ MORE</a>#}
             </div>
         </div>
 
@@ -556,7 +567,7 @@
 
                 {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
                 {#                    consectetur adipiscing elit</p>#}
-                <a href="{% url 'activity_2' %}" class="l_button">READ MORE</a>
+{#                <a href="{% url 'activity_2' %}" class="l_button">READ MORE</a>#}
             </div>
         </div>
 
@@ -569,7 +580,7 @@
 
                 {#                <p class="fz">Lorem ipsum dolor sit amet,<br>#}
                 {#                    consectetur adipiscing elit</p>#}
-                <a href="{% url 'activity_3' %}" class="l_button">READ MORE</a>
+{#                <a href="{% url 'activity_3' %}" class="l_button">READ MORE</a>#}
             </div>
         </div>
     </div>
@@ -622,13 +633,13 @@
 
     <div class="kurumlar">
         <div class="grid content_kurumlar">
-            <h3 style="color: black !important; font-size: 30px; text-align: center;">İlgili kurumlar</h3>
+            <h3>İlgili Kurumlar</h3>
             <div class="line"></div>
             <div class="curum_main">
                 <img src="{% static 'images/turk-akademi-ic.png' %}" class="kurumlar_img">
                 <img src="{% static 'images/turksoy-logo.png' %}" class="kurumlar_img">
                 <img src="{% static 'images/mirac.png' %}" class="kurumlar_img">
-                <img src="{% static 'images/turkkon.png' %}" class="kurumlar_img" style="width: 100px; height: 100px;">
+                <img src="{% static 'images/turkkon.png' %}" class="kurumlar_img">
             </div>
         </div>
     </div>
@@ -643,7 +654,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8275.258121169378!2d74.56836067110994!
             3d42.83598807541677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9ebd50abdf1%3A0x14ce488dddb2fbdb!
             2z0JrRi9GA0LPRi9C30YHQutC-LdCi0YPRgNC10YbQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiAi0JzQsNC90LDRgSI!5e0!3m2!1sru!
-            2skg!4v1479375066889" width="88.88888888888889%" height="305" frameborder="0" style="border:0"
+            2skg!4v1479375066889"   frameborder="0" style="border:0"
                         allowfullscreen></iframe>
                 <h4>Bishkek, KYRGYZ REPUBLIC, micro-region Djal, 43</h4>
 
