@@ -816,6 +816,50 @@ h5 {
     background-size: cover;
 }
 
+.kurumlar {
+    background: lightblue;
+    background-size: cover;
+}
+
+.content_kurumlar {
+    padding: 50px 0;
+}
+
+.content_kurumlar h3 . {
+
+     font-size: 20px;
+     text-align: center;
+}
+
+.content_kurumlar .line {
+    margin-left: 600px;
+    width: 65px;
+    background-color: #fff;
+
+}
+
+.curum_main {
+    width: 900px;
+    margin-left: 180px;
+    /*border: 1px solid red;*/
+}
+
+.kurumlar_img {
+
+
+    width: 200px;
+    height: 100px;
+    /*border: 1px solid green;*/
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.display_block {
+    display: inline-block;
+}
+
 .content5 {
     padding: 50px 0;
 }
