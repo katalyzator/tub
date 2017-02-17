@@ -7,8 +7,8 @@ from main.models import News, NewsImage, Event, EventImage, Photo, SliderImage, 
 
 
 def index_view(request):
-    news = News.objects.all().order_by('-updated')[:4]
-    events = Event.objects.all().order_by('-updated')[:4]
+    news = News.objects.all().order_by('-updated')[:8]
+    events = Event.objects.all().order_by('-updated')[:8]
     photos = Photo.objects.all().order_by('-timestamp')[:8]
     sliderImage = SliderImage.objects.all().order_by('-timestamp')[:3]
     context = {"news": news, "events": events, "photos": photos, "sliderImage": sliderImage}
