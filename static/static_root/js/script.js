@@ -1,3 +1,8 @@
+$(".menu-collapsed").click(function() {
+  $(this).toggleClass("menu-expanded");
+});
+
+
 $('ul.language > li:first-child > a').addClass('l_active');
 
 // �������� ����� ������� � ���������� ����������
