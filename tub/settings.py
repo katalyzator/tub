@@ -25,7 +25,7 @@ SECRET_KEY = '_mr#^67ptg=oo-)dl&d_za*ihxrq0lhx^*a7qfm-=jr2*_(e#y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['turkunib.org']
 
 # Application definition
 
