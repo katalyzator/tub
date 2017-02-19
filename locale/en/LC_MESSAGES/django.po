@@ -857,7 +857,7 @@ msgid "Change my password"
 msgstr ""
 
 #: templates/main/index.html:26
-msgid "Header"
+msgid "header"
 msgstr "TURKIC COUNCIL"
 
 #: templates/main/index.html:41
@@ -913,3 +913,6 @@ msgstr "Students"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "Turkic University Union"
+msgstr "TURKIC UNIVERSITY UNION"
