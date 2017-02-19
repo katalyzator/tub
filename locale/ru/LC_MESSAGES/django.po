@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 17:20+0000\n"
+"POT-Creation-Date: 2017-02-19 17:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -860,55 +860,55 @@ msgstr ""
 msgid "Header"
 msgstr "TURKIC COUNCIL"
 
-#: templates/main/index.html:42
+#: templates/main/index.html:41
 msgid "Main page"
 msgstr "Башкы баракча"
 
-#: templates/main/index.html:43
+#: templates/main/index.html:42
 msgid "News"
 msgstr "Маалымат"
 
-#: templates/main/index.html:44
+#: templates/main/index.html:43
 #, fuzzy
 #| msgid "about"
 msgid "About"
 msgstr "Биз жөнүндө"
 
-#: templates/main/index.html:46
+#: templates/main/index.html:45
 msgid "members"
 msgstr "Мүчөлөр"
 
-#: templates/main/index.html:48 templates/main/index.html:448
+#: templates/main/index.html:47 templates/main/index.html:447
 msgid "entertaiments"
 msgstr ""
 
-#: templates/main/index.html:49
+#: templates/main/index.html:48
 msgid "photos"
 msgstr "Сүрөттөр"
 
-#: templates/main/index.html:50 templates/main/index.html:439
+#: templates/main/index.html:49 templates/main/index.html:438
 msgid "student council"
 msgstr ""
 
-#: templates/main/index.html:52
+#: templates/main/index.html:51
 msgid "turkic council"
 msgstr ""
 
-#: templates/main/index.html:54
+#: templates/main/index.html:53
 msgid "contacts"
 msgstr "Байланыш"
 
-#: templates/main/index.html:169 templates/main/index.html:445
-#: templates/main/index.html:459
+#: templates/main/index.html:168 templates/main/index.html:444
+#: templates/main/index.html:458
 msgid "goals"
 msgstr ""
 
-#: templates/main/index.html:170 templates/main/index.html:447
-#: templates/main/index.html:471
+#: templates/main/index.html:169 templates/main/index.html:446
+#: templates/main/index.html:470
 msgid "directivies"
 msgstr ""
 
-#: templates/main/index.html:446
+#: templates/main/index.html:445
 msgid "students"
 msgstr ""
 
