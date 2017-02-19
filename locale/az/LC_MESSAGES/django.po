@@ -915,3 +915,9 @@ msgstr "Öğrenciler"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "Turkic University Union"
+msgstr "TURKIC UNIVERSITY UNION"
+
+msgid "history"
+msgstr "Türk Dünyası Telebe Şurasına üzv ölkeler arasında ali tehsil seyasinde iş birliğini gerçekleştirmek meqsediyle qurulmuş olan Türk Üniversiteler Birliği; 10 Avqust 2012ci il tarihinde Çolpon-Ata’ da düzenlenen Telebe Şurası Tehsil Nazirleri Toplantısı ve 23 Avqust 2012 ci il tarixinde Bişkek’ te baş tutan Telebe Şurası İkinci Zirvesi’ nde alınan qerarlar sonucunda neticelenmişdir. Ve nehayetinde 28-29 Mart 2013 tarihleri arasında İstanbul’ da baş tutan Telebe Şurası Türk Üniversiteler Birliği hazırlık toplantısında alınan qerarlar ile planı hazırlanarak quruluşu gerçekleştirilmiştir."

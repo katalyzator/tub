@@ -173,11 +173,11 @@
 
             <div class="line"></div>
             <ul class="tabs-nav">
-                <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">Hakkımızda</a></li>
+                <li><a href="#tab-1"><img src="{% static 'images/icon1.png' %}" alt="icon">{% trans 'About' %}</a></li>
                 <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">{% trans 'goals' %}</a></li>
                 <li><a href="#tab-5"><img src="{% static 'images/icon2.png' %}" alt="icon">{% trans 'directivies' %}</a>
                 </li>
-                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">Dönem Başkanı</a></li>
+                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">{% trans 'Chairman' %}</a></li>
                 <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
 
             </ul>
@@ -188,17 +188,7 @@
                     <div class="about">
                         <h5>Tarih</h5>
 
-                        <p class="fz">Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini
-                            gerçekleştirmek
-                            amacıyla
-                            kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan
-                            Türk
-                            Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen
-                            Türk
-                            Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiştir. Nihayetinde 28-29 Mart
-                            2013
-                            tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık
-                            toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir.</p>
+                        <p class="fz">{% trans 'history' %}</p>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
