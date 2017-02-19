@@ -137,6 +137,8 @@ LANGUAGES = (
     ('ru', 'Кыргызский'),
     ('en', 'Английский'),
     ('tr', 'Турецкий'),
+    ('az', 'Азербайджанский'),
+    ('kz', 'Казахский'),
 )
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'tr'
