@@ -919,3 +919,9 @@ msgstr ""
 msgid "Turkic University Union"
 msgstr "TÜRK ÜNİVERSİTELER BİRLİĞİ"
 
+msgid "Chairman"
+msgstr "Dönem Başkanı"
+
+msgid "history"
+msgstr "Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini gerçekleştirmek amacıyla kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan Türk Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen Türk Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiştir. Nihayetinde 28-29 Mart 2013 tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir."
+
