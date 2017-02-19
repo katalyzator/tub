@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 17:00+0000\n"
+"POT-Creation-Date: 2017-02-19 17:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -911,3 +911,7 @@ msgstr "Yönergeler"
 #: templates/main/index.html:446
 msgid "students"
 msgstr "Öğrenciler"
+
+#: tub/settings.py:143
+msgid "Kazakh"
+msgstr ""
