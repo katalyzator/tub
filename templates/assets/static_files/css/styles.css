@@ -387,7 +387,7 @@ h2 {
 }
 
 .list_news {
-    background-color: #fff;
+    background-color: white;
     margin-top: 40px;
     padding: 12px 0;
     border: 1px solid #e8e8e8;
@@ -473,7 +473,7 @@ h4 {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    background-color: #2d374b;
+
     width: 85px;
     height: 75px;
 }

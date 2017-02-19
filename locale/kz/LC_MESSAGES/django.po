@@ -901,7 +901,7 @@ msgstr "İletişim"
 #: templates/main/index.html:168 templates/main/index.html:444
 #: templates/main/index.html:458
 msgid "goals"
-msgstr "Goals our"
+msgstr "Мақсаттары"
 
 #: templates/main/index.html:169 templates/main/index.html:446
 #: templates/main/index.html:470
