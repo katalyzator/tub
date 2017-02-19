@@ -3,14 +3,13 @@ $(".menu-collapsed").click(function() {
 });
 
 
-$('ul.language > li:first-child > a').addClass('l_active');
 
-// �������� ����� ������� � ���������� ����������
-$('ul.language > li > a').on('click', function (event) {
-
-    $('ul.language > li a').removeClass('l_active');
-    $(this).addClass('l_active');
-});
+// // �������� ����� ������� � ���������� ����������
+// $('ul.language > li > a').on('click', function (event) {
+//     // event.preventDefault();
+//     $('ul.language > li a').removeClass('l_active');
+//     $(this).addClass('l_active');
+// });
 
 
 $('.slider').slick({
