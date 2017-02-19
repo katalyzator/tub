@@ -80,7 +80,7 @@
                 <div class="grid sl__content">
                     <div class="sl_desc">
 
-{#                        <h2>Turkic Culture Development</h2>#}
+                        {#                        <h2>Turkic Culture Development</h2>#}
                         {#                        <a href="#" class="l_button">Read more</a>#}
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                 <div class="grid sl__content">
                     <div class="sl_desc">
 
-{#                        <h2>Turkic Culture Development</h2>#}
+                        {#                        <h2>Turkic Culture Development</h2>#}
                         {#                        <a href="#" class="l_button">Read more</a>#}
                     </div>
                 </div>
@@ -105,7 +105,7 @@
 
                 <div class="grid sl__content">
                     <div class="sl_desc">
-{#                        <h2>Turkic Culture Development</h2>#}
+                        {#                        <h2>Turkic Culture Development</h2>#}
 
 
                         {#                        <a href="#" class="l_button">Read more</a>#}
@@ -125,10 +125,17 @@
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
                     {% for new in news %}
                         <div class="l_news">
-                            <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
-                            <span>{{ new.timestamp }}</span>
+                            <div class="date_block">
+                                <div class="date"><br><span><img src="{% static 'images/news.ico' %}"
+                                                                 alt="pattern"
+                                                                 style="width: 100px; height: 100px;"></span></div>
+                            </div>
+                            <div class="description">
+                                <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
 
-                            <p>{{ new.description|truncatewords:11 }}</p>
+
+                                <p>{{ new.description|truncatewords:11 }}</p>
+                            </div>
                         </div>
                     {% endfor %}
 
@@ -143,7 +150,9 @@
                     {% for event in events %}
                         <div class="r_news">
                             <div class="date_block">
-                                <div class="date"><br><span>{{ event.timestamp }}</span></div>
+                                <div class="date"><br><span><img src="{% static 'images/even_icon.png' %}"
+                                                                 alt="pattern"
+                                                                 style="width: 170px; height: 120px;"></span></div>
                             </div>
                             <div class="description">
                                 <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
