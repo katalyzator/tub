@@ -915,3 +915,6 @@ msgstr "Öğrenciler"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "Turkic University Union"
+msgstr "Түрк Университеттер қауымдастығы"

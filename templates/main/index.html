@@ -12,20 +12,20 @@
             <div class="h_bg"></div>
             <div class="grid content1">
                 <ul class="language">
-                    <li><a href="/">TR</a></li>
-                    <li><a href="/en">eng</a></li>
-                    <li><a href="/ru">кыр</a></li>
-                    <li><a href="/az">az</a></li>
-                    <li><a href="/kz">kz</a></li>
+                    <li><a href="/ru"><img src="{% static 'images/kg_icon.png' %}"></a></li>
+                    <li><a href="/"><img src="{% static 'images/tr_icon.png' %}"></a></li>
+                    <li><a href="/en"><img src="{% static 'images/en_icon.png' %}"></a></li>
+                    <li><a href="/az"><img src="{% static 'images/az_icon.ico' %}"></a></li>
+                    <li><a href="/kz"><img src="{% static 'images/kz_icon.png' %}"></a></li>
                 </ul>
                 {% load i18n %}
                 <div class="logo">
                     <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
 
                     <div class="slogan">
-                        <h1>{% trans "Header" %}</h1>
+                        <h1>{% trans "header" %}</h1>
 
-                        <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                        <p>{% trans 'Turkic University Union' %}</p>
                     </div>
 
                     <a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank"><img

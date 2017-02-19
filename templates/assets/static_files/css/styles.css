@@ -127,7 +127,7 @@ ul {
 .language {
     position: absolute;
     top: 62px;
-    left: 38px;
+    left: 10px;
     display: inline-block;
     vertical-align: middle;
     font-family: "RalewayBold", sans-serif;
@@ -486,7 +486,7 @@ h4 {
     line-height: 26px;
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 
@@ -1481,6 +1481,11 @@ h6 {
         left: 50%;
         transform: translate(-50%);
     }
+}
+
+.language li img {
+    width: 40px;
+    height: 40px;
 }
 
 @media screen and (max-width: 1200px) {

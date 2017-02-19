@@ -857,7 +857,7 @@ msgid "Change my password"
 msgstr ""
 
 #: templates/main/index.html:26
-msgid "Header"
+msgid "header"
 msgstr "TÜRK KENEŞİ"
 
 #: templates/main/index.html:41
@@ -915,3 +915,7 @@ msgstr "Öğrenciler"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "Turkic University Union"
+msgstr "TÜRK ÜNİVERSİTELER BİRLİĞİ"
+
