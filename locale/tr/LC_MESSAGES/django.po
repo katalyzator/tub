@@ -873,8 +873,6 @@ msgid "News"
 msgstr "Haberler"
 
 #: templates/main/index.html:43 templates/main/index.html:187
-#, fuzzy
-#| msgid "about"
 msgid "About"
 msgstr "Hakkımızda"
 
@@ -994,3 +992,9 @@ msgstr "Öğrenciler"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "events"
+msgstr "Duyurular"
+
+msgid "member university"
+msgstr "Üye üniversiteler"

@@ -992,3 +992,9 @@ msgstr "Students"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "events"
+msgstr "Events"
+
+msgid "member university"
+msgstr "Member universities"

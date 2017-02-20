@@ -976,3 +976,9 @@ msgstr ""
 
 #~ msgid "konsey"
 #~ msgstr "Түрк кеңеши"
+
+msgid "events"
+msgstr "Хабарландырулар"
+
+msgid "member university"
+msgstr "Member universities"
