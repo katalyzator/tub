@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 17:42+0000\n"
+"POT-Creation-Date: 2017-02-20 11:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -860,6 +860,10 @@ msgstr ""
 msgid "header"
 msgstr "TURKIC COUNCIL"
 
+#: templates/main/index.html:28
+msgid "Turkic University Union"
+msgstr "TURKIC UNIVERSITY UNION"
+
 #: templates/main/index.html:41
 msgid "Main page"
 msgstr "Home"
@@ -868,7 +872,7 @@ msgstr "Home"
 msgid "News"
 msgstr "News"
 
-#: templates/main/index.html:43
+#: templates/main/index.html:43 templates/main/index.html:187
 msgid "About"
 msgstr "About Us"
 
@@ -876,7 +880,7 @@ msgstr "About Us"
 msgid "members"
 msgstr "Members"
 
-#: templates/main/index.html:47 templates/main/index.html:447
+#: templates/main/index.html:47 templates/main/index.html:446
 msgid "entertaiments"
 msgstr "Activities"
 
@@ -884,7 +888,7 @@ msgstr "Activities"
 msgid "photos"
 msgstr "Photos"
 
-#: templates/main/index.html:49 templates/main/index.html:438
+#: templates/main/index.html:49 templates/main/index.html:437
 msgid "student council"
 msgstr "Student Council"
 
@@ -896,62 +900,95 @@ msgstr "Turkic Council"
 msgid "contacts"
 msgstr "Contacts"
 
-#: templates/main/index.html:168 templates/main/index.html:444
-#: templates/main/index.html:458
+#: templates/main/index.html:188 templates/main/index.html:210
+#: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
 msgstr "Goals"
 
-#: templates/main/index.html:169 templates/main/index.html:446
-#: templates/main/index.html:470
+#: templates/main/index.html:189 templates/main/index.html:445
+#: templates/main/index.html:469
 msgid "directivies"
 msgstr "Direcitivies"
 
-#: templates/main/index.html:445
+#: templates/main/index.html:191
+msgid "Chairman"
+msgstr "Chairman"
+
+#: templates/main/index.html:203
+msgid "history"
+msgstr ""
+"Turkic Council  - Turkic Universities Union was established in order to "
+"realize cooperation in the field of higher education between the member "
+"countries of the Turkic Council.  First in the  meeting of Ministers of "
+"Education, whis was organizedin Cholpon Ata on August 10, 2012. Then in the "
+"Second Summit of the Cooperation Council of Turkic Speaking States, which "
+"was held in Bishkek on 22-23 August 2012, decisions where taken and finally "
+"on 28-29 Mart 2013 in Istanbul Directive on the establishment of Higher "
+"Education Area among the Member Universities of the Union was adopted"
+
+#: templates/main/index.html:214
+msgid "goals1"
+msgstr ""
+"Training of common identity conscious to the next generation by practicing "
+"appropriate educattion system in the sphere of  modern scientific level,  "
+"taking into account common history, culture and language to provide "
+"cooperation agreements between"
+
+#: templates/main/index.html:216
+msgid "goals2"
+msgstr "Implementation of common credit transfer system"
+
+#: templates/main/index.html:218
+msgid "goals3"
+msgstr "Encourage teaching-staff training programs"
+
+#: templates/main/index.html:220
+msgid "goals4"
+msgstr "The implementation of students and teaching-staff exchange programs"
+
+#: templates/main/index.html:222
+msgid "goals5"
+msgstr ""
+"The creation of appropriate conditions for recognizing the equivalence of "
+"diplomas between member universities"
+
+#: templates/main/index.html:224
+msgid "goals6"
+msgstr ""
+"Benefiting from the outstanding superiority in certain areas of universities"
+
+#: templates/main/index.html:226
+msgid "goals7"
+msgstr ""
+"Joint training for implementation and execution of the research programs and "
+"projects"
+
+#: templates/main/index.html:228
+msgid "goals8"
+msgstr ""
+"Arranging competitions in science and sport;  organize symposiums, academic "
+"activities, cultural activities among Member Universities"
+
+#: templates/main/index.html:230
+msgid "goals9"
+msgstr ""
+"Providing special scholarships for students who conduct studies on the "
+"Turkic world"
+
+#: templates/main/index.html:232
+msgid "goals10"
+msgstr ""
+"Giving  courses on common history, culture and literature to universities of "
+"all member states"
+
+#: templates/main/index.html:234
+msgid "goals11"
+msgstr ""
+
+#: templates/main/index.html:444
 msgid "students"
 msgstr "Students"
 
 #: tub/settings.py:144
 msgid "Kazakh"
-msgstr ""
-
-msgid "Turkic University Union"
-msgstr "TURKIC UNIVERSITY UNION"
-
-msgid "Chairman"
-msgstr "Chairman"
-
-msgid "history"
-msgstr "Turkic Council  - Turkic Universities Union was established in order to realize cooperation in the field of higher education between the member countries of the Turkic Council.  First in the  meeting of Ministers of Education, whis was organizedin Cholpon Ata on August 10, 2012. Then in the Second Summit of the Cooperation Council of Turkic Speaking States, which was held in Bishkek on 22-23 August 2012, decisions where taken and finally on 28-29 Mart 2013 in Istanbul Directive on the establishment of Higher Education Area among the Member Universities of the Union was adopted"
-
-msgid "goals1"
-msgstr "Training of common identity conscious to the next generation by practicing appropriate educattion system in the sphere of  modern scientific level,  taking into account common history, culture and language to provide cooperation agreements between"
-
-msgid "goals2"
-msgstr "Implementation of common credit transfer system"
-
-msgid "goals3"
-msgstr "Encourage teaching-staff training programs"
-
-msgid "goals4"
-msgstr "The implementation of students and teaching-staff exchange programs"
-
-msgid "goals5"
-msgstr "The creation of appropriate conditions for recognizing the equivalence of diplomas between member universities"
-
-msgid "goals6"
-msgstr "Benefiting from the outstanding superiority in certain areas of universities"
-
-msgid "goals7"
-msgstr "Joint training for implementation and execution of the research programs and projects"
-
-msgid "goals8"
-msgstr "Arranging competitions in science and sport;  organize symposiums, academic activities, cultural activities among Member Universities"
-
-msgid "goals9"
-msgstr "Providing special scholarships for students who conduct studies on the Turkic world"
-
-msgid "goals10"
-msgstr "Giving  courses on common history, culture and literature to universities of all member states"
-
-msgid "goals11"
 msgstr ""

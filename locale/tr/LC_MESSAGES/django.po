@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 17:42+0000\n"
+"POT-Creation-Date: 2017-02-20 11:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -860,6 +860,10 @@ msgstr ""
 msgid "header"
 msgstr "TÜRK KENEŞİ"
 
+#: templates/main/index.html:28
+msgid "Turkic University Union"
+msgstr "TÜRK ÜNİVERSİTELER BİRLİĞİ"
+
 #: templates/main/index.html:41
 msgid "Main page"
 msgstr "Ana sayfa"
@@ -868,7 +872,7 @@ msgstr "Ana sayfa"
 msgid "News"
 msgstr "Haberler"
 
-#: templates/main/index.html:43
+#: templates/main/index.html:43 templates/main/index.html:187
 #, fuzzy
 #| msgid "about"
 msgid "About"
@@ -878,7 +882,7 @@ msgstr "Hakkımızda"
 msgid "members"
 msgstr "Üyeler"
 
-#: templates/main/index.html:47 templates/main/index.html:447
+#: templates/main/index.html:47 templates/main/index.html:446
 msgid "entertaiments"
 msgstr "Etkinlikler"
 
@@ -886,7 +890,7 @@ msgstr "Etkinlikler"
 msgid "photos"
 msgstr "Fotoğraflar"
 
-#: templates/main/index.html:49 templates/main/index.html:438
+#: templates/main/index.html:49 templates/main/index.html:437
 msgid "student council"
 msgstr "Öğrenci Keneşi"
 
@@ -898,62 +902,95 @@ msgstr "Türk Keneşi"
 msgid "contacts"
 msgstr "İletişim"
 
-#: templates/main/index.html:168 templates/main/index.html:444
-#: templates/main/index.html:458
+#: templates/main/index.html:188 templates/main/index.html:210
+#: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
 msgstr "Amaçlar"
 
-#: templates/main/index.html:169 templates/main/index.html:446
-#: templates/main/index.html:470
+#: templates/main/index.html:189 templates/main/index.html:445
+#: templates/main/index.html:469
 msgid "directivies"
 msgstr "Yönergeler"
 
-#: templates/main/index.html:445
+#: templates/main/index.html:191
+msgid "Chairman"
+msgstr "Dönem Başkanı"
+
+#: templates/main/index.html:203
+msgid "history"
+msgstr ""
+"Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini "
+"gerçekleştirmek amacıyla kurulmuş olan Türk Üniversiteler Birliği; 10 "
+"Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan Türk Keneşi Eğitim Bakanları "
+"Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen Türk "
+"Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiştir. "
+"Nihayetinde 28-29 Mart 2013 tarihleri arasında İstanbul’ da yapılan Türk "
+"Keneşi Türk Üniversiteler Birliği Hazırlık toplantısında alınan kararlar ile "
+"yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir."
+
+#: templates/main/index.html:214
+msgid "goals1"
+msgstr ""
+"Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları "
+"arasında işbirliği sağlanması,çağdaş, bilimsel düzeye uygun eğitim "
+"standartlarının uygulanması süretiyle ortak kimlik bilinci yüksek nesiller "
+"yetiştirilmesi"
+
+#: templates/main/index.html:216
+msgid "goals2"
+msgstr "Üye üniversitelerdeki programların uyumlu hale getirilmesi"
+
+#: templates/main/index.html:218
+msgid "goals3"
+msgstr "Ortak kredi transfer sisteminin uygulanması"
+
+#: templates/main/index.html:220
+msgid "goals4"
+msgstr "Öğretim elemanı yetiştirme programlarının teşvik edilmesi"
+
+#: templates/main/index.html:222
+msgid "goals5"
+msgstr "Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması"
+
+#: templates/main/index.html:224
+msgid "goals6"
+msgstr ""
+"Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik "
+"uygun zeminin oluşturulması"
+
+#: templates/main/index.html:226
+msgid "goals7"
+msgstr ""
+"Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden "
+"yararlanılması"
+
+#: templates/main/index.html:228
+msgid "goals8"
+msgstr ""
+"Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin "
+"yürütülmesi"
+
+#: templates/main/index.html:230
+msgid "goals9"
+msgstr ""
+"Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim "
+"ve spor alanlarında yarışmalar düzenlenmesi"
+
+#: templates/main/index.html:232
+msgid "goals10"
+msgstr ""
+"Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması"
+
+#: templates/main/index.html:234
+msgid "goals11"
+msgstr ""
+"Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke "
+"üniversitelerinde verilmesi yönünde çalışmalar yapmaktır"
+
+#: templates/main/index.html:444
 msgid "students"
 msgstr "Öğrenciler"
 
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
-
-msgid "Turkic University Union"
-msgstr "TÜRK ÜNİVERSİTELER BİRLİĞİ"
-
-msgid "Chairman"
-msgstr "Dönem Başkanı"
-
-msgid "history"
-msgstr "Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini gerçekleştirmek amacıyla kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan Türk Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen Türk Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiştir. Nihayetinde 28-29 Mart 2013 tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir."
-
-msgid "goals1"
-msgstr "Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları arasında işbirliği sağlanması,çağdaş, bilimsel düzeye uygun eğitim standartlarının uygulanması süretiyle ortak kimlik bilinci yüksek nesiller yetiştirilmesi"
-
-msgid "goals2"
-msgstr "Üye üniversitelerdeki programların uyumlu hale getirilmesi"
-
-msgid "goals3"
-msgstr "Ortak kredi transfer sisteminin uygulanması"
-
-msgid "goals4"
-msgstr "Öğretim elemanı yetiştirme programlarının teşvik edilmesi"
-
-msgid "goals5"
-msgstr "Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması"
-
-msgid "goals6"
-msgstr "Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik uygun zeminin oluşturulması"
-
-msgid "goals7"
-msgstr "Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden yararlanılması"
-
-msgid "goals8"
-msgstr "Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin yürütülmesi"
-
-msgid "goals9"
-msgstr "Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim ve spor alanlarında yarışmalar düzenlenmesi"
-
-msgid "goals10"
-msgstr "Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması"
-
-msgid "goals11"
-msgstr "Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke üniversitelerinde verilmesi yönünde çalışmalar yapmaktır"
