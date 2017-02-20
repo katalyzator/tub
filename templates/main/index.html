@@ -138,10 +138,9 @@
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
                     {% for new in news %}
                         <div class="l_news">
-                            <div class="date_block">
-                                <div class="date"><br><span><img src="{% static 'images/news.ico' %}"
-                                                                 alt="pattern"
-                                                                 style="width: 100px; height: 100px;"></span></div>
+                            <div class="news_img">
+                                <img src="{% static 'images/news_icon.png' %}"
+                                                       alt="pattern">
                             </div>
                             <div class="description">
                                 <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
@@ -162,10 +161,9 @@
                 <div class="list_news wow slideInRight" data-wow-offset="250">
                     {% for event in events %}
                         <div class="r_news">
-                            <div class="date_block">
-                                <div class="date"><br><span><img src="{% static 'images/even_icon.png' %}"
-                                                                 alt="pattern"
-                                                                 style="width: 170px; height: 120px;"></span></div>
+                            <div class="news_img">
+                                <img src="{% static 'images/event_icon.png' %}"
+                                                       alt="pattern">
                             </div>
                             <div class="description">
                                 <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
@@ -190,7 +188,8 @@
                 <li><a href="#tab-2"><img src="{% static 'images/icon2.png' %}" alt="icon">{% trans 'goals' %}</a></li>
                 <li><a href="#tab-5"><img src="{% static 'images/icon2.png' %}" alt="icon">{% trans 'directivies' %}</a>
                 </li>
-                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">{% trans 'Chairman' %}</a></li>
+                <li><a href="#tab-4"><img src="{% static 'images/icon4.png' %}" alt="icon">{% trans 'Chairman' %}</a>
+                </li>
                 <li><a href="#tab-3"><img src="{% static 'images/icon3.png' %}" alt="icon">Tanıtım</a></li>
 
             </ul>
