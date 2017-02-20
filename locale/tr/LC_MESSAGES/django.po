@@ -925,3 +925,35 @@ msgstr "Dönem Başkanı"
 msgid "history"
 msgstr "Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini gerçekleştirmek amacıyla kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan Türk Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen Türk Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiştir. Nihayetinde 28-29 Mart 2013 tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir."
 
+msgid "goals1"
+msgstr "Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları arasında işbirliği sağlanması,çağdaş, bilimsel düzeye uygun eğitim standartlarının uygulanması süretiyle ortak kimlik bilinci yüksek nesiller yetiştirilmesi"
+
+msgid "goals2"
+msgstr "Üye üniversitelerdeki programların uyumlu hale getirilmesi"
+
+msgid "goals3"
+msgstr "Ortak kredi transfer sisteminin uygulanması"
+
+msgid "goals4"
+msgstr "Öğretim elemanı yetiştirme programlarının teşvik edilmesi"
+
+msgid "goals5"
+msgstr "Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması"
+
+msgid "goals6"
+msgstr "Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik uygun zeminin oluşturulması"
+
+msgid "goals7"
+msgstr "Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden yararlanılması"
+
+msgid "goals8"
+msgstr "Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin yürütülmesi"
+
+msgid "goals9"
+msgstr "Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim ve spor alanlarında yarışmalar düzenlenmesi"
+
+msgid "goals10"
+msgstr "Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması"
+
+msgid "goals11"
+msgstr "Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke üniversitelerinde verilmesi yönünde çalışmalar yapmaktır"

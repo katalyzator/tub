@@ -918,3 +918,36 @@ msgstr ""
 
 #~ msgid "konsey"
 #~ msgstr "Түрк кеңеши"
+
+msgid "goals1"
+msgstr ""
+
+msgid "goals2"
+msgstr ""
+
+msgid "goals3"
+msgstr ""
+
+msgid "goals4"
+msgstr ""
+
+msgid "goals5"
+msgstr ""
+
+msgid "goals6"
+msgstr ""
+
+msgid "goals7"
+msgstr ""
+
+msgid "goals8"
+msgstr ""
+
+msgid "goals9"
+msgstr ""
+
+msgid "goals10"
+msgstr ""
+
+msgid "goals11"
+msgstr ""
