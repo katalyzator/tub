@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 17:42+0000\n"
+"POT-Creation-Date: 2017-02-20 11:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -857,8 +857,14 @@ msgid "Change my password"
 msgstr ""
 
 #: templates/main/index.html:26
-msgid "Header"
+#, fuzzy
+#| msgid "Header"
+msgid "header"
 msgstr "TURKIC COUNCIL"
+
+#: templates/main/index.html:28
+msgid "Turkic University Union"
+msgstr ""
 
 #: templates/main/index.html:41
 msgid "Main page"
@@ -868,7 +874,7 @@ msgstr "Башкы баракча"
 msgid "News"
 msgstr "Маалымат"
 
-#: templates/main/index.html:43
+#: templates/main/index.html:43 templates/main/index.html:187
 #, fuzzy
 #| msgid "about"
 msgid "About"
@@ -878,7 +884,7 @@ msgstr "Биз жөнүндө"
 msgid "members"
 msgstr "Мүчөлөр"
 
-#: templates/main/index.html:47 templates/main/index.html:447
+#: templates/main/index.html:47 templates/main/index.html:446
 msgid "entertaiments"
 msgstr ""
 
@@ -886,7 +892,7 @@ msgstr ""
 msgid "photos"
 msgstr "Сүрөттөр"
 
-#: templates/main/index.html:49 templates/main/index.html:438
+#: templates/main/index.html:49 templates/main/index.html:437
 msgid "student council"
 msgstr ""
 
@@ -898,17 +904,69 @@ msgstr ""
 msgid "contacts"
 msgstr "Байланыш"
 
-#: templates/main/index.html:168 templates/main/index.html:444
-#: templates/main/index.html:458
+#: templates/main/index.html:188 templates/main/index.html:210
+#: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
 msgstr ""
 
-#: templates/main/index.html:169 templates/main/index.html:446
-#: templates/main/index.html:470
+#: templates/main/index.html:189 templates/main/index.html:445
+#: templates/main/index.html:469
 msgid "directivies"
 msgstr ""
 
-#: templates/main/index.html:445
+#: templates/main/index.html:191
+msgid "Chairman"
+msgstr ""
+
+#: templates/main/index.html:203
+msgid "history"
+msgstr ""
+
+#: templates/main/index.html:214
+msgid "goals1"
+msgstr ""
+
+#: templates/main/index.html:216
+msgid "goals2"
+msgstr ""
+
+#: templates/main/index.html:218
+msgid "goals3"
+msgstr ""
+
+#: templates/main/index.html:220
+msgid "goals4"
+msgstr ""
+
+#: templates/main/index.html:222
+msgid "goals5"
+msgstr ""
+
+#: templates/main/index.html:224
+msgid "goals6"
+msgstr ""
+
+#: templates/main/index.html:226
+msgid "goals7"
+msgstr ""
+
+#: templates/main/index.html:228
+msgid "goals8"
+msgstr ""
+
+#: templates/main/index.html:230
+msgid "goals9"
+msgstr ""
+
+#: templates/main/index.html:232
+msgid "goals10"
+msgstr ""
+
+#: templates/main/index.html:234
+msgid "goals11"
+msgstr ""
+
+#: templates/main/index.html:444
 msgid "students"
 msgstr ""
 
@@ -918,36 +976,3 @@ msgstr ""
 
 #~ msgid "konsey"
 #~ msgstr "Түрк кеңеши"
-
-msgid "goals1"
-msgstr ""
-
-msgid "goals2"
-msgstr ""
-
-msgid "goals3"
-msgstr ""
-
-msgid "goals4"
-msgstr ""
-
-msgid "goals5"
-msgstr ""
-
-msgid "goals6"
-msgstr ""
-
-msgid "goals7"
-msgstr ""
-
-msgid "goals8"
-msgstr ""
-
-msgid "goals9"
-msgstr ""
-
-msgid "goals10"
-msgstr ""
-
-msgid "goals11"
-msgstr ""

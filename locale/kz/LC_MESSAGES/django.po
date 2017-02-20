@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 17:42+0000\n"
+"POT-Creation-Date: 2017-02-20 11:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -857,100 +857,142 @@ msgid "Change my password"
 msgstr ""
 
 #: templates/main/index.html:26
-msgid "Header"
+#, fuzzy
+#| msgid "Header"
+msgid "header"
 msgstr "TÜRK KENEŞİ"
+
+#: templates/main/index.html:28
+msgid "Turkic University Union"
+msgstr "Түрк Университеттер қауымдастығы"
 
 #: templates/main/index.html:41
 msgid "Main page"
-msgstr "Ana sayfa"
+msgstr "Бас ты бет"
 
 #: templates/main/index.html:42
 msgid "News"
-msgstr "Haberler"
+msgstr "Жаңалықтар  "
 
-#: templates/main/index.html:43
-#, fuzzy
-#| msgid "about"
+#: templates/main/index.html:43 templates/main/index.html:187
 msgid "About"
-msgstr "Hakkımızda"
+msgstr "Туралы"
 
 #: templates/main/index.html:45
 msgid "members"
-msgstr "Üyeler"
+msgstr "Мүшелері"
 
-#: templates/main/index.html:47 templates/main/index.html:447
+#: templates/main/index.html:47 templates/main/index.html:446
 msgid "entertaiments"
-msgstr "Etkinlikler"
+msgstr "iс-шаралар"
 
 #: templates/main/index.html:48
 msgid "photos"
-msgstr "Fotoğraflar"
+msgstr "Суретлер"
 
-#: templates/main/index.html:49 templates/main/index.html:438
+#: templates/main/index.html:49 templates/main/index.html:437
 msgid "student council"
-msgstr "Öğrenci Keneşi"
+msgstr "Студенттер одағы"
 
 #: templates/main/index.html:51
 msgid "turkic council"
-msgstr "Türk Keneşi"
+msgstr "Түрік одағы"
 
 #: templates/main/index.html:53
 msgid "contacts"
-msgstr "İletişim"
+msgstr "Коммуникация"
 
-#: templates/main/index.html:168 templates/main/index.html:444
-#: templates/main/index.html:458
+#: templates/main/index.html:188 templates/main/index.html:210
+#: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
 msgstr "Мақсаттары"
 
-#: templates/main/index.html:169 templates/main/index.html:446
-#: templates/main/index.html:470
+#: templates/main/index.html:189 templates/main/index.html:445
+#: templates/main/index.html:469
 msgid "directivies"
-msgstr "Yönergeler"
+msgstr "Нұсқаулықтар"
 
-#: templates/main/index.html:445
+#: templates/main/index.html:191
+msgid "Chairman"
+msgstr ""
+
+#: templates/main/index.html:203
+msgid "history"
+msgstr ""
+"Түрк кеңесі мүше елдері арасындағы жоғары білім саласындағы ынтымақтастықты "
+"жүзеге асыру мақсатында құрылған Түрк Университеттер қауымдастығы менен -10 "
+"тамыз 2012 жылы Чолпан Атада өткізілген Түрік кеңесі Білім Министірлігі "
+"жиналысы және 23 тамыз 2012 жылы Бішкекте жүзеге асырылған Түрік кеңесі "
+"саммитінде алынған шешімдер нәтижесінде қалыптасты. Соңында 28-29 наурыз "
+"2013 жыл араларында Стамбулда орын алған Түрік кеңесі Түрік Университеттер "
+"Қауымдастығы дайындық кездесүінде алынған шешімдер менен нұсқаулар "
+"дайындалып ұйымдастыру жүзеге асырылды."
+
+#: templates/main/index.html:214
+msgid "goals1"
+msgstr ""
+"Ортақ тарихы, мәдениеті, тіл мұрасынан аттанған жолы, жоғары білім мекемелер "
+"арасындағы ынтымақтастықты қамтамасыз етү, қазіргі заманға сәйкес, ғылыми "
+"деңгейге тиісті білім стандарты жүзеге асырылмасы арқылы ортақ жеке басын "
+"куәландыратын, санасы жоғары сападағы ұрпақ өсірү;"
+
+#: templates/main/index.html:216
+msgid "goals2"
+msgstr "Мүше университеттердің бағдарламаларын үйлесімді жасау"
+
+#: templates/main/index.html:218
+msgid "goals3"
+msgstr "Жалпы кредит трансфер жүйесінін жүзеге асырылуы"
+
+#: templates/main/index.html:220
+msgid "goals4"
+msgstr "Нұсқаушы тәрбиелеу бағдарламаларын жігерлендірү"
+
+#: templates/main/index.html:222
+msgid "goals5"
+msgstr ""
+"Студенттер және мұғалімдердің алмасу бағдарламаларынын іске асырылуы тиіс"
+
+#: templates/main/index.html:224
+msgid "goals6"
+msgstr ""
+"Студенттер және мұғалімдердің алмасу бағдарламаларынын іске асырылуы тиіс"
+
+#: templates/main/index.html:226
+msgid "goals7"
+msgstr ""
+"Мүше университтердің бірбірлерінің диплом деңгейін тануына бағытталған негіз "
+"құрылмасы тиіс"
+
+#: templates/main/index.html:228
+msgid "goals8"
+msgstr ""
+"Университеттердің белгілі бағыттарда ие болған үздік артықшылықтарынан "
+"пайдалану"
+
+#: templates/main/index.html:230
+msgid "goals9"
+msgstr ""
+"Қолдануға арналған жалпы білім берү, зерттеу бағдарламаларынын және "
+"жобалардың орындалуы"
+
+#: templates/main/index.html:232
+msgid "goals10"
+msgstr ""
+"Түрік әлеміне бағытталған зерттеүлер жүргізген студенттерге арнайы стипендия "
+"менен қамтамасыз етү;"
+
+#: templates/main/index.html:234
+msgid "goals11"
+msgstr ""
+"Ортақ тарих , өркениет және әдебиетімізге бағытталған барлық мүше ел "
+"университеттерінде сабақтарды ұсыну бағытында зерттеүлер жасалынмасы болып "
+"табылады."
+
+#: templates/main/index.html:444
 msgid "students"
-msgstr "Öğrenciler"
+msgstr "Студенттер"
 
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
-
-msgid "Turkic University Union"
-msgstr "Түрк Университеттер қауымдастығы"
-
-msgid "history"
-msgstr "Түрк кеңесі мүше елдері арасындағы жоғары білім саласындағы ынтымақтастықты жүзеге асыру мақсатында құрылған Түрк Университеттер қауымдастығы менен -10 тамыз 2012 жылы Чолпан Атада өткізілген Түрік кеңесі Білім Министірлігі жиналысы және 23 тамыз 2012 жылы Бішкекте жүзеге асырылған Түрік кеңесі саммитінде алынған шешімдер нәтижесінде қалыптасты. Соңында 28-29 наурыз 2013 жыл араларында Стамбулда орын алған Түрік кеңесі Түрік Университеттер Қауымдастығы дайындық кездесүінде алынған шешімдер менен нұсқаулар дайындалып ұйымдастыру жүзеге асырылды."
-
-msgid "goals1"
-msgstr "Ортақ тарихы, мәдениеті, тіл мұрасынан аттанған жолы, жоғары білім мекемелер арасындағы ынтымақтастықты қамтамасыз етү, қазіргі заманға сәйкес, ғылыми деңгейге тиісті білім стандарты жүзеге асырылмасы арқылы ортақ жеке басын куәландыратын, санасы жоғары сападағы ұрпақ өсірү;"
-
-msgid "goals2"
-msgstr "Мүше университеттердің бағдарламаларын үйлесімді жасау"
-
-msgid "goals3"
-msgstr "Жалпы кредит трансфер жүйесінін жүзеге асырылуы"
-
-msgid "goals4"
-msgstr "Нұсқаушы тәрбиелеу бағдарламаларын жігерлендірү"
-
-msgid "goals5"
-msgstr "Студенттер және мұғалімдердің алмасу бағдарламаларынын іске асырылуы тиіс"
-
-msgid "goals6"
-msgstr "Студенттер және мұғалімдердің алмасу бағдарламаларынын іске асырылуы тиіс"
-
-msgid "goals7"
-msgstr "Мүше университтердің бірбірлерінің диплом деңгейін тануына бағытталған негіз құрылмасы тиіс"
-
-msgid "goals8"
-msgstr "Университеттердің белгілі бағыттарда ие болған үздік артықшылықтарынан пайдалану"
-
-msgid "goals9"
-msgstr "Қолдануға арналған жалпы білім берү, зерттеу бағдарламаларынын және жобалардың орындалуы"
-
-msgid "goals10"
-msgstr "Түрік әлеміне бағытталған зерттеүлер жүргізген студенттерге арнайы стипендия менен қамтамасыз етү;"
-
-msgid "goals11"
-msgstr "Ортақ тарих , өркениет және әдебиетімізге бағытталған барлық мүше ел университеттерінде сабақтарды ұсыну бағытында зерттеүлер жасалынмасы болып табылады."
