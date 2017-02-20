@@ -149,6 +149,11 @@ ul {
     color: #7ac5f2;
 }
 
+.language li img {
+    width: 40px;
+    height: 40px;
+}
+
 .logo {
     display: inline-block;
     /*vertical-align: middle;*/
@@ -159,6 +164,7 @@ ul {
     width: 123px;
     height: 123px;
 }
+
 
 .slogan {
     font-family: "RalewayBold", sans-serif;
@@ -1503,10 +1509,7 @@ h6 {
     }
 }
 
-.language li img {
-    width: 40px;
-    height: 40px;
-}
+
 
 @media screen and (max-width: 1200px) {
     .bg2 {
