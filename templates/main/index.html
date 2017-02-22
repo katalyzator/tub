@@ -143,7 +143,7 @@
                                                        alt="pattern">
                             </div>
                             <div class="description">
-                                <a href="{{ new.get_absolute_url }}"><h4>{{ new.title }}</h4></a>
+                                <a href="{% url 'single_news' id=new.id %}"><h4>{{ new.title }}</h4></a>
 
 
                                 <p>{{ new.description|truncatewords:11 }}</p>
@@ -166,7 +166,7 @@
                                                        alt="pattern">
                             </div>
                             <div class="description">
-                                <a href="{{ event.get_absolute_url }}"><h4>{{ event.title }}</h4></a>
+                                <a href="{% url 'single_event' id=event.id %}"><h4>{{ event.title }}</h4></a>
 
                                 <p>{{ event.description|truncatewords:11 }}</p>
                             </div>
