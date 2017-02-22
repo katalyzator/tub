@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-22 18:14+0000\n"
+"POT-Creation-Date: 2017-02-22 18:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -872,7 +872,8 @@ msgstr "Ana sayfa"
 msgid "News"
 msgstr "Haberler"
 
-#: templates/main/index.html:43 templates/main/index.html:187
+#: templates/main/index.html:43 templates/main/index.html:183
+#: templates/main/index.html:187
 msgid "About"
 msgstr "Hakkımızda"
 
@@ -884,7 +885,7 @@ msgstr "Üyeler"
 msgid "entertaiments"
 msgstr "Etkinlikler"
 
-#: templates/main/index.html:48
+#: templates/main/index.html:48 templates/main/index.html:591
 msgid "photos"
 msgstr "Fotoğraflar"
 
@@ -909,8 +910,8 @@ msgstr "Duyurular"
 msgid "goals"
 msgstr "Amaçlar"
 
-#: templates/main/index.html:189 templates/main/index.html:445
-#: templates/main/index.html:469
+#: templates/main/index.html:189 templates/main/index.html:245
+#: templates/main/index.html:445 templates/main/index.html:469
 msgid "directivies"
 msgstr "Yönergeler"
 
@@ -997,64 +998,82 @@ msgstr "Presentasyon"
 msgid "member university"
 msgstr "Üye üniversiteler"
 
+#: templates/main/index.html:299
+msgid "Baku"
+msgstr "Bakü Delet Üniversitesi"
+
+#: templates/main/index.html:305
+msgid "Tip"
+msgstr "Azerbaycan Tıp Üniversitesi"
+
+#: templates/main/index.html:311
+msgid "Mimar"
+msgstr "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
+
+#: templates/main/index.html:330
+msgid "Farabi"
+msgstr "Al-Farabi Kazak Milli Üniversitesi"
+
+#: templates/main/index.html:336
+msgid "Gumilev"
+msgstr "L.N Gumilyov Avrasya<br> Devlet Üniversitesi"
+
+#: templates/main/index.html:342
+msgid "Ahmet"
+msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi"
+
+#: templates/main/index.html:348
+msgid "Nazarbaev"
+msgstr "Nazarbayev Üniversitesi"
+
+#: templates/main/index.html:366
+msgid "Yusuf"
+msgstr "Yusuf Balasaguni Kırgız Milli Üniversitesi"
+
+#: templates/main/index.html:372
+msgid "Husein"
+msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi"
+
+#: templates/main/index.html:378
+msgid "uluslar"
+msgstr "Uluslararası Kırgızistan Üniversitesi"
+
+#: templates/main/index.html:384
+msgid "Manas"
+msgstr "Kırgızistan-Türkiye Manas Üniversitesi"
+
+#: templates/main/index.html:402
+msgid "Istanbul"
+msgstr "İstanbul Üniversitesi"
+
+#: templates/main/index.html:408
+msgid "Ege"
+msgstr "Ege Üniversitesi"
+
+#: templates/main/index.html:414
+msgid "Ataturk"
+msgstr "Atatürk Üniversitesi"
+
+#: templates/main/index.html:420
+msgid "Bitlis"
+msgstr "Bitlis Eren Üniversitesi"
+
 #: templates/main/index.html:444
 msgid "students"
 msgstr "Öğrenciler"
 
-#: tub/settings.py:144
-msgid "Kazakh"
-msgstr ""
-
-msgid "Baku"
-msgstr "Bakü Delet Üniversitesi"
-
-msgid "Tip"
-msgstr "Azerbaycan Tıp Üniversitesi"
-
-msgid "Mimar"
-msgstr "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
-
-msgid "Farabi"
-msgstr "Al-Farabi Kazak Milli Üniversitesi"
-
-msgid "Gumilev"
-msgstr "L.N Gumilyov Avrasya<br> Devlet Üniversitesi"
-
-msgid "Ahmet"
-msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi"
-
-msgid "Nazarbaev"
-msgstr "Nazarbayev Üniversitesi"
-
-msgid "Yusuf"
-msgstr "Yusuf Balasaguni Kırgız Milli Üniversitesi"
-
-msgid "Husein"
-msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi"
-
-msgid "uluslar"
-msgstr "Uluslararası Kırgızistan Üniversitesi"
-
-msgid "Manas"
-msgstr "Kırgızistan-Türkiye Manas Üniversitesi"
-
-msgid "Istanbul"
-msgstr "İstanbul Üniversitesi"
-
-msgid "Ege"
-msgstr "Ege Üniversitesi"
-
-msgid "Ataturk"
-msgstr "Atatürk Üniversitesi"
-
-msgid "Bitlis"
-msgstr "Bitlis Eren Üniversitesi"
-
+#: templates/main/index.html:555
 msgid "sporlar"
 msgstr "Spor ve Sanat Etkinlikleri"
 
+#: templates/main/index.html:567
 msgid "kongreler"
 msgstr "Kongre ve Sempozyumlar"
 
+#: templates/main/index.html:580
 msgid "projeler"
 msgstr "Projeler"
+
+#: tub/settings.py:144
+msgid "Kazakh"
+msgstr ""
