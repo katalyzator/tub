@@ -914,6 +914,9 @@ msgstr "Direcitivies"
 msgid "Chairman"
 msgstr "Chairman"
 
+msgid "presentation"
+msgstr "Presentation"
+
 #: templates/main/index.html:203
 msgid "history"
 msgstr ""

@@ -35,7 +35,7 @@
         </div>
 
         <nav class="fixed-header">
-            <div class="grid menu-collapsed">
+            <div class="menu-collapsed">
                 <div class="bar"></div>
                 <ul class="menu">
                     <li><a href="#home">{% trans "Main page" %}</a></li>
@@ -140,7 +140,7 @@
                         <div class="l_news">
                             <div class="news_img">
                                 <img src="{% static 'images/news_icon.png' %}"
-                                                       alt="pattern">
+                                     alt="pattern">
                             </div>
                             <div class="description">
                                 <a href="{% url 'single_news' id=new.id %}"><h4>{{ new.title }}</h4></a>
@@ -163,7 +163,7 @@
                         <div class="r_news">
                             <div class="news_img">
                                 <img src="{% static 'images/event_icon.png' %}"
-                                                       alt="pattern">
+                                     alt="pattern">
                             </div>
                             <div class="description">
                                 <a href="{% url 'single_event' id=event.id %}"><h4>{{ event.title }}</h4></a>
@@ -257,7 +257,7 @@
                 <div class="information group" id="tab-3">
                     <div class="line"></div>
                     <div class="about">
-                        <h5>Presentasyon</h5>
+                        <h5>{% trans 'presentation' %}</h5>
 
                         <p class="fz"></p>
                     </div>
@@ -266,7 +266,7 @@
                 <div class="information group" id="tab-4">
                     <div class="line"></div>
                     <div class="about administration">
-                        <h5>Dönem Başkanı</h5>
+                        <h5>{% trans 'Chairman' %}</h5>
                         <img src="{% static 'images/rsz_rektör.jpg' %}">
                         <p class="fz"><strong>Prof. Dr. Sebahattin Balcı</strong><br>
                             Kırgızstan-Türkiye Manas Üniversite Rektörü <a href="">CV</a> <br>
