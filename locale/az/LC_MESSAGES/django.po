@@ -916,7 +916,10 @@ msgstr "Yönergeler"
 
 #: templates/main/index.html:191
 msgid "Chairman"
-msgstr ""
+msgstr "Dönem Başçısı"
+
+msgid "presentation"
+msgstr "Presentasyon"
 
 #: templates/main/index.html:203
 msgid "history"
