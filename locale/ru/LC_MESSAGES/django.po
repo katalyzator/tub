@@ -988,3 +988,57 @@ msgstr ""
 
 #~ msgid "konsey"
 #~ msgstr "Түрк кеңеши"
+
+msgid "Baku"
+msgstr "Bakı Dövlət Universiteti"
+
+msgid "Tip"
+msgstr "Azerbaycan Tıp Üniversitesi"
+
+msgid "Mimar"
+msgstr "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
+
+msgid "Farabi"
+msgstr "Al-Farabi Kazak Milli Üniversitesi"
+
+msgid "Gumilev"
+msgstr "L.N Gumilyov Avrasya<br> Devlet Üniversitesi"
+
+msgid "Ahmet"
+msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi"
+
+msgid "Nazarbaev"
+msgstr "Nazarbayev Üniversitesi"
+
+msgid "Yusuf"
+msgstr "Yusuf Balasaguni Kırgız Milli Üniversitesi"
+
+msgid "Husein"
+msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi"
+
+msgid "uluslar"
+msgstr "Uluslararası Kırgızistan Üniversitesi"
+
+msgid "Manas"
+msgstr "Kırgızistan-Türkiye Manas Üniversitesi"
+
+msgid "Istanbul"
+msgstr "İstanbul Üniversitesi"
+
+msgid "Ege"
+msgstr "Ege Üniversitesi"
+
+msgid "Ataturk"
+msgstr "Atatürk Üniversitesi"
+
+msgid "Bitlis"
+msgstr "Bitlis Eren Üniversitesi"
+
+msgid "sporlar"
+msgstr "Spor ve Sanat Etkinlikleri"
+
+msgid "kongreler"
+msgstr "Kongre ve Sempozyumlar"
+
+msgid "projeler"
+msgstr "Projeler"

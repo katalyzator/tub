@@ -1011,4 +1011,56 @@ msgstr "Tələbələr"
 msgid "Kazakh"
 msgstr ""
 
+msgid "Baku"
+msgstr "Bakı Dövlət Universiteti"
 
+msgid "Tip"
+msgstr "Azərbaycan Tibb Universiteti"
+
+msgid "Mimar"
+msgstr "Azerbaycan Memarlıq ve İnşaat Universiteti"
+
+msgid "Farabi"
+msgstr "Al-Farabi Kazak Milli Üniversiteti"
+
+msgid "Gumilev"
+msgstr "L.N Gumilyov  Avrasya <br> Dövlet Üniversiteti"
+
+msgid "Ahmet"
+msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversiteti"
+
+msgid "Nazarbaev"
+msgstr "Nazarbayev Üniversiteti"
+
+msgid "Yusuf"
+msgstr "Yusuf Balasaguni Kırgız Milli Ünivrsiteti"
+
+msgid "Husein"
+msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversiteti"
+
+msgid "uluslar"
+msgstr "Beynelxalq  Kırgızistan Üniversiteti"
+
+msgid "Manas"
+msgstr "Kırgızistan-Türkiye Manas Üniversiteti"
+
+msgid "Istanbul"
+msgstr "İstanbul Ünivrsiteti"
+
+msgid "Ege"
+msgstr "Ege Üniversiteti"
+
+msgid "Ataturk"
+msgstr "Atatürk Üniversiteti"
+
+msgid "Bitlis"
+msgstr "Bitlis Eren Üniversiteti"
+
+msgid "sporlar"
+msgstr "İdman ve incəsənət fəaliyyətləri"
+
+msgid "kongreler"
+msgstr "Konqres ve sempozyumlar"
+
+msgid "projeler"
+msgstr "Layihələr"
