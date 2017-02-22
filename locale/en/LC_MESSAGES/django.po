@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-20 11:54+0000\n"
+"POT-Creation-Date: 2017-02-22 18:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -868,7 +868,7 @@ msgstr "TURKIC UNIVERSITY UNION"
 msgid "Main page"
 msgstr "Home"
 
-#: templates/main/index.html:42
+#: templates/main/index.html:42 templates/main/index.html:135
 msgid "News"
 msgstr "News"
 
@@ -900,6 +900,10 @@ msgstr "Turkic Council"
 msgid "contacts"
 msgstr "Contacts"
 
+#: templates/main/index.html:158
+msgid "events"
+msgstr "Events"
+
 #: templates/main/index.html:188 templates/main/index.html:210
 #: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
@@ -910,12 +914,9 @@ msgstr "Goals"
 msgid "directivies"
 msgstr "Direcitivies"
 
-#: templates/main/index.html:191
+#: templates/main/index.html:191 templates/main/index.html:269
 msgid "Chairman"
 msgstr "Chairman"
-
-msgid "presentation"
-msgstr "Presentation"
 
 #: templates/main/index.html:203
 msgid "history"
@@ -988,6 +989,14 @@ msgstr ""
 msgid "goals11"
 msgstr ""
 
+#: templates/main/index.html:260
+msgid "presentation"
+msgstr "Presentation"
+
+#: templates/main/index.html:284
+msgid "member university"
+msgstr "Member universities"
+
 #: templates/main/index.html:444
 msgid "students"
 msgstr "Students"
@@ -996,8 +1005,56 @@ msgstr "Students"
 msgid "Kazakh"
 msgstr ""
 
-msgid "events"
-msgstr "Events"
+msgid "Baku"
+msgstr "Bakı Dövlət Universiteti"
 
-msgid "member university"
-msgstr "Member universities"
+msgid "Tip"
+msgstr "Azerbaycan Tıp Üniversitesi"
+
+msgid "Mimar"
+msgstr "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
+
+msgid "Farabi"
+msgstr "Al-Farabi Kazak Milli Üniversitesi"
+
+msgid "Gumilev"
+msgstr "L.N Gumilyov Avrasya<br> Devlet Üniversitesi"
+
+msgid "Ahmet"
+msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi"
+
+msgid "Nazarbaev"
+msgstr "Nazarbayev Üniversitesi"
+
+msgid "Yusuf"
+msgstr "Yusuf Balasaguni Kırgız Milli Üniversitesi"
+
+msgid "Husein"
+msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi"
+
+msgid "uluslar"
+msgstr "Uluslararası Kırgızistan Üniversitesi"
+
+msgid "Manas"
+msgstr "Kırgızistan-Türkiye Manas Üniversitesi"
+
+msgid "Istanbul"
+msgstr "İstanbul Üniversitesi"
+
+msgid "Ege"
+msgstr "Ege Üniversitesi"
+
+msgid "Ataturk"
+msgstr "Atatürk Üniversitesi"
+
+msgid "Bitlis"
+msgstr "Bitlis Eren Üniversitesi"
+
+msgid "sporlar"
+msgstr "Spor ve Sanat Etkinlikleri"
+
+msgid "kongreler"
+msgstr "Kongre ve Sempozyumlar"
+
+msgid "projeler"
+msgstr "Projeler"

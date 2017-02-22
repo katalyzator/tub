@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-20 11:54+0000\n"
+"POT-Creation-Date: 2017-02-22 18:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -864,146 +864,203 @@ msgstr "TÜRK KENEŞİ"
 
 #: templates/main/index.html:28
 msgid "Turkic University Union"
-msgstr "TURKIC UNIVERSITY UNION"
+msgstr "Türk üniversitetlər birliyi"
 
 #: templates/main/index.html:41
 msgid "Main page"
-msgstr "Ana sayfa"
+msgstr "Ana səyfə"
 
-#: templates/main/index.html:42
+#: templates/main/index.html:42 templates/main/index.html:135
 msgid "News"
-msgstr "Haberler"
+msgstr "Xəbərlər"
 
 #: templates/main/index.html:43 templates/main/index.html:187
 #, fuzzy
 #| msgid "about"
 msgid "About"
-msgstr "Hakkımızda"
+msgstr "Haqqımızda"
 
 #: templates/main/index.html:45
 msgid "members"
-msgstr "Üyeler"
+msgstr "Üzvlər"
 
 #: templates/main/index.html:47 templates/main/index.html:446
 msgid "entertaiments"
-msgstr "Etkinlikler"
+msgstr "Tədbirlər"
 
 #: templates/main/index.html:48
 msgid "photos"
-msgstr "Fotoğraflar"
+msgstr "şəkillər"
 
 #: templates/main/index.html:49 templates/main/index.html:437
 msgid "student council"
-msgstr "Öğrenci Keneşi"
+msgstr "Tələbə şurası"
 
 #: templates/main/index.html:51
 msgid "turkic council"
-msgstr "Türk Keneşi"
+msgstr "Türk şurası"
 
 #: templates/main/index.html:53
 msgid "contacts"
-msgstr "İletişim"
+msgstr "əlaqə"
+
+#: templates/main/index.html:158
+msgid "events"
+msgstr "Xəbərlər"
 
 #: templates/main/index.html:188 templates/main/index.html:210
 #: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
-msgstr "Amaçlar"
+msgstr "Amaclar"
 
 #: templates/main/index.html:189 templates/main/index.html:445
 #: templates/main/index.html:469
 msgid "directivies"
-msgstr "Yönergeler"
+msgstr "göstərişlər"
 
-#: templates/main/index.html:191
+#: templates/main/index.html:191 templates/main/index.html:269
 msgid "Chairman"
 msgstr "Dönem Başçısı"
-
-msgid "presentation"
-msgstr "Presentasyon"
 
 #: templates/main/index.html:203
 msgid "history"
 msgstr ""
-"Türk Dünyası Telebe Şurasına üzv ölkeler arasında ali tehsil seyasinde iş "
-"birliğini gerçekleştirmek meqsediyle qurulmuş olan Türk Üniversiteler "
-"Birliği; 10 Avqust 2012ci il tarihinde Çolpon-Ata’ da düzenlenen Telebe "
-"Şurası Tehsil Nazirleri Toplantısı ve 23 Avqust 2012 ci il tarixinde Bişkek’ "
-"te baş tutan Telebe Şurası İkinci Zirvesi’ nde alınan qerarlar sonucunda "
-"neticelenmişdir. Ve nehayetinde 28-29 Mart 2013 tarihleri arasında İstanbul’ "
-"da baş tutan Telebe Şurası Türk Üniversiteler Birliği hazırlık toplantısında "
-"alınan qerarlar ile planı hazırlanarak quruluşu gerçekleştirilmiştir."
+"Türk Dünyası Tələbə Şurasına  üzv ölkələr arasında ali təhsil sayəsində  iş "
+"birliği gərçəkləşdirmək məqsədi ilə qurulmuş olan Türk Universitetlər "
+"Birliği; 10 Avqust 2012-ci il  tarixində Çolpon-Ata’ da düzənlənən Tələbə "
+"Şurası Təhsil Nazirləri Toplantısı ve 23 Avqust 2012 ci il tarixinde Bişkek’ "
+"də baş tutan Tələbə Şurası İkinci Zirvəsində alınan qərarların sonunda "
+"nəticələnmişdir və nəhayətində 28-29 Mart 2013 tarixləri arasında İstanbul’ "
+"da baş tutan Tələbə Şurası Türk Universitetlər Birliği hazırlıq "
+"toplantısında alınan qərarlar ilə planı hazırlanaraq quruluşu "
+"gərçəkləşdirilmişdir."
 
 #: templates/main/index.html:214
 msgid "goals1"
 msgstr ""
-"Ortaq tarih, kültür, dil mirasından yola çıxaraq yüksek ali tehsil qurumları "
-"arasında işbirliği gerçekleşrilmesi, müasir, bilimsel düzeye uyğun ali "
-"tehsil standartlarının heyata keçirilme süretiyle ortaq kimlik bilinci "
-"yüksek nesiller yetiştirilmesi,"
+"Ortaq tarix, mədəniyyət, dil mirasından yola çıxaraq yüksək ali təhsil  "
+"qurumları arasında iş birliği gərçəkləşdirilməsi ,müasir , elmi səvəyəyə "
+"uyğun ali təhsil  standartlarının həyata keçirilmə sürəti ilə ortaq  "
+"şəxsiyyət şüuru yüksək nəsillər yetişdirilməsi"
 
 #: templates/main/index.html:216
 msgid "goals2"
-msgstr "Üzv üniversitelerdeki programların uyğun hala getirilmesi"
+msgstr "Üzv üniversitetlərdəki programların uyğun hala gətirilməsi"
 
 #: templates/main/index.html:218
 msgid "goals3"
-msgstr "Ortaq kredi transfer sisteminin uygulanması"
+msgstr "Ortaq kredit transfer sisteminin həyata keçirilməsi"
 
 #: templates/main/index.html:220
 msgid "goals4"
-msgstr "Tehsil işcisi yetiştirme programlarının teşvik edilmesi"
+msgstr "Təhsil işcisi  yetişdirmə programlarının təşviq edilməsi"
 
 #: templates/main/index.html:222
 msgid "goals5"
 msgstr ""
-"Telebe ve tehsil işcisinin değişim programlarının testiqe teqdim olunması"
+"Tələbə  və təhsil işcisinin dəyişdirmə programlarının təstiqə təqdim olunması"
 
 #: templates/main/index.html:224
 msgid "goals6"
 msgstr ""
-"Üzv üniversitelerin birbirlerinin diplom tanımalarına yönelik uyğun zeminin "
-"qurulması"
+"Üzv  üniversitetlərin bir-birlərinin diplomların bərabərliyinin tanınması "
+"üçün uyğun zəminin yaradılması"
 
 #: templates/main/index.html:226
 msgid "goals7"
 msgstr ""
-"Üniversitelerin belli alanlarda sahip olduqları öne çıxan üstünlüklerden "
+"Üniversitetlərin müəyyən sahələrdə sahib olduqları  üstünlüklərdən "
 "yararlanılması"
 
 #: templates/main/index.html:228
 msgid "goals8"
 msgstr ""
-"Tetbiqe yönelik ortaq tehsil, araştırma programlarının ve projelerin tedbiq "
-"edilmesi"
+"Sistemə uyğun ortaq təhsil, araşdırma programlarının ve lahiyələrin tədbiq "
+"edilməsi"
 
 #: templates/main/index.html:230
 msgid "goals9"
 msgstr ""
-"Üzv üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim "
-"ve spor sahelerinde yarışmalar heyata keçirilmesi."
+"Üzv üniversitetlər arasında sempozyumlar, akademik fəaliyyətlər, mədəniyyət, "
+"elm və sport sahələrində  yarışmalar həyata keçirilməsi."
 
 #: templates/main/index.html:232
 msgid "goals10"
 msgstr ""
-"Türk dünyasına yönelik çalışmalar tedbiq eden telebelere özel teqaüd "
-"verilmesi"
+"Türk dünyasına istiqamətli işlər içra edən şagirdlərə xüsusi təqaüd ayrılması"
 
 #: templates/main/index.html:234
 msgid "goals11"
 msgstr ""
-"Ortaq tarih, medeniyet ve edebiyatımıza yönelik derslerin bütün üzv ölke "
-"üniversitelerinde verilmesi yönünde çalışmalar etmekdir."
+"Ortaq tarix, mədəniyyət və ədəbiyyatımıza istiqamətli dərslərin bütün üzv "
+"ölkələrin universitetlərində verilməsi istiqamətində işlər həyata keçirilməsi"
+
+#: templates/main/index.html:260
+msgid "presentation"
+msgstr "Presentasyon"
+
+#: templates/main/index.html:284
+msgid "member university"
+msgstr "Üzv üniversitetler"
 
 #: templates/main/index.html:444
 msgid "students"
-msgstr "Öğrenciler"
+msgstr "Tələbələr"
 
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
 
-msgid "events"
-msgstr ""
+msgid "Baku"
+msgstr "Bakı Dövlət Universiteti"
 
-msgid "member university"
-msgstr "Member universities"
+msgid "Tip"
+msgstr "Azərbaycan Tibb Universiteti"
+
+msgid "Mimar"
+msgstr "Azerbaycan Memarlıq ve İnşaat Universiteti"
+
+msgid "Farabi"
+msgstr "Al-Farabi Kazak Milli Üniversiteti"
+
+msgid "Gumilev"
+msgstr "L.N Gumilyov  Avrasya <br> Dövlet Üniversiteti"
+
+msgid "Ahmet"
+msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversiteti"
+
+msgid "Nazarbaev"
+msgstr "Nazarbayev Üniversiteti"
+
+msgid "Yusuf"
+msgstr "Yusuf Balasaguni Kırgız Milli Ünivrsiteti"
+
+msgid "Husein"
+msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversiteti"
+
+msgid "uluslar"
+msgstr "Beynelxalq  Kırgızistan Üniversiteti"
+
+msgid "Manas"
+msgstr "Kırgızistan-Türkiye Manas Üniversiteti"
+
+msgid "Istanbul"
+msgstr "İstanbul Ünivrsiteti"
+
+msgid "Ege"
+msgstr "Ege Üniversiteti"
+
+msgid "Ataturk"
+msgstr "Atatürk Üniversiteti"
+
+msgid "Bitlis"
+msgstr "Bitlis Eren Üniversiteti"
+
+msgid "sporlar"
+msgstr "İdman ve incəsənət fəaliyyətləri"
+
+msgid "kongreler"
+msgstr "Konqres ve sempozyumlar"
+
+msgid "projeler"
+msgstr "Layihələr"
