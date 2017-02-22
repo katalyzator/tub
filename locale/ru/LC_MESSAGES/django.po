@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-20 11:54+0000\n"
+"POT-Creation-Date: 2017-02-22 18:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -870,7 +870,7 @@ msgstr ""
 msgid "Main page"
 msgstr "Башкы баракча"
 
-#: templates/main/index.html:42
+#: templates/main/index.html:42 templates/main/index.html:135
 msgid "News"
 msgstr "Маалымат"
 
@@ -904,6 +904,10 @@ msgstr ""
 msgid "contacts"
 msgstr "Байланыш"
 
+#: templates/main/index.html:158
+msgid "events"
+msgstr "Хабарландырулар"
+
 #: templates/main/index.html:188 templates/main/index.html:210
 #: templates/main/index.html:443 templates/main/index.html:457
 msgid "goals"
@@ -914,7 +918,7 @@ msgstr ""
 msgid "directivies"
 msgstr ""
 
-#: templates/main/index.html:191
+#: templates/main/index.html:191 templates/main/index.html:269
 msgid "Chairman"
 msgstr ""
 
@@ -966,6 +970,14 @@ msgstr ""
 msgid "goals11"
 msgstr ""
 
+#: templates/main/index.html:260
+msgid "presentation"
+msgstr ""
+
+#: templates/main/index.html:284
+msgid "member university"
+msgstr "Member universities"
+
 #: templates/main/index.html:444
 msgid "students"
 msgstr ""
@@ -976,9 +988,3 @@ msgstr ""
 
 #~ msgid "konsey"
 #~ msgstr "Түрк кеңеши"
-
-msgid "events"
-msgstr "Хабарландырулар"
-
-msgid "member university"
-msgstr "Member universities"
