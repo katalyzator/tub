@@ -1747,14 +1747,6 @@ h6 {
     display: none;
 }
 
-/*.news:first-child {*/
-/*float: left;*/
-/*}*/
-
-/*.news:last-child {*/
-/*float: right;*/
-/*}*/
-
 .list_of_news .list_news {
     margin-top: 20px;
     padding: 12px 0;
