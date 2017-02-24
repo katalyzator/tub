@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 13:03+0000\n"
+"POT-Creation-Date: 2017-02-24 13:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -872,7 +872,7 @@ msgstr "TURKIC COUNCIL"
 
 #: templates/main/index.html:28
 msgid "Turkic University Union"
-msgstr "ТҮРК ДҮЙНӨСҮ УНИВЕРСИТЕТТЕРИНИН АССОЦИАЦИЯСЫ"
+msgstr "ТҮРК ДҮЙНӨСҮ УНИВЕРСИТЕТТЕРИНИН <br> АССОЦИАЦИЯСЫ"
 
 #: templates/main/index.html:41
 msgid "Main page"
