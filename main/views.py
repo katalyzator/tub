@@ -149,3 +149,10 @@ def activity_news3(request):
     template = 'activities3.html'
 
     return render(request, template, context)
+
+
+def all_news_view(request):
+    context = {}
+    template = 'all_news.html'
+
+    return render(request, template, context)
