@@ -152,6 +152,7 @@ def activity_news3(request):
 
 
 def all_news_view(request):
+
     context = {}
     template = 'all_news.html'
 
@@ -159,6 +160,7 @@ def all_news_view(request):
 
 
 def all_events_view(request):
+
     context = {}
     template = 'all_events.html'
 
