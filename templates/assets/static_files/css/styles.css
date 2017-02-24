@@ -389,10 +389,10 @@ h2 {
 }
 
 .list_news {
-    background-color: white;
+    background-color: #e4f9f8;
     margin-top: 40px;
     padding: 12px 0;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #535c66;
 }
 
 h3,
@@ -426,11 +426,11 @@ h4 {
 }
 
 .l_news,
-.r_news{
+.r_news {
     position: relative;
 }
 
-.news_img{
+.news_img {
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -439,15 +439,17 @@ h4 {
 }
 
 /*.news_img img{*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*transform: translate( -50%, -50%);*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*transform: translate( -50%, -50%);*/
 /*}*/
 
 .l_news {
     padding: 0 20px 22px 20px;
-    border-bottom: 1px solid #e8e8e8;
+
+    border-bottom: 1px solid #5f656d;
+
 }
 
 .l_news > a {
@@ -484,7 +486,7 @@ h4 {
 
 .r_news {
     padding: 30px 20px 25px 20px;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #5f656d;
 }
 
 .r_news:last-child {
@@ -492,31 +494,31 @@ h4 {
 }
 
 /*.date_block {*/
-    /*position: relative;*/
-    /*display: inline-block;*/
-    /*vertical-align: top;*/
+/*position: relative;*/
+/*display: inline-block;*/
+/*vertical-align: top;*/
 
-    /*width: 85px;*/
-    /*height: 75px;*/
+/*width: 85px;*/
+/*height: 75px;*/
 /*}*/
 
 /*.date {*/
-    /*font-family: "RalewaySemiBold", sans-serif;*/
-    /*font-size: 40px;*/
-    /*color: #fff;*/
-    /*text-align: center;*/
-    /*line-height: 26px;*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*left: 30%;*/
-    /*transform: translate(-50%, -50%);*/
+/*font-family: "RalewaySemiBold", sans-serif;*/
+/*font-size: 40px;*/
+/*color: #fff;*/
+/*text-align: center;*/
+/*line-height: 26px;*/
+/*position: absolute;*/
+/*top: 50%;*/
+/*left: 30%;*/
+/*transform: translate(-50%, -50%);*/
 /*}*/
 
 /*.date span {*/
-    /*display: inline-block;*/
-    /*font-size: 16px;*/
-    /*text-transform: uppercase;*/
-    /*color: #fff;*/
+/*display: inline-block;*/
+/*font-size: 16px;*/
+/*text-transform: uppercase;*/
+/*color: #fff;*/
 /*}*/
 
 .description {
@@ -583,7 +585,6 @@ h4 {
 .administration > p a {
     color: #0a68a3;
     text-decoration: none;
-
 }
 
 .administration > p {
@@ -662,6 +663,16 @@ h5 {
     font-size: 16px;
     color: #333333;
     line-height: 24px;
+}
+
+.All_news {
+    font-family: "RalewayRegular", sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+
 }
 
 /*///////////////////////////////////////*/
@@ -1505,8 +1516,6 @@ h6 {
     }
 }
 
-
-
 @media screen and (max-width: 1200px) {
     .bg2 {
         padding: 0 5px;
@@ -1706,11 +1715,11 @@ h6 {
         margin-bottom: 10px;
     }
 
-    .gallery a:nth-child(2n) .photo_desc{
+    .gallery a:nth-child(2n) .photo_desc {
         margin-right: 0;
     }
 
-    .gallery > div:nth-child(4){
+    .gallery > div:nth-child(4) {
         margin-right: 0;
     }
 }
@@ -1718,3 +1727,99 @@ h6 {
 /*///////////////////////////////////////*/
 /*--------------ACTIVITIES---------------*/
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*///////////////////////////////////////*/
+/*---------------ALL-NEWS---------------*/
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.list_of_news {
+    background: url("../../assets/images/OHT3JJ0.jpg") center no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.list_of_news .news {
+    float: none;
+    width: 100%;
+}
+
+.list_of_news .line {
+    display: none;
+}
+
+/*.news:first-child {*/
+/*float: left;*/
+/*}*/
+
+/*.news:last-child {*/
+/*float: right;*/
+/*}*/
+
+.list_of_news .list_news {
+    margin-top: 20px;
+    padding: 12px 0;
+
+}
+
+h3,
+h4 {
+    font-family: "RalewaySemiBold", sans-serif;
+    font-size: 17px;
+    color: #2d374b;
+}
+
+h3 {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.line {
+    width: 105px;
+    height: 5px;
+    margin-top: 12px;
+    margin-left: 50px;
+    background-color: #fff;
+}
+
+.news:last-child .line {
+    width: 120px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.l_news {
+    padding: 0 50px 22px 50px;
+    border-bottom: 1px solid #5f656d;
+}
+
+.l_news:last-child {
+    border-bottom: none;
+}
+
+.l_news > span {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-family: "RalewaySemiBold", sans-serif;
+    font-size: 13px;
+    color: #878787;
+}
+
+.list_news p {
+    font-family: "RalewayRegular", sans-serif;
+    font-size: 15px;
+    color: #333333;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.news:last-child h4 {
+    margin: 0;
+}
+
+.news:last-child .list_news {
+    padding: 5px 0 15px 0;
+}
