@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 11:02+0000\n"
+"POT-Creation-Date: 2017-02-24 11:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -903,10 +903,6 @@ msgstr "şəkillər"
 msgid "student council"
 msgstr "Tələbə şurası"
 
-
-msgid "introduce"
-msgstr "Tanıtım"
-
 #: templates/main/index.html:51
 msgid "turkic council"
 msgstr "Türk şurası"
@@ -932,6 +928,10 @@ msgstr "göstərişlər"
 #: templates/main/index.html:193 templates/main/index.html:271
 msgid "Chairman"
 msgstr "Dönem Başçısı"
+
+#: templates/main/index.html:195
+msgid "introduce"
+msgstr "Tanıtım"
 
 #: templates/main/index.html:203
 msgid "history_name"
@@ -1013,6 +1013,14 @@ msgstr ""
 #: templates/main/index.html:262
 msgid "presentation"
 msgstr "Presentasyon"
+
+#: templates/main/index.html:273
+msgid "professor"
+msgstr "Prof. Dr. Sebahattin Balcı"
+
+#: templates/main/index.html:274
+msgid "rektor"
+msgstr "Qırğızıstan-Türkiyə Manas Universiteti Rektoru"
 
 #: templates/main/index.html:286
 msgid "member university"

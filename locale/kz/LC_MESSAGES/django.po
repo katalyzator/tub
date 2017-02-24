@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 11:02+0000\n"
+"POT-Creation-Date: 2017-02-24 11:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -929,6 +929,10 @@ msgstr "Нұсқаулықтар"
 msgid "Chairman"
 msgstr ""
 
+#: templates/main/index.html:195
+msgid "introduce"
+msgstr "Tanıtım"
+
 #: templates/main/index.html:203
 msgid "history_name"
 msgstr "Тарых"
@@ -1009,6 +1013,14 @@ msgstr ""
 #: templates/main/index.html:262
 msgid "presentation"
 msgstr ""
+
+#: templates/main/index.html:273
+msgid "professor"
+msgstr "Prof. Dr. Sebahattin Balcı"
+
+#: templates/main/index.html:274
+msgid "rektor"
+msgstr "Kırgızstan-Türkiye Manas Üniversite Rektörü"
 
 #: templates/main/index.html:286
 msgid "member university"
@@ -1093,7 +1105,3 @@ msgstr "Projeler"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
-
-
-msgid "introduce"
-msgstr "Tanıtım"
