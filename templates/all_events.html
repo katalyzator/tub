@@ -59,30 +59,14 @@
 
                 <div class="line"></div>
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
-                    <div class="l_news">
-                        <h4>Türk Üniversiteler Birliği Kapsamında Staj</h4>
-                        <span>Yesterday</span>
+                    {% for event in events %}
+                        <div class="l_news">
+                            <h4>{{ event.title }}</h4>
 
-                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
-                            İkinci
-                            Genel Kurulu’nun</p>
-                    </div>
+                            <p>{{ event.description }}</p>
+                        </div>
+                    {% endfor %}
 
-                    <div class="l_news">
-                        <h4>KTMÜ’de Orhun Süreci Çalıştayı Ön Toplantısı Yapıldı</h4>
-                        <span>26/09/2016</span>
-
-                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
-                            İkinci Genel Kurulu’nun</p>
-                    </div>
-
-                    <div class="l_news">
-                        <h4>Türk Üniversiteler Birliği Kapsamında Staj </h4>
-                        <span>26/09/2016</span>
-
-                        <p>11-12 Nisan 2016 tarihlerinde Erzurum’da gerçekleşen Türk Keneşi Türk Üniversiteler Birliği
-                            İkinci Genel Kurulu’nun</p>
-                    </div>
                 </div>
             </div>
         </div>
