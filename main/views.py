@@ -156,3 +156,10 @@ def all_news_view(request):
     template = 'all_news.html'
 
     return render(request, template, context)
+
+
+def all_events_view(request):
+    context = {}
+    template = 'all_events.html'
+
+    return render(request, template, context)
