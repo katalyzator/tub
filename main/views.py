@@ -149,3 +149,20 @@ def activity_news3(request):
     template = 'activities3.html'
 
     return render(request, template, context)
+
+
+def all_news_view(request):
+    news = News.objects.all()
+
+    context = {"news": news}
+    template = 'all_news.html'
+
+    return render(request, template, context)
+
+
+def all_events_view(request):
+    events = Event.objects.all()
+    context = {"events": events}
+    template = 'all_events.html'
+
+    return render(request, template, context)

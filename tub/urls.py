@@ -23,6 +23,8 @@ urlpatterns += solid_i18n_patterns('',
                                    url(r'^activities/', 'main.views.activity_news1', name='activity_1'),
                                    url(r'^activities2/', 'main.views.activity_news2', name='activity_2'),
                                    url(r'^activities3/', 'main.views.activity_news3', name='activity_3'),
+                                   url(r'^news/', 'main.views.all_news_view', name='all_news_view'),
+                                   url(r'^events/', 'main.views.all_events_view', name='all_events_view'),
                                    )
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
