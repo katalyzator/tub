@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 07:59+0000\n"
+"POT-Creation-Date: 2017-02-24 09:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -856,6 +856,11 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
+#: templates/all_events.html:58 templates/all_news.html:58
+#: templates/main/index.html:178
+msgid "All_events"
+msgstr "All Events"
+
 #: templates/main/index.html:26
 msgid "header"
 msgstr "TURKIC COUNCIL"
@@ -901,7 +906,7 @@ msgstr "Turkic Council"
 msgid "contacts"
 msgstr "Contacts"
 
-#: templates/main/index.html:155 templates/main/index.html:178
+#: templates/main/index.html:155
 msgid "all_news"
 msgstr "All news"
 

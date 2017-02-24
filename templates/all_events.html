@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% load staticfiles %}
-
+ {% load i18n %}
 {% block content %}
     <header id="home">
         <div class="pattern">
@@ -9,11 +9,11 @@
             <div class="h_bg"></div>
             <div class="grid content1">
                 <ul class="language">
-                    <li><a href="/tr">Tür</a></li>
-                    <li><a href="/en">eng</a></li>
-                    <li><a href="/">кыр</a></li>
-                    <li><a href="#">az</a></li>
-                    <li><a href="#">kz</a></li>
+                     <li><a href="/ru"><img src="{% static 'images/kg_icon.png' %}"></a></li>
+                    <li><a href="/"><img src="{% static 'images/tr_icon.png' %}"></a></li>
+                    <li><a href="/en"><img src="{% static 'images/en_icon.png' %}"></a></li>
+                    <li><a href="/az"><img src="{% static 'images/az_icon.ico' %}"></a></li>
+                    <li><a href="/kz"><img src="{% static 'images/kz_icon.png' %}"></a></li>
                 </ul>
 
                 <div class="logo">
