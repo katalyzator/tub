@@ -1732,7 +1732,7 @@ h6 {
 /*---------------ALL-NEWS---------------*/
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
-.list_of_news {
+ .list_of_news {
     background: url("../images/OHT3JJ0.jpg") center no-repeat;
     background-size: cover;
     padding: 50px 0;
@@ -1743,7 +1743,7 @@ h6 {
     width: 100%;
 }
 
-.list_of_news .line {
+ .list_of_news .line {
     display: none;
 }
 
@@ -1791,16 +1791,16 @@ h4 {
     margin-bottom: 10px;
 }
 
-.l_news {
-    padding: 0 50px 22px 50px;
+.news_other .l_news {
+    padding: 10px 50px 22px 50px;
     border-bottom: 1px solid #5f656d;
 }
 
-.l_news:last-child {
+.news_other .l_news:last-child {
     border-bottom: none;
 }
 
-.l_news > span {
+.news_other .l_news > span {
     display: inline-block;
     margin-bottom: 12px;
     font-family: "RalewaySemiBold", sans-serif;
@@ -1808,7 +1808,7 @@ h4 {
     color: #878787;
 }
 
-.list_news p {
+.news_other .list_news p {
     font-family: "RalewayRegular", sans-serif;
     font-size: 15px;
     color: #333333;
