@@ -61,7 +61,7 @@
                 <div class="list_news wow slideInLeft" data-wow-offset="250">
                     {% for new in news %}
                         <div class="l_news">
-                            <h4>{{ new.title }}</h4>
+                            <h4><a href="{% url 'single_news' id=new.id %}">{{ new.title }}</a> </h4>
 
                             <p>{{ new.description }}</p>
                         </div>
