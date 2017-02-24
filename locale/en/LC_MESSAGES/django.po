@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 09:05+0000\n"
+"POT-Creation-Date: 2017-02-24 11:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -856,10 +856,13 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
-#: templates/all_events.html:58 templates/all_news.html:58
-#: templates/main/index.html:178
+#: templates/all_events.html:58 templates/main/index.html:178
 msgid "All_events"
 msgstr "All Events"
+
+#: templates/all_news.html:58 templates/main/index.html:155
+msgid "all_news"
+msgstr "All news"
 
 #: templates/main/index.html:26
 msgid "header"
@@ -906,13 +909,13 @@ msgstr "Turkic Council"
 msgid "contacts"
 msgstr "Contacts"
 
-#: templates/main/index.html:155
-msgid "all_news"
-msgstr "All news"
-
 #: templates/main/index.html:159
 msgid "events"
 msgstr "Events"
+
+
+msgid "introduce"
+msgstr "Tanıtım"
 
 #: templates/main/index.html:190 templates/main/index.html:212
 #: templates/main/index.html:445 templates/main/index.html:459
@@ -927,6 +930,10 @@ msgstr "Direcitivies"
 #: templates/main/index.html:193 templates/main/index.html:271
 msgid "Chairman"
 msgstr "Chairman"
+
+#: templates/main/index.html:203
+msgid "history_name"
+msgstr "Hostory"
 
 #: templates/main/index.html:205
 msgid "history"

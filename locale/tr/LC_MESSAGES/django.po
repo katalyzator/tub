@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 09:05+0000\n"
+"POT-Creation-Date: 2017-02-24 11:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -856,10 +856,13 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
-#: templates/all_events.html:58 templates/all_news.html:58
-#: templates/main/index.html:178
+#: templates/all_events.html:58 templates/main/index.html:178
 msgid "All_events"
 msgstr "Tüm duyurular"
+
+#: templates/all_news.html:58 templates/main/index.html:155
+msgid "all_news"
+msgstr "Tüm haberler"
 
 #: templates/main/index.html:26
 msgid "header"
@@ -906,10 +909,6 @@ msgstr "Türk Keneşi"
 msgid "contacts"
 msgstr "İletişim"
 
-#: templates/main/index.html:155
-msgid "all_news"
-msgstr "Tüm haberler"
-
 #: templates/main/index.html:159
 msgid "events"
 msgstr "Duyurular"
@@ -927,6 +926,10 @@ msgstr "Yönergeler"
 #: templates/main/index.html:193 templates/main/index.html:271
 msgid "Chairman"
 msgstr "Dönem Başkanı"
+
+#: templates/main/index.html:203
+msgid "history_name"
+msgstr "Tarih"
 
 #: templates/main/index.html:205
 msgid "history"
@@ -1086,3 +1089,6 @@ msgstr "Projeler"
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
+
+msgid "introduce"
+msgstr "Tanıtım"
