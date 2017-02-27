@@ -20,10 +20,13 @@
                     <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
 
                     <div class="slogan">
-                        <h1>TÜRK KENEŞİ</h1>
+{#                        <h1>TÜRK KENEŞİ</h1>#}
 
                         <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
                     </div>
+
+                    <a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank"><img
+                            src="{% static 'images/logo_turrkon.png' %}"></a>
                 </div>
             </div>
         </div>
@@ -32,7 +35,8 @@
         {% load i18n %}
 
         <nav class="fixed-header">
-            <div class="grid">
+            <div class="menu-collapsed">
+                <div class="bar"></div>
                 <ul class="menu">
                     <li><a href="{% url 'index' %}#home">Ana Sayfa</a></li>
                     <li><a href="{% url 'index' %}#news">Haberler</a></li>

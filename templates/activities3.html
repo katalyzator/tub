@@ -10,22 +10,25 @@
 
             <div class="h_bg"></div>
             <div class="grid content1">
-                <ul class="language">
-                    <li><a href="/tr">Tür</a></li>
-                    <li><a href="/en">eng</a></li>
-                    <li><a href="/">кыр</a></li>
-                    <li><a href="#">az</a></li>
-                    <li><a href="#">kz</a></li>
+                 <ul class="language">
+                    <li><a href="/ru"><img src="{% static 'images/kg_icon.png' %}"></a></li>
+                    <li><a href="/"><img src="{% static 'images/tr_icon.png' %}"></a></li>
+                    <li><a href="/en"><img src="{% static 'images/en_icon.png' %}"></a></li>
+                    <li><a href="/az"><img src="{% static 'images/az_icon.ico' %}"></a></li>
+                    <li><a href="/kz"><img src="{% static 'images/kz_icon.png' %}"></a></li>
                 </ul>
 
                 <div class="logo">
                     <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
 
                     <div class="slogan">
-                        <h1>TÜRK KENEŞİ</h1>
+{#                        <h1>TÜRK KENEŞİ</h1>#}
 
                         <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
                     </div>
+
+                    <a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank"><img
+                            src="{% static 'images/logo_turrkon.png' %}"></a>
                 </div>
             </div>
         </div>
@@ -34,7 +37,8 @@
         {% load i18n %}
 
         <nav class="fixed-header">
-            <div class="grid">
+            <div class="menu-collapsed">
+                <div class="bar"></div>
                 <ul class="menu">
                     <li><a href="{% url 'index' %}#home">Ana Sayfa</a></li>
                     <li><a href="{% url 'index' %}#news">Haberler</a></li>
