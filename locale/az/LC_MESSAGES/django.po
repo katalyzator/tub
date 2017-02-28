@@ -1106,5 +1106,8 @@ msgstr "Layihələr"
 msgid "Kazakh"
 msgstr ""
 
+msgid "read more"
+msgstr "Read More"
+
 #~ msgid "bashkan"
 #~ msgstr "Tələbə Şurası  Türk Universitetlər Birliği Başçısı"

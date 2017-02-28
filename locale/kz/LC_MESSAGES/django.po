@@ -1106,5 +1106,8 @@ msgstr "Projeler"
 msgid "Kazakh"
 msgstr ""
 
+msgid "read more"
+msgstr "Read More"
+
 #~ msgid "bashkan"
 #~ msgstr "Түрк Кеӊеши Түрк университеттер биримдигинин төрагасы "

@@ -1110,6 +1110,9 @@ msgstr "Долборлор"
 msgid "Kazakh"
 msgstr ""
 
+msgid "read more"
+msgstr "Уландысы"
+
 #~ msgid "konsey"
 #~ msgstr "Түрк кеңеши"
 
