@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-24 13:55+0000\n"
+"POT-Creation-Date: 2017-02-28 11:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -856,11 +856,11 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
-#: templates/all_events.html:58 templates/main/index.html:178
+#: templates/all_events.html:62 templates/main/index.html:178
 msgid "All_events"
 msgstr "All Events"
 
-#: templates/all_news.html:58 templates/main/index.html:155
+#: templates/all_news.html:62 templates/main/index.html:155
 msgid "all_news"
 msgstr "Tüm haberler"
 
@@ -891,15 +891,15 @@ msgstr "Haqqımızda"
 msgid "members"
 msgstr "Üzvlər"
 
-#: templates/main/index.html:47 templates/main/index.html:449
+#: templates/main/index.html:47 templates/main/index.html:448
 msgid "entertaiments"
 msgstr "Tədbirlər"
 
-#: templates/main/index.html:48 templates/main/index.html:594
+#: templates/main/index.html:48 templates/main/index.html:591
 msgid "photos"
 msgstr "Şəkillər"
 
-#: templates/main/index.html:49 templates/main/index.html:440
+#: templates/main/index.html:49 templates/main/index.html:439
 msgid "student council"
 msgstr "Tələbə şurası"
 
@@ -916,16 +916,16 @@ msgid "events"
 msgstr "Xəbərlər"
 
 #: templates/main/index.html:190 templates/main/index.html:213
-#: templates/main/index.html:446 templates/main/index.html:460
+#: templates/main/index.html:445 templates/main/index.html:459
 msgid "goals"
 msgstr "Amaclar"
 
 #: templates/main/index.html:191 templates/main/index.html:248
-#: templates/main/index.html:448 templates/main/index.html:472
+#: templates/main/index.html:447 templates/main/index.html:469
 msgid "directivies"
 msgstr "Göstərişlər"
 
-#: templates/main/index.html:193 templates/main/index.html:272
+#: templates/main/index.html:193 templates/main/index.html:271
 msgid "Chairman"
 msgstr "Dönem Başçısı"
 
@@ -1010,95 +1010,131 @@ msgstr ""
 "Ortaq tarix, mədəniyyət və ədəbiyyatımıza istiqamətli dərslərin bütün üzv "
 "ölkələrin universitetlərində verilməsi istiqamətində işlər həyata keçirilməsi"
 
-#: templates/main/index.html:263
+#: templates/main/index.html:251
+msgid "some text1"
+msgstr "Üniversiteler Birliği ve Yükseköğretim Alanı Oluşturma Yönergesi"
+
+#: templates/main/index.html:262
 msgid "presentation"
 msgstr "Presentasyon"
 
-#: templates/main/index.html:274
+#: templates/main/index.html:273
 msgid "professor"
 msgstr "Prof. Dr. Sebahattin Balcı"
 
-#: templates/main/index.html:275
+#: templates/main/index.html:274
 msgid "rektor"
 msgstr "Qırğızıstan-Türkiyə Manas Universiteti Rektoru"
 
-#: templates/main/index.html:287
+#: templates/main/index.html:286
 msgid "member university"
 msgstr "Üzv üniversitetler"
 
-#: templates/main/index.html:302
+#: templates/main/index.html:301
 msgid "Baku"
 msgstr "Bakı Dövlət Universiteti"
 
-#: templates/main/index.html:308
+#: templates/main/index.html:307
 msgid "Tip"
 msgstr "Azərbaycan Tibb Universiteti"
 
-#: templates/main/index.html:314
+#: templates/main/index.html:313
 msgid "Mimar"
 msgstr "Azerbaycan Memarlıq ve İnşaat Universiteti"
 
-#: templates/main/index.html:333
+#: templates/main/index.html:332
 msgid "Farabi"
 msgstr "Al-Farabi Kazak Milli Üniversiteti"
 
-#: templates/main/index.html:339
+#: templates/main/index.html:338
 msgid "Gumilev"
 msgstr "L.N Gumilyov  Avrasya <br> Dövlet Üniversiteti"
 
-#: templates/main/index.html:345
+#: templates/main/index.html:344
 msgid "Ahmet"
 msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversiteti"
 
-#: templates/main/index.html:351
+#: templates/main/index.html:350
 msgid "Nazarbaev"
 msgstr "Nazarbayev Üniversiteti"
 
-#: templates/main/index.html:369
+#: templates/main/index.html:368
 msgid "Yusuf"
 msgstr "Yusuf Balasaguni Kırgız Milli Ünivrsiteti"
 
-#: templates/main/index.html:375
+#: templates/main/index.html:374
 msgid "Husein"
 msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversiteti"
 
-#: templates/main/index.html:381
+#: templates/main/index.html:380
 msgid "uluslar"
 msgstr "Beynelxalq  Kırgızistan Üniversiteti"
 
-#: templates/main/index.html:387
+#: templates/main/index.html:386
 msgid "Manas"
 msgstr "Kırgızistan-Türkiye Manas Üniversiteti"
 
-#: templates/main/index.html:405
+#: templates/main/index.html:404
 msgid "Istanbul"
 msgstr "İstanbul Ünivrsiteti"
 
-#: templates/main/index.html:411
+#: templates/main/index.html:410
 msgid "Ege"
 msgstr "Ege Üniversiteti"
 
-#: templates/main/index.html:417
+#: templates/main/index.html:416
 msgid "Ataturk"
 msgstr "Atatürk Üniversiteti"
 
-#: templates/main/index.html:423
+#: templates/main/index.html:422
 msgid "Bitlis"
 msgstr "Bitlis Eren Üniversiteti"
 
-#: templates/main/index.html:447
+#: templates/main/index.html:428
+msgid "Eski"
+msgstr "Eskişehir Osmangazi Üniversiteti"
+
+#: templates/main/index.html:446 templates/main/index.html:481
 msgid "students"
 msgstr "Tələbələr"
 
-#: templates/main/index.html:558
+#: templates/main/index.html:461
+msgid "some text2"
+msgstr ""
+"Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite öğrencileri "
+"arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve "
+"geliştirilmesini sağlamaktır."
+
+#: templates/main/index.html:483
+msgid "azerbaycan"
+msgstr "Azərbaycan"
+
+#: templates/main/index.html:492
+msgid "Kyrgyz"
+msgstr "Kırgızistan"
+
+#: templates/main/index.html:501
+msgid "Turk"
+msgstr "Türkiye"
+
+#: templates/main/index.html:519
+msgid "Kazakistan"
+msgstr "Kazakistan"
+
+#: templates/main/index.html:555
 msgid "sporlar"
 msgstr "İdman ve incəsənət fəaliyyətləri"
 
-#: templates/main/index.html:570
+#: templates/main/index.html:559 templates/main/index.html:571
+#: templates/main/index.html:584
+msgid "read more"
+msgstr "Read More"
+
+#: templates/main/index.html:567
 msgid "kongreler"
 msgstr "Konqres ve sempozyumlar"
 
-#: templates/main/index.html:583
+#: templates/main/index.html:580
 msgid "projeler"
 msgstr "Layihələr"
 
@@ -1106,8 +1142,8 @@ msgstr "Layihələr"
 msgid "Kazakh"
 msgstr ""
 
-msgid "read more"
-msgstr "Read More"
+#~ msgid "stud"
+#~ msgstr "Students"
 
 #~ msgid "bashkan"
 #~ msgstr "Tələbə Şurası  Türk Universitetlər Birliği Başçısı"
