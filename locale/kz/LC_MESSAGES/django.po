@@ -927,7 +927,7 @@ msgstr "Нұсқаулықтар"
 
 #: templates/main/index.html:193 templates/main/index.html:272
 msgid "Chairman"
-msgstr ""
+msgstr "Мерзім басшысы"
 
 #: templates/main/index.html:195
 msgid "introduce"
@@ -935,7 +935,7 @@ msgstr "Tanıtım"
 
 #: templates/main/index.html:204
 msgid "history_name"
-msgstr "Тарых"
+msgstr "Тарихы"
 
 #: templates/main/index.html:206
 msgid "history"
@@ -1028,63 +1028,63 @@ msgstr "Мүше университеттер"
 
 #: templates/main/index.html:302
 msgid "Baku"
-msgstr "Bakı Dövlət Universiteti"
+msgstr "Баку Мемлекеттік Университеті"
 
 #: templates/main/index.html:308
 msgid "Tip"
-msgstr "Azerbaycan Tıp Üniversitesi"
+msgstr "Әзірбайжан Медициналық Университеті"
 
 #: templates/main/index.html:314
 msgid "Mimar"
-msgstr "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
+msgstr "Әзірбайжан Сәүлет және Құрылыс Университеті"
 
 #: templates/main/index.html:333
 msgid "Farabi"
-msgstr "Al-Farabi Kazak Milli Üniversitesi"
+msgstr "Әл-Фараби атындағы Қазақ Ұлттық Университеті"
 
 #: templates/main/index.html:339
 msgid "Gumilev"
-msgstr "L.N Gumilyov Avrasya<br> Devlet Üniversitesi"
+msgstr "Л.Н. Гумилев атындағы Еуразия Мемлекеттік Университеті"
 
 #: templates/main/index.html:345
 msgid "Ahmet"
-msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi"
+msgstr "Ахмет Яссауи Халықаралық Қазақ-Түрік университеті"
 
 #: templates/main/index.html:351
 msgid "Nazarbaev"
-msgstr "Nazarbayev Üniversitesi"
+msgstr "Назарбаев Университеті"
 
 #: templates/main/index.html:369
 msgid "Yusuf"
-msgstr "Yusuf Balasaguni Kırgız Milli Üniversitesi"
+msgstr "Ю. Баласағұн атындағы Қырғыз Ұлттық Университеті"
 
 #: templates/main/index.html:375
 msgid "Husein"
-msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi"
+msgstr "Хусейн Қарасаев атындағы Бішкек Гуманитарлық Университеті"
 
 #: templates/main/index.html:381
 msgid "uluslar"
-msgstr "Uluslararası Kırgızistan Üniversitesi"
+msgstr "Қырғызстан Халықаралық Университеті"
 
 #: templates/main/index.html:387
 msgid "Manas"
-msgstr "Kırgızistan-Türkiye Manas Üniversitesi"
+msgstr "Қырғызстан-Түрк Манас Университеті"
 
 #: templates/main/index.html:405
 msgid "Istanbul"
-msgstr "İstanbul Üniversitesi"
+msgstr "Стамбул Университеті"
 
 #: templates/main/index.html:411
 msgid "Ege"
-msgstr "Ege Üniversitesi"
+msgstr "Эгей Университеті"
 
 #: templates/main/index.html:417
 msgid "Ataturk"
-msgstr "Atatürk Üniversitesi"
+msgstr "Ататүрік Университеті"
 
 #: templates/main/index.html:423
 msgid "Bitlis"
-msgstr "Bitlis Eren Üniversitesi"
+msgstr "Битлис Ерени Университеті"
 
 #: templates/main/index.html:447
 msgid "students"
