@@ -38,6 +38,7 @@ class News(models.Model):
     title = models.CharField(max_length=255, verbose_name='Заголовок поста')
     description = models.CharField(max_length=1000, verbose_name='Описание поста')
     text = models.TextField(verbose_name='Текст поста')
+    urls = models.URLField(verbose_name='URL', blank=True)
 
     timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
