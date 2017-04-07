@@ -83,8 +83,9 @@ header {
 
 .pattern {
     position: relative;
-    /*background: url("../../assets/images/header_image.jpg") center no-repeat;*/
-    /*background-size: cover;*/
+    /*background: url("../images/tu_bg.jpg") center top no-repeat;*/
+
+    background-size: cover;
     background-color: #2e3948;
 }
 
@@ -177,8 +178,8 @@ h1 {
 
 .slogan p {
     /*font-family: "RalewayRegular", sans-serif;*/
-    font-size: 15px;
-    color: #fff;
+    font-size: 18px;
+    color: white;
 }
 
 nav {
