@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+    <header id="home">
+        <div class="pattern">
+
+            <div class="h_bg"></div>
+            <div class="grid content1">
+                <ul class="language">
+                    <li><a href="/ru"><img src="{% static 'images/kg_icon.png' %}"></a></li>
+                    <li><a href="/"><img src="{% static 'images/tr_icon.png' %}"></a></li>
+                    <li><a href="/en"><img src="{% static 'images/en_icon.png' %}"></a></li>
+                    <li><a href="/az"><img src="{% static 'images/az_icon.ico' %}"></a></li>
+                    <li><a href="/kz"><img src="{% static 'images/kz_icon.png' %}"></a></li>
+                </ul>
+
+                <div class="logo">
+                    <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
+
+                    <div class="slogan">
+                        {#                        <h1>TÜRK KENEŞİ</h1>#}
+
+                        <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                    </div>
+                    <a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank"><img
+                            src="{% static 'images/logo_turrkon.png' %}"></a>
+
+                </div>
+            </div>
+        </div>
+
+
+        {% load i18n %}
+
+        <nav class="fixed-header">
+            <div class="menu-collapsed">
+                <div class="bar"></div>
+                <ul class="menu">
+                    <li><a href="{% url 'index' %}#home">Ana Sayfa</a></li>
+                    <li><a href="{% url 'index' %}#news">Haberler</a></li>
+                    <li><a href="{% url 'index' %}#about">Hakkımızda</a></li>
+
+                    <li><a href="{% url 'index' %}#member">Üyeler</a></li>
+
+                    <li><a href="{% url 'index' %}#entertaintments">Etkinlikler</a></li>
+                    <li><a href="{% url 'index' %}#photos">Fotoğraflar</a></li>
+                    <li><a href="{% url 'index' %}http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">Türk Keneşi</a>
+                    </li>
+                    <li><a href="{% url 'index' %}#council">Öğrenci Keneşi</a></li>
+                    <li><a href="{% url 'index' %}#contacts">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="orhun">
+        <div class="orhun_content grid">
+            <h3>Orhun Değişim Programi</h3>
+            <div class="line"></div>
+
+            <ul class="student_council">
+                <li><a href="#orhun1">Yönetmenlik</a></li>
+                <li><a href="#orhun2">Duyurular</a></li>
+                <li><a href="#orhun3">Belgeler</a></li>
+                <!--<li><a href="#orhun3">Instructions</a></li>-->
+                <!--<li><a href="#student5">Photos</a></li>-->
+            </ul>
+
+            <div class="council">
+                <div class="about_council group" id="orhun1">
+                    <div class="line"></div>
+                    <div class="c_information">
+                        <h5>About us</h5>
+                        <img src="assets/images/council.png" alt="logo">
+                        <p class="fz">Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini
+                            gerçekleştirmek
+                            amacıyla
+                            kurulmuş olan Türk Üniversiteler Birliği; 10 Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan
+                            Türk
+                            Keneşi Eğitim Bakanları Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen
+                            Türk
+                            Keneşi İkinci Zirvesi’ nde alınan kararlar sonucunda şekillenmiş nihayetinde 28-29 Mart 2013
+                            tarihleri arasında İstanbul’ da yapılan Türk Keneşi Türk Üniversiteler Birliği Hazırlık
+                            toplantısında alınan kararlar ile yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir.</p>
+                    </div>
+                    <img src="assets/images/pattern2.png" alt="pattern">
+                </div>
+
+                <div class="about_council group" id="orhun2">
+                    <div class="line"></div>
+                    <div class="c_information">
+                        <h5>Duyurular</h5>
+                        <!--<p class="fz">Bu Yönergenin amacı; Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite-->
+                        <!--öğrencileri arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve-->
+                        <!--geliştirilmesini sağlamak üzere Öğrenci Keneşi oluşturmak ve oluşturulacak Keneş’in kuruluş,-->
+                        <!--görev, yetki ve çalışma esaslarını düzenlemektir.</p>-->
+                    </div>
+                    <img src="assets/images/pattern2.png" alt="pattern">
+                </div>
+
+                <div class="about_council group" id="orhun3">
+                    <div class="line"></div>
+                    <div class="c_information">
+                        <h5>Orengu Ek Belgeleri</h5>
+                        <a href="#"><p class="fz">Instructions TR</p></a>
+                        <a href="#"><p class="fz">Instructions KG</p></a>
+                        <a href="#"><p class="fz">Instructions KZ</p></a>
+                        <a href="#"><p class="fz">Instructions AZ</p></a>
+                    </div>
+
+                    <div class="c_information">
+                        <h5>Ogretim Üyesi Ek Belgeleri</h5>
+                        <a href="#"><p class="fz">Instructions TR</p></a>
+                        <a href="#"><p class="fz">Instructions KG</p></a>
+                        <a href="#"><p class="fz">Instructions KZ</p></a>
+                        <a href="#"><p class="fz">Instructions AZ</p></a>
+                    </div>
+                    <img src="assets/images/pattern2.png" alt="pattern">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg7" id="contacts">
+        <div class="grid content6">
+            <h3>Contact us</h3>
+
+            <div class="line"></div>
+
+            <div class="f_block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8275.258121169378!2d74.56836067110994!
+            3d42.83598807541677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec9ebd50abdf1%3A0x14ce488dddb2fbdb!
+            2z0JrRi9GA0LPRi9C30YHQutC-LdCi0YPRgNC10YbQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiAi0JzQsNC90LDRgSI!5e0!3m2!1sru!
+            2skg!4v1479375066889" width="88.88888888888889%" height="305" frameborder="0" style="border:0"
+                        allowfullscreen></iframe>
+                <h4>Bishkek, KYRGYZ REPUBLIC, micro-region Djal, 43</h4>
+
+                <ul class="contacts fz">
+                    <li><img src="assets/images/message.png" alt="image">
+
+                        <p>maub@manas.edu.kg</p></li>
+                    <li><img src="assets/images/phone.png" alt="image">
+
+                        <p>+996 312 49 27 88<br>+996 312 49 27 86</p></li>
+                    <li><img src="assets/images/fax.png" alt="image">
+
+                        <p>+996 312 49 27 81-89<br>+996 312 49 27 61</p></li>
+                </ul>
+            </div>
+            <div class="s_block">
+                <form method="post" action="#">
+                    <input type="text" name="name" maxlength="25" placeholder="First Name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="text" name="name" placeholder="Subject">
+                    <!--<input type="text" name="name" placeholder="Text your message here...">-->
+                    <label>
+                        <textarea name="text">Text your message here...</textarea>
+                    </label>
+                    <!--<textarea></textarea>-->
+                    <input type="submit" value="SEND MESSAGE">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+
+    <script>
+        $('.council > div').hide();
+        $('.council > div:nth-child(1)').show();
+        $('.student_council  li:first-child a').addClass('c_active');
+
+        // Изменить класс вкладки и отобразить содержимое
+        $('.student_council > li > a').on('click', function (event) {
+            event.preventDefault();
+            $('.student_council > li a').removeClass('c_active');
+            $(this).addClass('c_active');
+            $('.council > div').hide("slower");
+            $($(this).attr('href')).show('slower');
+        });
+    </script>
+
+{% endblock %}

@@ -166,3 +166,10 @@ def all_events_view(request):
     template = 'all_events.html'
 
     return render(request, template, context)
+
+
+def orhun_view(request):
+    context = {}
+    template = 'main/orhun.html'
+
+    return render(request, template, context)
