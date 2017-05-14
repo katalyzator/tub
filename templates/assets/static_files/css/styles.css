@@ -83,10 +83,10 @@ header {
 
 .pattern {
     position: relative;
-    /*background: url("../images/tu_bg.jpg") center top no-repeat;*/
+    background-image: url("../images/2.png");
+    box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.7) inset;
 
-    background-size: cover;
-    background-color: #2e3948;
+    /*background-color: #2e3948;*/
 }
 
 /*.h_bg{*/
@@ -390,8 +390,8 @@ h2 {
 
 .bg2 {
     /*background-color: #3a7593;*/
-    background: rgba(255, 255, 255, 0.3) url("../images/OHT3JJ0.jpg") center no-repeat;
-    background-size: cover;
+    background-image: url("../images/bg_pattern.jpg");
+    box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.7) inset;
 }
 
 .content2 {
@@ -704,8 +704,8 @@ h5 {
 
 .bg4 {
     /*background-color: #f9da58;*/
-    background: rgba(255, 255, 255, 0.3) url("../images/OHT3JJ0.jpg") center no-repeat;
-    background-size: cover;
+     background-image: url("../images/bg_pattern.jpg");
+    box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.7) inset;
 }
 
 .content4 {
@@ -890,8 +890,8 @@ h5 {
     /*background-color: #f9da58;*/
     /*background: url("../../assets/images/background.jpg") center no-repeat;*/
     /*background-size: cover;*/
-    background: rgba(255, 255, 255, 0.3) url("../images/OHT3JJ0.jpg") center no-repeat;
-    background-size: cover;
+    background-image: url("../images/bg_pattern.jpg");
+    box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.7) inset;
 }
 
 .kurumlar {
