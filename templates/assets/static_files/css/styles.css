@@ -231,6 +231,10 @@ nav {
     vertical-align: top;
 }
 
+.files {
+    text-align: left;
+}
+
 /*.menu a:hover {*/
 /*color: #f5c500;*/
 /*}*/
