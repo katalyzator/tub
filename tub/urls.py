@@ -5,7 +5,6 @@ from solid_i18n.urls import solid_i18n_patterns
 
 from tub import settings
 
-
 urlpatterns = []
 
 urlpatterns += solid_i18n_patterns('',
