@@ -6,7 +6,7 @@
 
     <header id="home">
         <div class="pattern">
-
+            {% load i18n %}
             <div class="h_bg"></div>
             <div class="grid content1">
                 <ul class="language">
@@ -21,9 +21,8 @@
                     <a href="{% url 'index' %}"> <img src="{% static 'images/logo-Turk-Uni.png' %}" alt="logo"></a>
 
                     <div class="slogan">
-                        {#                        <h1>TÜRK KENEŞİ</h1>#}
 
-                        <p>TÜRK ÜNİVERSİTELER BİRLİĞİ</p>
+                        <p>{% trans 'Turkic University Union' %}</p>
                     </div>
                     <a href="http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank"><img
                             src="{% static 'images/logo_turrkon.png' %}"></a>
@@ -39,18 +38,20 @@
             <div class="menu-collapsed">
                 <div class="bar"></div>
                 <ul class="menu">
-                    <li><a href="{% url 'index' %}#home">Ana Sayfa</a></li>
-                    <li><a href="{% url 'index' %}#news">Haberler</a></li>
-                    <li><a href="{% url 'index' %}#about">Hakkımızda</a></li>
+                    <li><a href="{% url 'index' %}#home">{% trans "Main page" %}</a></li>
+                    <li><a href="{% url 'index' %}#news">{% trans "News" %}</a></li>
+                    <li><a href="{% url 'index' %}#about">{% trans "About" %}</a></li>
 
-                    <li><a href="{% url 'index' %}#member">Üyeler</a></li>
+                    <li><a href="{% url 'index' %}#member">{% trans "members" %}</a></li>
 
-                    <li><a href="{% url 'index' %}#entertaintments">Etkinlikler</a></li>
-                    <li><a href="{% url 'index' %}#photos">Fotoğraflar</a></li>
-                    <li><a href="{% url 'index' %}http://www.turkkon.org/tr-TR/AnaSayfa" target="_blank">Türk Keneşi</a>
+                    <li><a href="{% url 'index' %}#entertaintments">{% trans "entertaiments" %}</a></li>
+                    <li><a href="{% url 'index' %}#photos">{% trans "photos" %}</a></li>
+                    <li><a href="{% url 'index' %}#council">{% trans "student council" %}</a></li>
+                    <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa"
+                           target="_blank">{% trans "turkic council" %}</a>
                     </li>
-                    <li><a href="{% url 'index' %}#council">Öğrenci Keneşi</a></li>
-                    <li><a href="{% url 'index' %}#contacts">İletişim</a></li>
+                    <li><a href="{% url 'orhun' %}">{% trans 'orhun' %}</a></li>
+                    <li><a href="{% url 'index' %}#contacts">{% trans "contacts" %}</a></li>
                 </ul>
             </div>
         </nav>
@@ -63,22 +64,16 @@
             <div class="line"></div>
 
             <ul class="student_council">
-                <li><a href="#orhun1">Yönetmenlik</a></li>
-                <li><a href="#orhun2">Duyurular</a></li>
-                <li><a href="#orhun3">Belgeler</a></li>
-                <!--<li><a href="#orhun3">Instructions</a></li>-->
-                <!--<li><a href="#student5">Photos</a></li>-->
+                <li><a href="#orhun1">{% trans 'o_yonetmen' %}</a></li>
+                <li><a href="#orhun2">{% trans 'announcements' %}</a></li>
+                <li><a href="#orhun3">{% trans 'documents' %}</a></li>
             </ul>
 
             <div class="council">
                 <div class="about_council group" id="orhun1">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>About us</h5>
-                        <p class="fz">Bu Yönetmeliğin amacı, Türk Keneşi Türk Üniversiteler Birliği üyeleri
-                            yükseköğretim kurumları arasında öğrenci ve öğretim üyesi değişimi genel esaslarını
-                            belirlemektir. Bu Yönetmelik, Türk Keneşi Türk Üniversiteler Birliği üyeleri yükseköğretim
-                            kurumları öğrenci ve öğretim üyesi değişim esaslarını kapsar. </p>
+                        <p class="fz">{% trans 'text_o' %} </p>
 
                         <p class="fz">
                             <a href="{% static 'files/yonetmenlik.docx' %}" target="_blank">Genel Bilgi</a>
@@ -90,7 +85,6 @@
                 <div class="about_council group" id="orhun2">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>Duyurular</h5>
                         <!--<p class="fz">Bu Yönergenin amacı; Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite-->
                         <!--öğrencileri arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve-->
                         <!--geliştirilmesini sağlamak üzere Öğrenci Keneşi oluşturmak ve oluşturulacak Keneş’in kuruluş,-->
@@ -103,14 +97,13 @@
                     <div class="line"></div>
                     <div class="c_information">
                         <h5>öğrenci ek belgeler</h5>
-                        <a href="{% static 'files/form.docx' %}" target="_blank"><p class="fz">1. Aday Öğrenci Başvuru
-                            Formu.</p></a>
-                        <a href="{% static 'files/form1.docx' %}" target="_blank"><p class="fz">2. Öğrenci Başvuru
-                            Formu</p></a>
-                        <a href="{% static 'files/bilgi.docx' %}" target="_blank"><p class="fz">3. Öğrenci Bilgi
-                            Formu</p></a>
-                        <a href="{% static 'files/protokol.docx' %}" target="_blank"><p class="fz">4. Öğrenim
-                            Protokolü</p></a>
+                        <a href="{% static 'files/form.docx' %}" target="_blank"><p class="fz">1. {% trans 'aday' %}</p>
+                        </a>
+                        <a href="{% static 'files/form1.docx' %}" target="_blank"><p class="fz">
+                            2. {% trans 'student_form' %}</p></a>
+                        <a href="{% static 'files/bilgi.docx' %}" target="_blank"><p class="fz">
+                            3. {% trans 'bilgi_form' %}</p></a>
+                        <a href="{% static 'files/protokol.docx' %}" target="_blank"><p class="fz">4. {% trans 'protokol' %}</p></a>
                         <a href="{% static 'files/beyanname.docx' %}" target="_blank"><p class="fz">5. Öğrenci
                             Beyannamesi</p></a>
                         <a href="{% static 'files/yukumluluk.docx' %}" target="_blank"><p class="fz">6. Ögrenci
@@ -168,7 +161,7 @@
                 </ul>
             </div>
             <div class="s_block">
-                <form method="post" action="#">
+                <form method="post" action="{% url 'index' %}#">
                     <input type="text" name="name" maxlength="25" placeholder="First Name">
                     <input type="email" name="email" placeholder="E-mail">
                     <input type="text" name="name" placeholder="Subject">
