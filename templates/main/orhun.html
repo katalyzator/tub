@@ -50,7 +50,7 @@
                     <li><a href="http://www.turkkon.org/tr-TR/AnaSayfa"
                            target="_blank">{% trans "turkic council" %}</a>
                     </li>
-                    <li><a href="{% url 'orhun' %}">Orhun Süreci</a></li>
+                    <li><a href="{% url 'orhun' %}">{% trans 'orhun' %}</a></li>
                     <li><a href="{% url 'index' %}#contacts">{% trans "contacts" %}</a></li>
                 </ul>
             </div>
@@ -64,20 +64,16 @@
             <div class="line"></div>
 
             <ul class="student_council">
-                <li><a href="#orhun1">Yönetmelik</a></li>
-                <li><a href="#orhun2">Duyurular</a></li>
-                <li><a href="#orhun3">Belgeler</a></li>
+                <li><a href="#orhun1">{% trans 'o_yonetmen' %}</a></li>
+                <li><a href="#orhun2">{% trans 'announcements' %}</a></li>
+                <li><a href="#orhun3">{% trans 'documents' %}</a></li>
             </ul>
 
             <div class="council">
                 <div class="about_council group" id="orhun1">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>About us</h5>
-                        <p class="fz">Bu Yönetmeliğin amacı, Türk Keneşi Türk Üniversiteler Birliği üyeleri
-                            yükseköğretim kurumları arasında öğrenci ve öğretim üyesi değişimi genel esaslarını
-                            belirlemektir. Bu Yönetmelik, Türk Keneşi Türk Üniversiteler Birliği üyeleri yükseköğretim
-                            kurumları öğrenci ve öğretim üyesi değişim esaslarını kapsar. </p>
+                        <p class="fz">{% trans 'text_o' %} </p>
 
                         <p class="fz">
                             <a href="{% static 'files/yonetmenlik.docx' %}" target="_blank">Genel Bilgi</a>
@@ -89,7 +85,6 @@
                 <div class="about_council group" id="orhun2">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>Duyurular</h5>
                         <!--<p class="fz">Bu Yönergenin amacı; Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite-->
                         <!--öğrencileri arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve-->
                         <!--geliştirilmesini sağlamak üzere Öğrenci Keneşi oluşturmak ve oluşturulacak Keneş’in kuruluş,-->
@@ -102,14 +97,13 @@
                     <div class="line"></div>
                     <div class="c_information">
                         <h5>öğrenci ek belgeler</h5>
-                        <a href="{% static 'files/form.docx' %}" target="_blank"><p class="fz">1. Aday Öğrenci Başvuru
-                            Formu.</p></a>
-                        <a href="{% static 'files/form1.docx' %}" target="_blank"><p class="fz">2. Öğrenci Başvuru
-                            Formu</p></a>
-                        <a href="{% static 'files/bilgi.docx' %}" target="_blank"><p class="fz">3. Öğrenci Bilgi
-                            Formu</p></a>
-                        <a href="{% static 'files/protokol.docx' %}" target="_blank"><p class="fz">4. Öğrenim
-                            Protokolü</p></a>
+                        <a href="{% static 'files/form.docx' %}" target="_blank"><p class="fz">1. {% trans 'aday' %}</p>
+                        </a>
+                        <a href="{% static 'files/form1.docx' %}" target="_blank"><p class="fz">
+                            2. {% trans 'student_form' %}</p></a>
+                        <a href="{% static 'files/bilgi.docx' %}" target="_blank"><p class="fz">
+                            3. {% trans 'bilgi_form' %}</p></a>
+                        <a href="{% static 'files/protokol.docx' %}" target="_blank"><p class="fz">4. {% trans 'protokol' %}</p></a>
                         <a href="{% static 'files/beyanname.docx' %}" target="_blank"><p class="fz">5. Öğrenci
                             Beyannamesi</p></a>
                         <a href="{% static 'files/yukumluluk.docx' %}" target="_blank"><p class="fz">6. Ögrenci

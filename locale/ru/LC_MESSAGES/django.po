@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-28 11:36+0000\n"
+"POT-Creation-Date: 2017-05-23 15:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -856,11 +856,11 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
-#: templates/all_events.html:62 templates/main/index.html:178
+#: templates/all_events.html:62 templates/main/index.html:179
 msgid "All_events"
 msgstr "Бардык кулактандыруулар"
 
-#: templates/all_news.html:62 templates/main/index.html:155
+#: templates/all_news.html:62 templates/main/index.html:156
 msgid "all_news"
 msgstr "Бардык кабарлар"
 
@@ -870,74 +870,78 @@ msgstr "Бардык кабарлар"
 msgid "header"
 msgstr "TURKIC COUNCIL"
 
-#: templates/main/index.html:28
+#: templates/main/index.html:28 templates/main/orhun.html:25
 msgid "Turkic University Union"
 msgstr "ТҮРК ДҮЙНӨСҮ УНИВЕРСИТЕТТЕРИНИН <br> АССОЦИАЦИЯСЫ"
 
-#: templates/main/index.html:41
+#: templates/main/index.html:41 templates/main/orhun.html:41
 msgid "Main page"
 msgstr "Башкы барак"
 
-#: templates/main/index.html:42 templates/main/index.html:135
+#: templates/main/index.html:42 templates/main/index.html:136
+#: templates/main/orhun.html:42
 msgid "News"
 msgstr "Жаӊылыктар"
 
-#: templates/main/index.html:43 templates/main/index.html:185
-#: templates/main/index.html:189
+#: templates/main/index.html:43 templates/main/index.html:186
+#: templates/main/index.html:190 templates/main/orhun.html:43
 msgid "About"
 msgstr "Биз жөнүндө"
 
-#: templates/main/index.html:45
+#: templates/main/index.html:45 templates/main/orhun.html:45
 msgid "members"
 msgstr "Мүчөлөр"
 
-#: templates/main/index.html:47 templates/main/index.html:448
+#: templates/main/index.html:47 templates/main/index.html:449
+#: templates/main/orhun.html:47
 msgid "entertaiments"
 msgstr "Иш-чаралар"
 
-#: templates/main/index.html:48 templates/main/index.html:591
+#: templates/main/index.html:48 templates/main/index.html:592
+#: templates/main/orhun.html:48
 msgid "photos"
 msgstr "Сүрөттөр"
 
-#: templates/main/index.html:49 templates/main/index.html:439
+#: templates/main/index.html:49 templates/main/index.html:440
+#: templates/main/orhun.html:49
 msgid "student council"
 msgstr "Студенттик кеӊеш"
 
-#: templates/main/index.html:51
+#: templates/main/index.html:51 templates/main/orhun.html:51
 msgid "turkic council"
 msgstr "Түрк кеӊеши"
 
-#: templates/main/index.html:53
+#: templates/main/index.html:54 templates/main/orhun.html:54
 msgid "contacts"
 msgstr "Дарегибиз"
 
-#: templates/main/index.html:159
+#: templates/main/index.html:160
 msgid "events"
 msgstr "Кулактандыруулар"
 
-#: templates/main/index.html:190 templates/main/index.html:213
-#: templates/main/index.html:445 templates/main/index.html:459
+#: templates/main/index.html:191 templates/main/index.html:214
+#: templates/main/index.html:446 templates/main/index.html:460
 msgid "goals"
 msgstr "Максаттар"
 
-#: templates/main/index.html:191 templates/main/index.html:248
-#: templates/main/index.html:447 templates/main/index.html:469
+#: templates/main/index.html:192 templates/main/index.html:249
+#: templates/main/index.html:448 templates/main/index.html:470
 msgid "directivies"
 msgstr "Жолдомо"
 
-#: templates/main/index.html:193 templates/main/index.html:271
+#: templates/main/index.html:194 templates/main/index.html:272
 msgid "Chairman"
 msgstr "Кезектеги төрага"
 
-#: templates/main/index.html:195
+#: templates/main/index.html:196
 msgid "introduce"
 msgstr "Танытуу"
 
-#: templates/main/index.html:204
+#: templates/main/index.html:205
 msgid "history_name"
 msgstr "Тарых"
 
-#: templates/main/index.html:206
+#: templates/main/index.html:207
 msgid "history"
 msgstr ""
 "Түрк кеӊешине мүчө өлкөлөр арасында жогорку билим берүү тармагында "
@@ -951,7 +955,7 @@ msgstr ""
 "алынган чечимдер менен нускама даярдалып, уюмду түзүү иш-аракети  ишке "
 "ашырылган. "
 
-#: templates/main/index.html:217
+#: templates/main/index.html:218
 msgid "goals1"
 msgstr ""
 "Орток тарых, маданият, тил сыяктуу мурастарды эске алуу менен жогорку окуу "
@@ -959,189 +963,209 @@ msgstr ""
 "берүү стандарттарын колдонуу аркылуу орток иденттүүлүк аӊ-сезими жогору "
 "муундарды тарбиялап чыгаруу"
 
-#: templates/main/index.html:219
+#: templates/main/index.html:220
 msgid "goals2"
 msgstr ""
 "Мүчө болгон университеттердин программаларын бири-бири менен айкалыштыруу"
 
-#: templates/main/index.html:221
+#: templates/main/index.html:222
 msgid "goals3"
 msgstr "Орток кредиттик которуу системасын колдонуу"
 
-#: templates/main/index.html:223
+#: templates/main/index.html:224
 msgid "goals4"
 msgstr "Окутуучу-профессорлорду даярдоо программаларына колдоо көрсөтүү"
 
-#: templates/main/index.html:225
+#: templates/main/index.html:226
 msgid "goals5"
 msgstr ""
 "Студент жана окутуучу алмашуу программаларын байма-бай колдонууга киргизүү"
 
-#: templates/main/index.html:227
+#: templates/main/index.html:228
 msgid "goals6"
 msgstr ""
 "Мүчө университеттер арасындагы дипломдордун эквиваленттүүлүгүн таанууга "
 "багытталган ыӊгайлуу негиз түзүү"
 
-#: templates/main/index.html:229
+#: templates/main/index.html:230
 msgid "goals7"
 msgstr ""
 "Университеттер белгилүү тармактар боюнча ээ болгон артыкчылыктардан "
 "пайдалануу"
 
-#: templates/main/index.html:231
+#: templates/main/index.html:232
 msgid "goals8"
 msgstr ""
 "Практикалоого багытталган орток билим берүү, илим изилдөө программаларын "
 "жана долбоорлорду ишке ашыруу"
 
-#: templates/main/index.html:233
+#: templates/main/index.html:234
 msgid "goals9"
 msgstr ""
 "Мүчө университеттер арасында симпозиум, академиялык иш-чараларды о.э. "
 "маданият, илим жана спорт жаатында конкурстарды уюштуруу"
 
-#: templates/main/index.html:235
+#: templates/main/index.html:236
 msgid "goals10"
 msgstr ""
 "Түрк дүйнөсүнө багытталган иш-аракеттерди жасаган студенттерди атайын "
 "стипендия менен  камсыздоо"
 
-#: templates/main/index.html:237
+#: templates/main/index.html:238
 msgid "goals11"
 msgstr ""
 "Орток тарых, маданият жана адабиятка багытталган иш-аркеттерди жүргүзгөн "
 "сабактарды бардык мүчө өлкөлөрдүн университеттеринде окутуу жаатында иш-"
 "чараларды жүргүзүү"
 
-#: templates/main/index.html:251
+#: templates/main/index.html:252
 msgid "some text1"
 msgstr ""
 "Түрк университеттер Ассоциациясы жана Жогорку окуу жайлар платформасын түзүү "
 "жолдомосу"
 
-#: templates/main/index.html:262
+#: templates/main/index.html:263
 msgid "presentation"
 msgstr "Презентация"
 
-#: templates/main/index.html:273
+#: templates/main/index.html:274
 msgid "professor"
 msgstr "Проф., докт. Себахаттин Балжы "
 
-#: templates/main/index.html:274
+#: templates/main/index.html:275
 msgid "rektor"
 msgstr "Кыргыз-Түрк “Манас” университетинин ректору"
 
-#: templates/main/index.html:286
+#: templates/main/index.html:287
 msgid "member university"
 msgstr "Мүчө университтер"
 
-#: templates/main/index.html:301
+#: templates/main/index.html:302
 msgid "Baku"
 msgstr "Баку мамлекеттик университети"
 
-#: templates/main/index.html:307
+#: templates/main/index.html:308
 msgid "Tip"
 msgstr "Азербайджан медициналык университети"
 
-#: templates/main/index.html:313
+#: templates/main/index.html:314
 msgid "Mimar"
 msgstr "Азербайжан Архитектура жана Курулуш Университет"
 
-#: templates/main/index.html:332
+#: templates/main/index.html:333
 msgid "Farabi"
 msgstr "Аль-Фараби атындагы Казак Улуттук университети"
 
-#: templates/main/index.html:338
+#: templates/main/index.html:339
 msgid "Gumilev"
 msgstr "Л. Н. Гумилев атындагы Евразия Улуттук университети"
 
-#: templates/main/index.html:344
+#: templates/main/index.html:345
 msgid "Ahmet"
 msgstr "X. А. Ясеви атындагы Эл аралык казак-түрк университети"
 
-#: templates/main/index.html:350
+#: templates/main/index.html:351
 msgid "Nazarbaev"
 msgstr "Н.А. Назарбаев университети"
 
-#: templates/main/index.html:368
+#: templates/main/index.html:369
 msgid "Yusuf"
 msgstr "Ж. Баласагын атындагы Кыргыз Улуттук университети"
 
-#: templates/main/index.html:374
+#: templates/main/index.html:375
 msgid "Husein"
 msgstr "К. Карасаев атындагы Бишкек гуманитардык университети"
 
-#: templates/main/index.html:380
+#: templates/main/index.html:381
 msgid "uluslar"
 msgstr "Кыргызстан эл аралык университети"
 
-#: templates/main/index.html:386
+#: templates/main/index.html:387
 msgid "Manas"
 msgstr "Кыргыз-Түрк “Манас” университети"
 
-#: templates/main/index.html:404
+#: templates/main/index.html:405
 msgid "Istanbul"
 msgstr "Стамбул университети"
 
-#: templates/main/index.html:410
+#: templates/main/index.html:411
 msgid "Ege"
 msgstr "Эге университети"
 
-#: templates/main/index.html:416
+#: templates/main/index.html:417
 msgid "Ataturk"
 msgstr "Ататүрк университети"
 
-#: templates/main/index.html:422
+#: templates/main/index.html:423
 msgid "Bitlis"
 msgstr "Битлис Эрен университети"
 
-#: templates/main/index.html:428
+#: templates/main/index.html:429
 msgid "Eski"
 msgstr "Эски Шехир Османгазы Университети"
 
-#: templates/main/index.html:446 templates/main/index.html:481
+#: templates/main/index.html:447 templates/main/index.html:482
 msgid "students"
 msgstr "Студенттер"
 
-#: templates/main/index.html:461
+#: templates/main/index.html:462
 msgid "some text2"
 msgstr ""
 "Түрк Кеңеши университеттер ассоциациясына мүчө университеттеринин "
 "студенттери арасында билим, спорт жана маданият тармагында кызматташуу."
 
-#: templates/main/index.html:483
+#: templates/main/index.html:484
 msgid "azerbaycan"
 msgstr "Азербайжан"
 
-#: templates/main/index.html:492
+#: templates/main/index.html:493
 msgid "Kyrgyz"
 msgstr "Кыргызстан"
 
-#: templates/main/index.html:501
+#: templates/main/index.html:502
 msgid "Turk"
 msgstr "Түркия"
 
-#: templates/main/index.html:519
+#: templates/main/index.html:520
 msgid "Kazakistan"
 msgstr "Казахстан"
 
-#: templates/main/index.html:555
+#: templates/main/index.html:556
 msgid "sporlar"
 msgstr "Маданият жана Спорт иш чаралары"
 
-#: templates/main/index.html:559 templates/main/index.html:571
-#: templates/main/index.html:584
+#: templates/main/index.html:560 templates/main/index.html:572
+#: templates/main/index.html:585
 msgid "read more"
 msgstr "Уландысы"
 
-#: templates/main/index.html:567
+#: templates/main/index.html:568
 msgid "kongreler"
 msgstr "Симпозиумдар"
 
-#: templates/main/index.html:580
+#: templates/main/index.html:581
 msgid "projeler"
 msgstr "Долбоорлор"
+
+#: templates/main/orhun.html:53
+msgid "orhun"
+msgstr "Orhun Süreci"
+
+#: templates/main/orhun.html:67
+msgid "o_yonetmen"
+msgstr "Yönetmelik"
+
+#: templates/main/orhun.html:68
+msgid "announcements"
+msgstr "Announcements"
+
+#: templates/main/orhun.html:69
+msgid "documents"
+msgstr "Belgeler"
+
+#: templates/main/orhun.html:76
+msgid "text_o"
+msgstr ""
 
 #: tub/settings.py:144
 msgid "Kazakh"
@@ -1152,3 +1176,15 @@ msgstr ""
 
 #~ msgid "bashkan"
 #~ msgstr "Түрк Кеӊеши Түрк университеттер биримдигинин төрагасы "
+
+msgid "aday"
+msgstr "Aday Öğrenci Formu"
+
+msgid "student_form"
+msgstr "Öğrenci Başvuru Formu"
+
+msgid "bilgi_form"
+msgstr "Öğrenci Bilgi formu"
+
+msgid "protokol"
+msgstr "Öğrenim Protokolü"
