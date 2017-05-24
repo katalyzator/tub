@@ -2,12 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
+
 "POT-Creation-Date: 2017-05-23 11:37+0000\n"
 "POT-Creation-Date: 2017-05-24 09:35+0000\n"
-=======
+
 "POT-Creation-Date: 2017-05-24 09:57+0000\n"
->>>>>>> a1c8c157e51682d7f907b0d7388c7342a1125452
+
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1187,11 +1187,8 @@ msgstr "Öğrenci Başvuru Formu"
 msgid "bilgi_form"
 msgstr "Öğrenci Bilgi formu"
 
-<<<<<<< HEAD
-#: templates/main/orhun.html:106
-=======
+
 #: templates/main/orhun.html:107
->>>>>>> a1c8c157e51682d7f907b0d7388c7342a1125452
 msgid "protokol"
 msgstr "Öğrenim Protokolü"
 
