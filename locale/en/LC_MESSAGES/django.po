@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 09:57+0000\n"
+"POT-Creation-Date: 2017-05-24 11:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -909,13 +909,17 @@ msgstr "Student Council"
 msgid "turkic council"
 msgstr "Turkic Council"
 
+#: templates/main/index.html:53 templates/main/orhun.html:53
+msgid "orhun"
+msgstr "Orhun Process"
+
 #: templates/main/index.html:54 templates/main/orhun.html:54
 msgid "contacts"
 msgstr "Contacts"
 
 #: templates/main/index.html:160
 msgid "events"
-msgstr "Events"
+msgstr "Announcements"
 
 #: templates/main/index.html:191 templates/main/index.html:214
 #: templates/main/index.html:446 templates/main/index.html:460
@@ -1137,10 +1141,6 @@ msgstr "Congress and Symposiums"
 msgid "projeler"
 msgstr "Projects"
 
-#: templates/main/orhun.html:53
-msgid "orhun"
-msgstr "Orhun Process"
-
 #: templates/main/orhun.html:63
 msgid "orhun_exchange"
 msgstr "Orhun Exchange Program"
@@ -1166,55 +1166,87 @@ msgstr ""
 "contains the principles and procedures of student and teaching staff "
 "exchange between higher education institutions of Turkic Universities Union."
 
-#: templates/main/orhun.html:99
+#: templates/main/orhun.html:88
+msgid "duyuru_orhun"
+msgstr ""
+"<h5>Announcement of 2017-2018 Orhun Exchange Program</h5><p "
+"class='fz'>Applications for 2017-2018 Orhun Exchange Programme has been "
+"started.</p><p class='fz'><b>Please read till the end!</b></p><p "
+"class='fz'>Dear Students and faculty members, Orhun Exchange Programme will "
+"start on 2017-2018 academic year for the International Relations and "
+"Politics/ International Relations/ Political Science departments of the "
+"member   universities of Turkunib (<b>Azerbaijan:</b> Baku State "
+"University;    <b>Kazakhstan:</b> International Hoca Ahmet Yesevi Turkish-"
+"Kazakh University, Al-Farabi Kazakh National University, L.N. Gumilyev "
+"Eurasia National University; <b>Kyrgyzstan</b>: Kyrgyz-Turkish Manas "
+"University, International University of Kyrgyzstan; <b>Turkey:</b> Ataturk "
+"University, Istanbul University). Students and faculty members who wish to "
+"participate in the exchange program may apply to the university's exchange "
+"program coordinator. Detailed information about the exchange program can be "
+"obtained from the institutional coordinators and on web-site: http://"
+"turkunib.org/orhun/.</p><h5>Application calendar:</h5>"
+
+#: templates/main/orhun.html:91
+msgid "duyuru_orhun1"
+msgstr ""
+"<br><h5>Required documents:</h5><ul style='text-align: left; font-size: "
+"18px; list-style-type: square; margin-left: 300px; margin-bottom: 20px' "
+"type='square'>  <li>Transcript</li> <li>Student Information Form</li>  "
+"<li>Candidate Student Application (Only one university can be preferred on "
+"applications)</li></ul><h6>All documents should be filled on computer</"
+"h6><h6>For further information please contact us <a href='mailto:orhun@manas."
+"edu.kg'>orhun@manas.edu.kg</a></h6><p class='fz'>Table of bilateral "
+"protocols signed between Universities</p>"
+
+#: templates/main/orhun.html:100
 msgid "o_students"
 msgstr "Forms for students"
 
-#: templates/main/orhun.html:100
+#: templates/main/orhun.html:101
 msgid "aday"
 msgstr "CANDIDATE STUDENT APPLICATION FORM"
 
-#: templates/main/orhun.html:103
+#: templates/main/orhun.html:104
 msgid "student_form"
 msgstr "STUDENT APPLICATION FORM"
 
-#: templates/main/orhun.html:105
+#: templates/main/orhun.html:106
 msgid "bilgi_form"
 msgstr "STUDENT INFORMATION FORM"
 
-#: templates/main/orhun.html:107
+#: templates/main/orhun.html:108
 msgid "protokol"
 msgstr "Learning agreement"
 
-#: templates/main/orhun.html:109
+#: templates/main/orhun.html:110
 msgid "o_beyan"
 msgstr "Student declaration form"
 
-#: templates/main/orhun.html:111
+#: templates/main/orhun.html:112
 msgid "o_kabulbelge"
 msgstr "LETTER OF ACCEPTANCE"
 
-#: templates/main/orhun.html:113
+#: templates/main/orhun.html:114
 msgid "o_application"
 msgstr "CANDIDATE STUDENT APPLICATION FORM"
 
-#: templates/main/orhun.html:117
+#: templates/main/orhun.html:118
 msgid "o_teachers"
 msgstr "Forms for Academic Staff"
 
-#: templates/main/orhun.html:119
+#: templates/main/orhun.html:120
 msgid "o_bilgi_form"
 msgstr "ACADEMIC STAFF INFORMATION FORM"
 
-#: templates/main/orhun.html:121
+#: templates/main/orhun.html:122
 msgid "hareketlik_programi"
 msgstr "ACADEMIC STAFF MOBILITY PROGRAMME"
 
-#: templates/main/orhun.html:123
+#: templates/main/orhun.html:124
 msgid "katilim"
 msgstr "ACADEMIC STAFF CERTIFICATE OF ATTENDANCE"
 
-#: templates/main/orhun.html:124
+#: templates/main/orhun.html:125
 msgid "rapor_form"
 msgstr "Academic Staff Mobility Final Report Form"
 

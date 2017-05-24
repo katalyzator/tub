@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 09:57+0000\n"
+"POT-Creation-Date: 2017-05-24 11:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -909,6 +909,10 @@ msgstr "Öğrenci Keneşi"
 msgid "turkic council"
 msgstr "Türk Keneşi"
 
+#: templates/main/index.html:53 templates/main/orhun.html:53
+msgid "orhun"
+msgstr "Orhun Süreci"
+
 #: templates/main/index.html:54 templates/main/orhun.html:54
 msgid "contacts"
 msgstr "İletişim"
@@ -1138,10 +1142,6 @@ msgstr "Kongre ve Sempozyumlar"
 msgid "projeler"
 msgstr "Projeler"
 
-#: templates/main/orhun.html:53
-msgid "orhun"
-msgstr "Orhun Süreci"
-
 #: templates/main/orhun.html:63
 msgid "orhun_exchange"
 msgstr "Orhun Değişim Programi"
@@ -1167,55 +1167,88 @@ msgstr ""
 "Birliği üyeleri yükseköğretim kurumları öğrenci ve öğretim üyesi değişim "
 "esaslarını kapsar."
 
-#: templates/main/orhun.html:99
+#: templates/main/orhun.html:88
+msgid "duyuru_orhun"
+msgstr ""
+"<h5>2017-2018 ORHUN DEĞİŞİM PROGRAMI BAŞVURU İLANI</h5> <p "
+"class='fz'>2017-2018 Orhun Değişim Programı Başvuruları Başlıyor…</p><p "
+"class='fz'><b>Lütfen ilanı sonuna kadar okuyunuz.</b></p>  <p "
+"class='fz'>2017-2018 eğitim öğretim yılında Türk Keneşi Türk Üniversiteler "
+"Birliği üyeleri (<b>Azerbaycan</b>: Bakü Devlet Üniversitesi; <b>Kazakistan</"
+"b>: Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi, Al-Farabi Kazak Milli "
+"Üniversitesi, L.N. Gumilyev Avrasya Milli Üniversitesi; <b>Kırgızistan</b>: "
+"Kırgızistan-Türkiye Manas Üniversitesi, Uluslararası Kırgızistan "
+"Üniversitesi; <b>Türkiye:</b> Atatürk Üniversitesi, İstanbul Üniversitesi) "
+"arasında Uluslararası İlişkiler ve Siyaset/Uluslararası İlişkiler/Siyaset "
+"Bilimi bölümü öğrenci ve öğretim üyesi değişimi programı başlayacaktır. "
+"Değişim programına katılmak isteyen öğrenci ve öğretim üyeleri bağlı "
+"bulunduğu üniversitenin değişim programı koordinatörlüklerine "
+"başvurabilirler. Değişim programı ile ilgili detaylı bilgi kurum "
+"koordinatörlüklerinden ve <a href='http://turkunib.org/orhun/'>turkunib.org/"
+"orhun/</a> adresinden elde edilebilir. </p><h5>Başvuru takvimi:</h5>"
+
+#: templates/main/orhun.html:91
+msgid "duyuru_orhun1"
+msgstr ""
+"<h5>Başvuruda istenilen belgeler:</h5><ul style='text-align: left; font-"
+"size: 18px; list-style-type: square; margin-left: 300px; margin-bottom: "
+"20px' type='square'>   <li>Transkript</li>    <li>Öğrenci Bilgi Formu</li> "
+"<li>Aday Öğrenci Başvuru Formu (Başvurularda sadece bir üniversite tercihi "
+"yapılacaktır)</li>  </ul>  <h6>Bütün evraklar bilgisayar ortamında "
+"doldurulması şarttır.</h6>              <h6>Ayrıntılı bilgi için <a "
+"href='mailto:orhun@manas.edu.kg'> orhun@manas.edu.kg</a>  mailine "
+"yazabilirsiniz.</h6>     <p class='fz'>Üniversiteler Arasında İmzalanan "
+"İkili Protokoller Tablosu</p>"
+
+#: templates/main/orhun.html:100
 msgid "o_students"
 msgstr "Öğrenci Ek Belgeler"
 
-#: templates/main/orhun.html:100
+#: templates/main/orhun.html:101
 msgid "aday"
 msgstr "Aday Öğrenci Formu"
 
-#: templates/main/orhun.html:103
+#: templates/main/orhun.html:104
 msgid "student_form"
 msgstr "Öğrenci Başvuru Formu"
 
-#: templates/main/orhun.html:105
+#: templates/main/orhun.html:106
 msgid "bilgi_form"
 msgstr "Öğrenci Bilgi formu"
 
-#: templates/main/orhun.html:107
+#: templates/main/orhun.html:108
 msgid "protokol"
 msgstr "Öğrenim Protokolü"
 
-#: templates/main/orhun.html:109
+#: templates/main/orhun.html:110
 msgid "o_beyan"
 msgstr "ÖĞRENCİ BEYANNAMESİ"
 
-#: templates/main/orhun.html:111
+#: templates/main/orhun.html:112
 msgid "o_kabulbelge"
 msgstr "ÖĞRENCİ KABUL MEKTUBU"
 
-#: templates/main/orhun.html:113
+#: templates/main/orhun.html:114
 msgid "o_application"
 msgstr "ÖĞRENCİ KATILIM BELGESİ"
 
-#: templates/main/orhun.html:117
+#: templates/main/orhun.html:118
 msgid "o_teachers"
 msgstr "Öğretim Üyesi Ek Belgeler"
 
-#: templates/main/orhun.html:119
+#: templates/main/orhun.html:120
 msgid "o_bilgi_form"
 msgstr "ÖĞRETİM ÜYESİ BİLGİ FORMU"
 
-#: templates/main/orhun.html:121
+#: templates/main/orhun.html:122
 msgid "hareketlik_programi"
 msgstr "ÖĞRETİM ÜYESİ HAREKETLİLİK PROGRAMI"
 
-#: templates/main/orhun.html:123
+#: templates/main/orhun.html:124
 msgid "katilim"
 msgstr "KATILIM BELGESİ"
 
-#: templates/main/orhun.html:124
+#: templates/main/orhun.html:125
 msgid "rapor_form"
 msgstr "Orhun Ogretim Üyesi Nihai Rapor Formu"
 
