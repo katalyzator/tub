@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 09:27+0000\n"
+"POT-Creation-Date: 2017-05-24 09:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1146,7 +1146,11 @@ msgstr "Layihələr"
 msgid "orhun"
 msgstr "Orhun Süreci"
 
-#: templates/main/orhun.html:67
+#: templates/main/orhun.html:63
+msgid "orhun_exchange"
+msgstr "Orhun Değişim Programi"
+
+#: templates/main/orhun.html:67 templates/main/orhun.html:79
 msgid "o_yonetmen"
 msgstr "Yönetmelik"
 
@@ -1161,6 +1165,10 @@ msgstr "Belgeler"
 #: templates/main/orhun.html:76
 msgid "text_o"
 msgstr ""
+
+#: templates/main/orhun.html:99
+msgid "o_students"
+msgstr "Öğrenci Ek Belgeler"
 
 #: templates/main/orhun.html:100
 msgid "aday"
@@ -1189,6 +1197,10 @@ msgstr "ÖĞRENCİ KABUL MEKTUBU"
 #: templates/main/orhun.html:113
 msgid "o_application"
 msgstr "ÖĞRENCİ KATILIM BELGESİ"
+
+#: templates/main/orhun.html:117
+msgid "o_teachers"
+msgstr "Öğretim Üyesi Ek Belgeler"
 
 #: templates/main/orhun.html:119
 msgid "o_bilgi_form"

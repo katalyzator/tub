@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 09:27+0000\n"
+"POT-Creation-Date: 2017-05-24 09:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1141,7 +1141,11 @@ msgstr "Projects"
 msgid "orhun"
 msgstr "Orhun Process"
 
-#: templates/main/orhun.html:67
+#: templates/main/orhun.html:63
+msgid "orhun_exchange"
+msgstr "Orhun Exchange Program"
+
+#: templates/main/orhun.html:67 templates/main/orhun.html:79
 msgid "o_yonetmen"
 msgstr "Regulation"
 
@@ -1161,6 +1165,10 @@ msgstr ""
 "universities of Turkic Council Turkic Universities Union. This Regulation "
 "contains the principles and procedures of student and teaching staff "
 "exchange between higher education institutions of Turkic Universities Union."
+
+#: templates/main/orhun.html:99
+msgid "o_students"
+msgstr "Forms for students"
 
 #: templates/main/orhun.html:100
 msgid "aday"
@@ -1189,6 +1197,10 @@ msgstr "LETTER OF ACCEPTANCE"
 #: templates/main/orhun.html:113
 msgid "o_application"
 msgstr "CANDIDATE STUDENT APPLICATION FORM"
+
+#: templates/main/orhun.html:117
+msgid "o_teachers"
+msgstr "Forms For Academic Staff"
 
 #: templates/main/orhun.html:119
 msgid "o_bilgi_form"
