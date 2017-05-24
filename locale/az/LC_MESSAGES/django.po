@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 08:52+0000\n"
+"POT-Creation-Date: 2017-05-24 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1186,6 +1186,10 @@ msgstr "ÖĞRENCİ BEYANNAMESİ"
 msgid "o_kabulbelge"
 msgstr "ÖĞRENCİ KABUL MEKTUBU"
 
+#: templates/main/orhun.html:109
+msgid "o_application"
+msgstr "ÖĞRENCİ KATILIM BELGESİ"
+
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
@@ -1195,6 +1199,3 @@ msgstr ""
 
 #~ msgid "bashkan"
 #~ msgstr "Tələbə Şurası  Türk Universitetlər Birliği Başçısı"
-
-#~ msgid "o_application"
-#~ msgstr "ÖĞRENCİ KATILIM BELGESİ"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 08:52+0000\n"
+"POT-Creation-Date: 2017-05-24 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1186,12 +1186,13 @@ msgstr "Student declaration form"
 msgid "o_kabulbelge"
 msgstr "LETTER OF ACCEPTANCE"
 
+#: templates/main/orhun.html:109
+msgid "o_application"
+msgstr "CANDIDATE STUDENT APPLICATION FORM"
+
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
 
 #~ msgid "bashkan"
 #~ msgstr "Chairman of the  Turkic Council Turkic Universities Union"
-
-#~ msgid "o_application"
-#~ msgstr "CANDIDATE STUDENT APPLICATION FORM"
