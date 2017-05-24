@@ -60,7 +60,7 @@
 
     <div class="orhun">
         <div class="orhun_content grid">
-            <h3>Orhun Değişim Programi</h3>
+            <h3>{% trans 'orhun_exchange' %}</h3>
             <div class="line"></div>
 
             <ul class="student_council">
@@ -76,7 +76,7 @@
                         <p class="fz">{% trans 'text_o' %} </p>
 
                         <p class="fz">
-                            <a href="{% static 'files/yonetmenlik.docx' %}" target="_blank">Genel Bilgi</a>
+                            <a href="{% static 'files/yonetmenlik.docx' %}" target="_blank">{% trans 'o_yonetmen' %}</a>
                         </p>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
@@ -96,35 +96,32 @@
                 <div class="about_council group" id="orhun3">
                     <div class="line"></div>
                     <div class="c_information">
-                        <h5>öğrenci ek belgeler</h5>
+                        <h5>{% trans 'o_students' %}</h5>
                         <a href="{% static 'files/form.docx' %}" target="_blank"><p class="fz">1. {% trans 'aday' %}</p>
                         </a>
                         <a href="{% static 'files/form1.docx' %}" target="_blank"><p class="fz">
                             2. {% trans 'student_form' %}</p></a>
                         <a href="{% static 'files/bilgi.docx' %}" target="_blank"><p class="fz">
                             3. {% trans 'bilgi_form' %}</p></a>
-                        <a href="{% static 'files/protokol.docx' %}" target="_blank"><p class="fz">4. {% trans 'protokol' %}</p></a>
-                        <a href="{% static 'files/beyanname.docx' %}" target="_blank"><p class="fz">5. Öğrenci
-                            Beyannamesi</p></a>
-                        <a href="{% static 'files/yukumluluk.docx' %}" target="_blank"><p class="fz">6. Ögrenci
-                            Yukumluluk Sozlesmesi</p></a>
-                        <a href="{% static 'files/kabul_belgesi.docx' %}" target="_blank"><p class="fz">7. Öğrenci Kabul
-                            Belgesi</p></a>
-                        <a href="{% static 'files/katilim_belgesi.docx' %}" target="_blank"><p class="fz">8. Öğrenci
-                            Katılım Belgesi</p></a>
+                        <a href="{% static 'files/protokol.docx' %}" target="_blank"><p class="fz">
+                            4. {% trans 'protokol' %}</p></a>
+                        <a href="{% static 'files/beyanname.docx' %}" target="_blank"><p class="fz">
+                            5. {% trans 'o_beyan' %}</p></a>
+                        <a href="{% static 'files/kabul_belgesi.docx' %}" target="_blank"><p class="fz">
+                            6. {% trans 'o_kabulbelge' %}</p></a>
+                        <a href="{% static 'files/katilim_belgesi.docx' %}" target="_blank"><p class="fz">
+                            7. {% trans 'o_application' %}</p></a>
                     </div>
 
                     <div class="c_information">
-                        <h5>öğretim üyesi ek belgeler</h5>
-                        <a href="{% static 'files/bilgi_form.docx' %}" target="_blank"><p class="fz">orhun öğr. üyesi
-                            bilgi formu</p></a>
-                        <a href="{% static 'files/haraketlik.docx' %}" target="_blank"><p class="fz">Orhun Öğretim üyesi
-                            hareketlilik programı</p></a>
-                        <a href="{% static 'files/katilim_belge.docx' %}" target="_blank"><p class="fz">orhun
-                            ogretim_üyesi_katilim_belgesi</p></a>
-                        <a href="{% static 'files/rapor_formu.docx' %}"><p class="fz">Orhun
-                            Ogretim_Üyesi_Nihai_Rapor_Formu</p></a>
-                        <a href="{% static 'files/yuk_soz.docx' %}"><p class="fz">Orhun ogretim_üyesi_yuk_soz</p></a>
+                        <h5>{% trans 'o_teachers' %}</h5>
+                        <a href="{% static 'files/bilgi_form.docx' %}" target="_blank"><p
+                                class="fz">{% trans 'o_bilgi_form' %}</p></a>
+                        <a href="{% static 'files/hareketlik.docx' %}" target="_blank"><p
+                                class="fz">{% trans 'hareketlik_programi' %}</p></a>
+                        <a href="{% static 'files/katilim_belge.docx' %}" target="_blank"><p
+                                class="fz">{% trans 'katilim' %}</p></a>
+                        <a href="{% static 'files/rapor_formu.docx' %}"><p class="fz">{% trans 'rapor_form' %}</p></a>
                     </div>
                     <img src="{% static 'images/pattern2.png' %}" alt="pattern">
                 </div>
