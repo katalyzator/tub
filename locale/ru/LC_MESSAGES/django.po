@@ -2,11 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2017-05-23 11:37+0000\n"
-=======
-"POT-Creation-Date: 2017-05-24 09:35+0000\n"
->>>>>>> ab3ed3f432a64490edc7352f47134a56baca2ab4
+"POT-Creation-Date: 2017-05-24 09:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1175,13 +1171,10 @@ msgstr "Belgeler"
 msgid "text_o"
 msgstr ""
 
-<<<<<<< HEAD
-=======
 #: templates/main/orhun.html:99
 msgid "o_students"
 msgstr "Öğrenci Ek Belgeler"
 
->>>>>>> ab3ed3f432a64490edc7352f47134a56baca2ab4
 #: templates/main/orhun.html:100
 msgid "aday"
 msgstr "Aday Öğrenci Formu"
@@ -1194,12 +1187,6 @@ msgstr "Öğrenci Başvuru Formu"
 msgid "bilgi_form"
 msgstr "Öğrenci Bilgi formu"
 
-<<<<<<< HEAD
-#: templates/main/orhun.html:106
-msgid "protokol"
-msgstr "Öğrenim Protokolü"
-
-=======
 #: templates/main/orhun.html:107
 msgid "protokol"
 msgstr "Öğrenim Protokolü"
@@ -1236,7 +1223,6 @@ msgstr "KATILIM BELGESİ"
 msgid "rapor_form"
 msgstr "Academic Staff Mobility Final Report Form"
 
->>>>>>> ab3ed3f432a64490edc7352f47134a56baca2ab4
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
