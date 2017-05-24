@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-23 15:50+0000\n"
+"POT-Creation-Date: 2017-05-24 08:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1162,6 +1162,30 @@ msgstr ""
 "contains the principles and procedures of student and teaching staff "
 "exchange between higher education institutions of Turkic Universities Union."
 
+#: templates/main/orhun.html:100
+msgid "aday"
+msgstr "CANDIDATE STUDENT APPLICATION FORM"
+
+#: templates/main/orhun.html:103
+msgid "student_form"
+msgstr "STUDENT APPLICATION FORM"
+
+#: templates/main/orhun.html:105
+msgid "bilgi_form"
+msgstr "STUDENT INFORMATION FORM"
+
+#: templates/main/orhun.html:106
+msgid "protokol"
+msgstr "Learning agreement"
+
+#: templates/main/orhun.html:107
+msgid "o_beyan"
+msgstr "Student declaration form"
+
+#: templates/main/orhun.html:108
+msgid "o_kabulbelge"
+msgstr "LETTER OF ACCEPTANCE"
+
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
@@ -1169,14 +1193,5 @@ msgstr ""
 #~ msgid "bashkan"
 #~ msgstr "Chairman of the  Turkic Council Turkic Universities Union"
 
-msgid "aday"
-msgstr "CANDIDATE STUDENT APPLICATION FORM"
-
-msgid "student_form"
-msgstr "STUDENT APPLICATION FORM"
-
-msgid "bilgi_form"
-msgstr "STUDENT INFORMATION FORM"
-
-msgid "protokol"
-msgstr "Learning agreement"
+#~ msgid "o_application"
+#~ msgstr "CANDIDATE STUDENT APPLICATION FORM"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-23 15:50+0000\n"
+"POT-Creation-Date: 2017-05-24 08:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1162,6 +1162,30 @@ msgstr "Belgeler"
 msgid "text_o"
 msgstr ""
 
+#: templates/main/orhun.html:100
+msgid "aday"
+msgstr "Aday Öğrenci Formu"
+
+#: templates/main/orhun.html:103
+msgid "student_form"
+msgstr "Öğrenci Başvuru Formu"
+
+#: templates/main/orhun.html:105
+msgid "bilgi_form"
+msgstr "Öğrenci Bilgi formu"
+
+#: templates/main/orhun.html:106
+msgid "protokol"
+msgstr "Öğrenim Protokolü"
+
+#: templates/main/orhun.html:107
+msgid "o_beyan"
+msgstr "ÖĞRENCİ BEYANNAMESİ"
+
+#: templates/main/orhun.html:108
+msgid "o_kabulbelge"
+msgstr "ÖĞRENCİ KABUL MEKTUBU"
+
 #: tub/settings.py:144
 msgid "Kazakh"
 msgstr ""
@@ -1169,14 +1193,5 @@ msgstr ""
 #~ msgid "bashkan"
 #~ msgstr "Түрк Кеӊеши Түрк университеттер биримдигинин төрагасы "
 
-msgid "aday"
-msgstr "Aday Öğrenci Formu"
-
-msgid "student_form"
-msgstr "Öğrenci Başvuru Formu"
-
-msgid "bilgi_form"
-msgstr "Öğrenci Bilgi formu"
-
-msgid "protokol"
-msgstr "Öğrenim Protokolü"
+#~ msgid "o_application"
+#~ msgstr "ÖĞRENCİ KATILIM BELGESİ"
