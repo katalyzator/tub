@@ -1200,7 +1200,7 @@ msgstr "CANDIDATE STUDENT APPLICATION FORM"
 
 #: templates/main/orhun.html:117
 msgid "o_teachers"
-msgstr "Forms For Academic Staff"
+msgstr "Forms for Academic Staff"
 
 #: templates/main/orhun.html:119
 msgid "o_bilgi_form"
