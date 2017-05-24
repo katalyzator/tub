@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 09:03+0000\n"
+"POT-Creation-Date: 2017-05-24 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1179,21 +1179,37 @@ msgstr "Öğrenci Başvuru Formu"
 msgid "bilgi_form"
 msgstr "Öğrenci Bilgi formu"
 
-#: templates/main/orhun.html:106
+#: templates/main/orhun.html:107
 msgid "protokol"
 msgstr "Öğrenim Protokolü"
 
-#: templates/main/orhun.html:107
+#: templates/main/orhun.html:109
 msgid "o_beyan"
 msgstr "ÖĞRENCİ BEYANNAMESİ"
 
-#: templates/main/orhun.html:108
+#: templates/main/orhun.html:111
 msgid "o_kabulbelge"
 msgstr "ÖĞRENCİ KABUL MEKTUBU"
 
-#: templates/main/orhun.html:109
+#: templates/main/orhun.html:113
 msgid "o_application"
 msgstr "ÖĞRENCİ KATILIM BELGESİ"
+
+#: templates/main/orhun.html:119
+msgid "o_bilgi_form"
+msgstr "ÖĞRETİM ÜYESİ BİLGİ FORMU"
+
+#: templates/main/orhun.html:121
+msgid "hareketlik_programi"
+msgstr "ÖĞRETİM ÜYESİ HAREKETLİLİK PROGRAMI"
+
+#: templates/main/orhun.html:123
+msgid "katilim"
+msgstr "KATILIM BELGESİ"
+
+#: templates/main/orhun.html:124
+msgid "rapor_form"
+msgstr "Academic Staff Mobility Final Report Form"
 
 #: tub/settings.py:144
 msgid "Kazakh"
