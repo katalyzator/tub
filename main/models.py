@@ -1,6 +1,7 @@
 # coding=utf-8
 from __future__ import unicode_literals
 
+from ckeditor_uploader.fields import RichTextUploadingField
 from django.db import models
 
 # Create your models here.
@@ -35,10 +36,10 @@ class News(models.Model):
         verbose_name_plural = 'Добавление новостей'
         verbose_name = 'Добавление новостей'
 
-    title = models.CharField(max_length=255, verbose_name='Заголовок поста')
-    description = models.CharField(max_length=1000, verbose_name='Описание поста')
-    text = models.TextField(verbose_name='Текст поста')
-
+    title = models.CharField(max_length=255, verbose_name='Заголовок поста', blank=True)
+    description = models.CharField(max_length=1000, verbose_name='Описание поста', blank=True)
+    text = models.TextField(verbose_name='Текст поста', blank=True)
+    content = RichTextUploadingField(verbose_name='контент новости')
 
     timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
@@ -168,9 +169,11 @@ class Event(models.Model):
         verbose_name_plural = 'Добавление мероприятий'
         verbose_name = 'Добавление мероприятий'
 
-    title = models.CharField(max_length=255, verbose_name='Заголовок поста')
-    description = models.CharField(max_length=1000, verbose_name='Описание поста')
-    text = models.TextField(verbose_name='Текст поста')
+    title = models.CharField(max_length=255, verbose_name='Заголовок поста', blank=True)
+    description = models.CharField(max_length=1000, verbose_name='Описание поста', blank=True)
+    text = models.TextField(verbose_name='Текст поста', blank=True)
+
+    content = RichTextUploadingField(verbose_name='контент новости')
 
     timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)

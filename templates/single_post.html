@@ -63,7 +63,9 @@
                 {% endfor %}
                 <h5>{{ news.title }}</h5>
                 <p class="fz">{{ news.text }} </p>
-                
+
+                {{ news.content|safe }}
+
             </div>
         </div>
     </div>

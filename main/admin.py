@@ -10,11 +10,11 @@ from main.models import News, Activity2, Activity3, ActivityImage2, ActivityImag
 
 
 class NewsTranslationOptions(TranslationOptions):
-    fields = ('title', 'description', 'text')
+    fields = ('title', 'description', 'text', 'content')
 
 
 class EventTranslationOptions(TranslationOptions):
-    fields = ('title', 'description', 'text')
+    fields = ('title', 'description', 'text', 'content')
 
 
 class ActivityTranslationOptions(TranslationOptions):

@@ -42,7 +42,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 0;
 }
 
 .grid {
@@ -168,6 +167,10 @@ ul {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px;
+}
+
+.bg5, .bg6, .bg7 {
+    font-size: 0;
 }
 
 h1 {
@@ -1215,6 +1218,7 @@ footer h4 img {
 
 .about_council {
     background-color: #fff;
+    font-size: 0;
 
 }
 

@@ -64,6 +64,9 @@
                 {% endfor %}
                 <h5>{{ events.title }}</h5>
                 <p class="fz">{{ events.text }} </p>
+
+                {{ events.content|safe }}
+
             </div>
         </div>
     </div>
