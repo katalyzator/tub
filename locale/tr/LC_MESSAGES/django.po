@@ -1028,7 +1028,7 @@ msgstr "Prof. Dr. Cengiz TOMAR"
 
 #: templates/main/index.html:237
 msgid "rektor"
-msgstr "Hoca Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi Rektör Vekili"
+msgstr "Hoca Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi Rektör Vekili "
 
 #: templates/main/index.html:249
 msgid "member university"
