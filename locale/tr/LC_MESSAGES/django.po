@@ -2,8 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 10:01+0000\n"
-"POT-Creation-Date: 2017-05-24 11:24+0000\n"
+"POT-Creation-Date: 2019-01-08 11:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -857,11 +856,11 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
-#: templates/all_events.html:62 templates/main/index.html:179
+#: templates/all_events.html:62 templates/main/index.html:141
 msgid "All_events"
 msgstr "Tüm duyurular"
 
-#: templates/all_news.html:62 templates/main/index.html:156
+#: templates/all_news.html:62 templates/main/index.html:118
 msgid "all_news"
 msgstr "Tüm haberler"
 
@@ -877,13 +876,13 @@ msgstr "TÜRK ÜNİVERSİTELER BİRLİĞİ"
 msgid "Main page"
 msgstr "Ana sayfa"
 
-#: templates/main/index.html:42 templates/main/index.html:136
+#: templates/main/index.html:42 templates/main/index.html:98
 #: templates/main/orhun.html:42
 msgid "News"
 msgstr "Haberler"
 
-#: templates/main/index.html:43 templates/main/index.html:186
-#: templates/main/index.html:190 templates/main/orhun.html:43
+#: templates/main/index.html:43 templates/main/index.html:148
+#: templates/main/index.html:152 templates/main/orhun.html:43
 msgid "About"
 msgstr "Hakkımızda"
 
@@ -891,17 +890,17 @@ msgstr "Hakkımızda"
 msgid "members"
 msgstr "Üyeler"
 
-#: templates/main/index.html:47 templates/main/index.html:449
+#: templates/main/index.html:47 templates/main/index.html:411
 #: templates/main/orhun.html:47
 msgid "entertaiments"
 msgstr "Etkinlikler"
 
-#: templates/main/index.html:48 templates/main/index.html:592
+#: templates/main/index.html:48 templates/main/index.html:554
 #: templates/main/orhun.html:48
 msgid "photos"
 msgstr "Fotoğraflar"
 
-#: templates/main/index.html:49 templates/main/index.html:440
+#: templates/main/index.html:49 templates/main/index.html:402
 #: templates/main/orhun.html:49
 msgid "student council"
 msgstr "Öğrenci Keneşi"
@@ -918,36 +917,36 @@ msgstr "Orhun Süreci"
 msgid "contacts"
 msgstr "İletişim"
 
-#: templates/main/index.html:160
+#: templates/main/index.html:122
 msgid "events"
 msgstr "Duyurular"
 
-#: templates/main/index.html:191 templates/main/index.html:214
-#: templates/main/index.html:446 templates/main/index.html:460
+#: templates/main/index.html:153 templates/main/index.html:176
+#: templates/main/index.html:408 templates/main/index.html:422
 msgid "goals"
 msgstr "Amaçlar"
 
-#: templates/main/index.html:192 templates/main/index.html:249
-#: templates/main/index.html:448 templates/main/index.html:470
+#: templates/main/index.html:154 templates/main/index.html:211
+#: templates/main/index.html:410 templates/main/index.html:432
 msgid "directivies"
 msgstr "Yönergeler"
 
-#: templates/main/index.html:194 templates/main/index.html:272
+#: templates/main/index.html:156 templates/main/index.html:234
 msgid "Chairman"
 msgstr "Dönem Başkanı"
 
-#: templates/main/index.html:196
+#: templates/main/index.html:158
 msgid "introduce"
 msgstr "Tanıtım"
 
-#: templates/main/index.html:205
+#: templates/main/index.html:167
 msgid "history_name"
 msgstr "Tarih"
 
-#: templates/main/index.html:207
+#: templates/main/index.html:169
 msgid "history"
 msgstr ""
-"Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini "
+".Türk Keneşi üye ülkeleri arasında yükseköğretim alanında iş birliğini "
 "gerçekleştirmek amacıyla kurulmuş olan Türk Üniversiteler Birliği; 10 "
 "Ağustos 2012 tarihinde Çolpon-Ata’ da yapılan Türk Keneşi Eğitim Bakanları "
 "Toplantısı ve 23 Ağustos 2012 tarihinde Bişkek’ te gerçekleştirilen Türk "
@@ -956,7 +955,7 @@ msgstr ""
 "Keneşi Türk Üniversiteler Birliği Hazırlık toplantısında alınan kararlar ile "
 "yönergesi hazırlanarak kuruluşu gerçekleştirilmiştir."
 
-#: templates/main/index.html:218
+#: templates/main/index.html:180
 msgid "goals1"
 msgstr ""
 "Ortak tarih, kültür, dil mirasından yola çıkarak yüksek öğretim kurumları "
@@ -964,182 +963,182 @@ msgstr ""
 "standartlarının uygulanması süretiyle ortak kimlik bilinci yüksek nesiller "
 "yetiştirilmesi"
 
-#: templates/main/index.html:220
+#: templates/main/index.html:182
 msgid "goals2"
 msgstr "Üye üniversitelerdeki programların uyumlu hale getirilmesi"
 
-#: templates/main/index.html:222
+#: templates/main/index.html:184
 msgid "goals3"
 msgstr "Ortak kredi transfer sisteminin uygulanması"
 
-#: templates/main/index.html:224
+#: templates/main/index.html:186
 msgid "goals4"
 msgstr "Öğretim elemanı yetiştirme programlarının teşvik edilmesi"
 
-#: templates/main/index.html:226
+#: templates/main/index.html:188
 msgid "goals5"
 msgstr "Öğrenci ve öğretim elemanı değişim programlarının uygulamaya konulması"
 
-#: templates/main/index.html:228
+#: templates/main/index.html:190
 msgid "goals6"
 msgstr ""
 "Üye üniversitelerin birbirlerinin diploma denkliğini tanımalarına yönelik "
 "uygun zeminin oluşturulması"
 
-#: templates/main/index.html:230
+#: templates/main/index.html:192
 msgid "goals7"
 msgstr ""
 "Üniversitelerin belli alanlarda sahip oldukları öne çıkan üstünlüklerden "
 "yararlanılması"
 
-#: templates/main/index.html:232
+#: templates/main/index.html:194
 msgid "goals8"
 msgstr ""
 "Uygulamaya yönelik ortak öğretim, araştırma programlarının ve projelerin "
 "yürütülmesi"
 
-#: templates/main/index.html:234
+#: templates/main/index.html:196
 msgid "goals9"
 msgstr ""
 "Üye üniversiteler arasında sempozyumlar, akademik faaliyetler, kültür, bilim "
 "ve spor alanlarında yarışmalar düzenlenmesi"
 
-#: templates/main/index.html:236
+#: templates/main/index.html:198
 msgid "goals10"
 msgstr ""
 "Türk dünyasına yönelik çalışmalar yürüten öğrencilere özel burs sağlanması"
 
-#: templates/main/index.html:238
+#: templates/main/index.html:200
 msgid "goals11"
 msgstr ""
 "Ortak tarih, medeniyet ve edebiyatımıza yönelik derslerin tüm üye ülke "
 "üniversitelerinde verilmesi yönünde çalışmalar yapmaktır"
 
-#: templates/main/index.html:252
+#: templates/main/index.html:214
 msgid "some text1"
 msgstr "Üniversiteler Birliği ve Yükseköğretim Alanı Oluşturma Yönergesi"
 
-#: templates/main/index.html:263
+#: templates/main/index.html:225
 msgid "presentation"
 msgstr "Presentasyon"
 
-#: templates/main/index.html:274
+#: templates/main/index.html:236
 msgid "professor"
-msgstr "Prof. Dr. Sebahattin Balcı"
+msgstr "Prof. Dr. Cengiz TOMAR"
 
-#: templates/main/index.html:275
+#: templates/main/index.html:237
 msgid "rektor"
-msgstr "Kırgızstan-Türkiye Manas Üniversite Rektörü"
+msgstr "Hoca Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi Rektör Vekili"
 
-#: templates/main/index.html:287
+#: templates/main/index.html:249
 msgid "member university"
 msgstr "Üye üniversiteler"
 
-#: templates/main/index.html:302
+#: templates/main/index.html:264
 msgid "Baku"
 msgstr "Bakü Delet Üniversitesi"
 
-#: templates/main/index.html:308
+#: templates/main/index.html:270
 msgid "Tip"
 msgstr "Azerbaycan Tıp Üniversitesi"
 
-#: templates/main/index.html:314
+#: templates/main/index.html:276
 msgid "Mimar"
 msgstr "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
 
-#: templates/main/index.html:333
+#: templates/main/index.html:295
 msgid "Farabi"
 msgstr "Al-Farabi Kazak Milli Üniversitesi"
 
-#: templates/main/index.html:339
+#: templates/main/index.html:301
 msgid "Gumilev"
 msgstr "L.N Gumilyov Avrasya<br> Devlet Üniversitesi"
 
-#: templates/main/index.html:345
+#: templates/main/index.html:307
 msgid "Ahmet"
 msgstr "Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi"
 
-#: templates/main/index.html:351
+#: templates/main/index.html:313
 msgid "Nazarbaev"
 msgstr "Nazarbayev Üniversitesi"
 
-#: templates/main/index.html:369
+#: templates/main/index.html:331
 msgid "Yusuf"
 msgstr "Yusuf Balasaguni Kırgız Milli Üniversitesi"
 
-#: templates/main/index.html:375
+#: templates/main/index.html:337
 msgid "Husein"
 msgstr "Hüseyin Karasaev Bişkek Beşeri Bilimler Üniversitesi"
 
-#: templates/main/index.html:381
+#: templates/main/index.html:343
 msgid "uluslar"
 msgstr "Uluslararası Kırgızistan Üniversitesi"
 
-#: templates/main/index.html:387
+#: templates/main/index.html:349
 msgid "Manas"
 msgstr "Kırgızistan-Türkiye Manas Üniversitesi"
 
-#: templates/main/index.html:405
+#: templates/main/index.html:367
 msgid "Istanbul"
 msgstr "İstanbul Üniversitesi"
 
-#: templates/main/index.html:411
+#: templates/main/index.html:373
 msgid "Ege"
 msgstr "Ege Üniversitesi"
 
-#: templates/main/index.html:417
+#: templates/main/index.html:379
 msgid "Ataturk"
 msgstr "Atatürk Üniversitesi"
 
-#: templates/main/index.html:423
+#: templates/main/index.html:385
 msgid "Bitlis"
 msgstr "Bitlis Eren Üniversitesi"
 
-#: templates/main/index.html:429
+#: templates/main/index.html:391
 msgid "Eski"
 msgstr "Eskişehir Osmangazi Üniversitesi"
 
-#: templates/main/index.html:447 templates/main/index.html:482
+#: templates/main/index.html:409 templates/main/index.html:444
 msgid "students"
 msgstr "Öğrenciler"
 
-#: templates/main/index.html:462
+#: templates/main/index.html:424
 msgid "some text2"
 msgstr ""
 "Türk Keneşi Türk Üniversiteler Birliği’ne üye üniversite öğrencileri "
 "arasında eğitim, spor ve kültürel alanlarda iş birliği yapılmasını ve "
 "geliştirilmesini sağlamaktır."
 
-#: templates/main/index.html:484
+#: templates/main/index.html:446
 msgid "azerbaycan"
 msgstr "Azerbaycan"
 
-#: templates/main/index.html:493
+#: templates/main/index.html:455
 msgid "Kyrgyz"
 msgstr ""
 
-#: templates/main/index.html:502
+#: templates/main/index.html:464
 msgid "Turk"
 msgstr "Türkiye"
 
-#: templates/main/index.html:520
+#: templates/main/index.html:482
 msgid "Kazakistan"
 msgstr "Kazakistan"
 
-#: templates/main/index.html:556
+#: templates/main/index.html:518
 msgid "sporlar"
 msgstr "Spor ve Sanat Etkinlikleri"
 
-#: templates/main/index.html:560 templates/main/index.html:572
-#: templates/main/index.html:585
+#: templates/main/index.html:522 templates/main/index.html:534
+#: templates/main/index.html:547
 msgid "read more"
 msgstr "Devamı"
 
-#: templates/main/index.html:568
+#: templates/main/index.html:530
 msgid "kongreler"
 msgstr "Kongre ve Sempozyumlar"
 
-#: templates/main/index.html:581
+#: templates/main/index.html:543
 msgid "projeler"
 msgstr "Projeler"
 
@@ -1253,7 +1252,7 @@ msgstr "KATILIM BELGESİ"
 msgid "rapor_form"
 msgstr "Orhun Ogretim Üyesi Nihai Rapor Formu"
 
-#: tub/settings.py:144
+#: tub/settings.py:155
 msgid "Kazakh"
 msgstr ""
 

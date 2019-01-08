@@ -2,8 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-24 10:01+0000\n"
-"POT-Creation-Date: 2017-05-24 11:24+0000\n"
+"POT-Creation-Date: 2019-01-08 11:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -857,11 +856,11 @@ msgstr ""
 msgid "Change my password"
 msgstr ""
 
-#: templates/all_events.html:62 templates/main/index.html:179
+#: templates/all_events.html:62 templates/main/index.html:141
 msgid "All_events"
 msgstr "All Events"
 
-#: templates/all_news.html:62 templates/main/index.html:156
+#: templates/all_news.html:62 templates/main/index.html:118
 msgid "all_news"
 msgstr "All news"
 
@@ -877,13 +876,13 @@ msgstr "TURKIC UNIVERSITIES UNION"
 msgid "Main page"
 msgstr "Home"
 
-#: templates/main/index.html:42 templates/main/index.html:136
+#: templates/main/index.html:42 templates/main/index.html:98
 #: templates/main/orhun.html:42
 msgid "News"
 msgstr "News"
 
-#: templates/main/index.html:43 templates/main/index.html:186
-#: templates/main/index.html:190 templates/main/orhun.html:43
+#: templates/main/index.html:43 templates/main/index.html:148
+#: templates/main/index.html:152 templates/main/orhun.html:43
 msgid "About"
 msgstr "About Us"
 
@@ -891,17 +890,17 @@ msgstr "About Us"
 msgid "members"
 msgstr "Members"
 
-#: templates/main/index.html:47 templates/main/index.html:449
+#: templates/main/index.html:47 templates/main/index.html:411
 #: templates/main/orhun.html:47
 msgid "entertaiments"
 msgstr "Activities"
 
-#: templates/main/index.html:48 templates/main/index.html:592
+#: templates/main/index.html:48 templates/main/index.html:554
 #: templates/main/orhun.html:48
 msgid "photos"
 msgstr "Photos"
 
-#: templates/main/index.html:49 templates/main/index.html:440
+#: templates/main/index.html:49 templates/main/index.html:402
 #: templates/main/orhun.html:49
 msgid "student council"
 msgstr "Student Council"
@@ -918,33 +917,33 @@ msgstr "Orhun Process"
 msgid "contacts"
 msgstr "Contacts"
 
-#: templates/main/index.html:160
+#: templates/main/index.html:122
 msgid "events"
 msgstr "Announcements"
 
-#: templates/main/index.html:191 templates/main/index.html:214
-#: templates/main/index.html:446 templates/main/index.html:460
+#: templates/main/index.html:153 templates/main/index.html:176
+#: templates/main/index.html:408 templates/main/index.html:422
 msgid "goals"
 msgstr "Goals"
 
-#: templates/main/index.html:192 templates/main/index.html:249
-#: templates/main/index.html:448 templates/main/index.html:470
+#: templates/main/index.html:154 templates/main/index.html:211
+#: templates/main/index.html:410 templates/main/index.html:432
 msgid "directivies"
 msgstr "Directives"
 
-#: templates/main/index.html:194 templates/main/index.html:272
+#: templates/main/index.html:156 templates/main/index.html:234
 msgid "Chairman"
 msgstr "Chairman"
 
-#: templates/main/index.html:196
+#: templates/main/index.html:158
 msgid "introduce"
 msgstr "Tanıtım"
 
-#: templates/main/index.html:205
+#: templates/main/index.html:167
 msgid "history_name"
 msgstr "History"
 
-#: templates/main/index.html:207
+#: templates/main/index.html:169
 msgid "history"
 msgstr ""
 "Turkic Council  - Turkic Universities Union was established in order to "
@@ -956,7 +955,7 @@ msgstr ""
 "on 28-29 Mart 2013 in Istanbul Directive on the establishment of Higher "
 "Education Area among the Member Universities of the Union was adopted"
 
-#: templates/main/index.html:218
+#: templates/main/index.html:180
 msgid "goals1"
 msgstr ""
 "Training of common identity conscious to the next generation by practicing "
@@ -964,181 +963,181 @@ msgstr ""
 "taking into account common history, culture and language to provide "
 "cooperation agreements between"
 
-#: templates/main/index.html:220
+#: templates/main/index.html:182
 msgid "goals2"
 msgstr "Implementation of common credit transfer system"
 
-#: templates/main/index.html:222
+#: templates/main/index.html:184
 msgid "goals3"
 msgstr "Encourage teaching-staff training programs"
 
-#: templates/main/index.html:224
+#: templates/main/index.html:186
 msgid "goals4"
 msgstr "The implementation of students and teaching-staff exchange programs"
 
-#: templates/main/index.html:226
+#: templates/main/index.html:188
 msgid "goals5"
 msgstr ""
 "The creation of appropriate conditions for recognizing the equivalence of "
 "diplomas between member universities"
 
-#: templates/main/index.html:228
+#: templates/main/index.html:190
 msgid "goals6"
 msgstr ""
 "Benefiting from the outstanding superiority in certain areas of universities"
 
-#: templates/main/index.html:230
+#: templates/main/index.html:192
 msgid "goals7"
 msgstr ""
 "Joint training for implementation and execution of the research programs and "
 "projects"
 
-#: templates/main/index.html:232
+#: templates/main/index.html:194
 msgid "goals8"
 msgstr ""
 "Arranging competitions in science and sport;  organize symposiums, academic "
 "activities, cultural activities among Member Universities"
 
-#: templates/main/index.html:234
+#: templates/main/index.html:196
 msgid "goals9"
 msgstr ""
 "Providing special scholarships for students who conduct studies on the "
 "Turkic world"
 
-#: templates/main/index.html:236
+#: templates/main/index.html:198
 msgid "goals10"
 msgstr ""
 "Giving  courses on common history, culture and literature to universities of "
 "all member states"
 
-#: templates/main/index.html:238
+#: templates/main/index.html:200
 msgid "goals11"
 msgstr ""
 
-#: templates/main/index.html:252
+#: templates/main/index.html:214
 msgid "some text1"
 msgstr "Üniversiteler Birliği ve Yükseköğretim Alanı Oluşturma Yönergesi"
 
-#: templates/main/index.html:263
+#: templates/main/index.html:225
 msgid "presentation"
 msgstr "Presentation"
 
-#: templates/main/index.html:274
+#: templates/main/index.html:236
 msgid "professor"
-msgstr "Prof. Dr. Sebahattin Balcı"
+msgstr "Prof. Dr. Cengiz TOMAR"
 
-#: templates/main/index.html:275
+#: templates/main/index.html:237
 msgid "rektor"
-msgstr "Rector of Kyrgyz-Turkish Manas University "
+msgstr "Hoca Ahmet Yesevi Uluslararası Kazak Türk Üniversitesi Rektör Vekili "
 
-#: templates/main/index.html:287
+#: templates/main/index.html:249
 msgid "member university"
 msgstr "Member universities"
 
-#: templates/main/index.html:302
+#: templates/main/index.html:264
 msgid "Baku"
 msgstr "Baku State University"
 
-#: templates/main/index.html:308
+#: templates/main/index.html:270
 msgid "Tip"
 msgstr "Azerbaijan Medical University"
 
-#: templates/main/index.html:314
+#: templates/main/index.html:276
 msgid "Mimar"
 msgstr "Azerbaijan University of Architecture and Construction"
 
-#: templates/main/index.html:333
+#: templates/main/index.html:295
 msgid "Farabi"
 msgstr "Al-Farabi Kazakh National University"
 
-#: templates/main/index.html:339
+#: templates/main/index.html:301
 msgid "Gumilev"
 msgstr "L.N.Gumilyov Eurasian National University"
 
-#: templates/main/index.html:345
+#: templates/main/index.html:307
 msgid "Ahmet"
 msgstr "Akhmet Yassawi University"
 
-#: templates/main/index.html:351
+#: templates/main/index.html:313
 msgid "Nazarbaev"
 msgstr "Nazarbayev University"
 
-#: templates/main/index.html:369
+#: templates/main/index.html:331
 msgid "Yusuf"
 msgstr "Kyrgyz National University"
 
-#: templates/main/index.html:375
+#: templates/main/index.html:337
 msgid "Husein"
 msgstr "Bishkek Humanities University"
 
-#: templates/main/index.html:381
+#: templates/main/index.html:343
 msgid "uluslar"
 msgstr "İnternational University of Kyrgyzstan"
 
-#: templates/main/index.html:387
+#: templates/main/index.html:349
 msgid "Manas"
 msgstr "Kyrgyz-Turkish Manas University"
 
-#: templates/main/index.html:405
+#: templates/main/index.html:367
 msgid "Istanbul"
 msgstr "Istanbul University"
 
-#: templates/main/index.html:411
+#: templates/main/index.html:373
 msgid "Ege"
 msgstr "Ege University"
 
-#: templates/main/index.html:417
+#: templates/main/index.html:379
 msgid "Ataturk"
 msgstr "Ataturk University"
 
-#: templates/main/index.html:423
+#: templates/main/index.html:385
 msgid "Bitlis"
 msgstr "Bitlis Eren University"
 
-#: templates/main/index.html:429
+#: templates/main/index.html:391
 msgid "Eski"
 msgstr "Eskişehir Osmangazi University"
 
-#: templates/main/index.html:447 templates/main/index.html:482
+#: templates/main/index.html:409 templates/main/index.html:444
 msgid "students"
 msgstr "Students"
 
-#: templates/main/index.html:462
+#: templates/main/index.html:424
 msgid "some text2"
 msgstr ""
 "Providing and developing cooperation among students of Member Univercities "
 "on the fields of education, sports and culture."
 
-#: templates/main/index.html:484
+#: templates/main/index.html:446
 msgid "azerbaycan"
 msgstr "Azerbaijan"
 
-#: templates/main/index.html:493
+#: templates/main/index.html:455
 msgid "Kyrgyz"
 msgstr "Kyrgyz Republic"
 
-#: templates/main/index.html:502
+#: templates/main/index.html:464
 msgid "Turk"
 msgstr "Turkey"
 
-#: templates/main/index.html:520
+#: templates/main/index.html:482
 msgid "Kazakistan"
 msgstr "Kazakh Republic"
 
-#: templates/main/index.html:556
+#: templates/main/index.html:518
 msgid "sporlar"
 msgstr "Sports and Art Events"
 
-#: templates/main/index.html:560 templates/main/index.html:572
-#: templates/main/index.html:585
+#: templates/main/index.html:522 templates/main/index.html:534
+#: templates/main/index.html:547
 msgid "read more"
 msgstr "Read More"
 
-#: templates/main/index.html:568
+#: templates/main/index.html:530
 msgid "kongreler"
 msgstr "Congress and Symposiums"
 
-#: templates/main/index.html:581
+#: templates/main/index.html:543
 msgid "projeler"
 msgstr "Projects"
 
@@ -1251,7 +1250,7 @@ msgstr "ACADEMIC STAFF CERTIFICATE OF ATTENDANCE"
 msgid "rapor_form"
 msgstr "Academic Staff Mobility Final Report Form"
 
-#: tub/settings.py:144
+#: tub/settings.py:155
 msgid "Kazakh"
 msgstr ""
 

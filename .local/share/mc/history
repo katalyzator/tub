@@ -1,0 +1,12 @@
+[cmdline]
+0=[M &#
+1=
+2=[M {;
+
+[Dir Hist New Right Panel]
+0=/var/www/tub
+1=/var/www/env/manas/lib/python2.7/site-packages/django/db/backends/sqlite3
+
+[Dir Hist New Left Panel]
+0=/var/www/tub
+1=/var/www/env/manas/lib/python2.7/site-packages/django/db/backends/sqlite3
